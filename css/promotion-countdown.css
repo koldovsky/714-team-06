@@ -64,6 +64,7 @@
     border-radius: 25px;
     width: 132px;
     height: 46px;
+    cursor: pointer;
     transition: all 0.5s;
 }
 
