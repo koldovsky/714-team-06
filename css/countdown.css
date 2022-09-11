@@ -3,3 +3,32 @@
     background: url(../img/countdown-background.png) center center/cover no-repeat;
 }
 
+.promotion__label {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--button-text-color);
+}
+
+.promotion__title {
+    font-family: 'Baloo 2', cursive;
+    font-size: 82px;
+    color: var(--title-color);
+}
+
+.promotion__text {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.promotion-countdown__time {
+    font-family: 'Baloo 2', cursive;
+    font-size: 36px;
+}
+
+.promotion-countdown__label {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
