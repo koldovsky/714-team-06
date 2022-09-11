@@ -20,17 +20,20 @@
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     font-size: 19px;
+    color: var(--subtitle-color);
 }
 
 .promotion-countdown__time {
     font-family: 'Baloo 2', cursive;
     font-size: 36px;
+    color: var(--title-color);
 }
 
 .promotion-countdown__label {
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     font-size: 18px;
+    color: var(--subtitle-color);
 }
 
 .promotion__button {
