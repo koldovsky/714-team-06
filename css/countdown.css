@@ -32,3 +32,25 @@
     font-weight: 400;
     font-size: 18px;
 }
+
+.promotion__button {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 11px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16.5px;
+    color: var(--button-text-color);
+    background-color: var(--button-bg-color);
+    border: none;
+    border-radius: 25px;
+    width: 132px;
+    height: 46px;
+    transition: all 0.5s;
+}
+
+.promotion__button:hover {
+    color: var(--button-text-color-hover);
+    background-color: var(--button-bg-color-hover);   
+}
