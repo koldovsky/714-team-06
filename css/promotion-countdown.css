@@ -23,6 +23,19 @@
     color: var(--subtitle-color);
 }
 
+.promotion-countdown {
+    width: 470px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.promotion-countdown__item {
+    width: 97px;
+    height: 97px;
+    border: 1px solid var(--button-text-color);
+    border-radius: 5px;
+}
+
 .promotion-countdown__time {
     font-family: 'Baloo 2', cursive;
     font-size: 36px;
