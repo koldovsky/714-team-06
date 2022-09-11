@@ -1,28 +1,33 @@
 .trending-products h2 {
     font-family: 'Baloo 2', cursive;
     font-size: 50px;
+    color: var(--title-color);
 }
 
 .trending-products__text {
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     font-size: 19px;
+    color: var(--subtitle-color);
 }
 
 .trending-products__item h3 {
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     font-size: 18px;
+    color: var(--subtitle-color);
 }
 
 .trending-products__price {
     font-family: 'PT Sans', sans-serif;
     font-weight: 700;
     font-size: 18px;
+    color: var(--price-text-color);
 }
 
 .trending-products__button {
     font-family: 'PT Sans', sans-serif;
     font-weight: 700;
     font-size: 16.5px;
+    color: var(--button-text-color);
 }
