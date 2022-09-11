@@ -1,6 +1,10 @@
 .trending-products__items {
     width: 1170px;
     display: flex;
+    justify-content: space-between;
+}
+.trending-products__items article:last-child {
+    display: none;
 }
 
 .trending-products h2 {
