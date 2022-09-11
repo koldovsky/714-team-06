@@ -7,21 +7,22 @@
 
 .header__contacts {
     background-color:rgb(242, 232, 228);
-    font-family: 'PT Sans', sans-serif;
+    font-family:'PT Sans',sans-serif;
     font-size:15px;
     color: #ed6435;
     box-sizing: border-box;
     height: 42px;
+    font-weight: 700;
 }
 
 .contacts__workinghours {
     float: left;
-    margin: 11px 0px 10px 80px;
+    margin: 11px 0px 10px 205px;
 }
 
 .contacts__emailphone {
     float: right;
-    margin: 11px 80px 10px 0px;
+    margin: 11px 210px 10px 0px;
  }
 
  .emailphone__phone {
@@ -38,22 +39,45 @@
     text-decoration: underline;
 }
 
-.header__navandtext {
-    background: rgb(250, 244, 242) url(../img/img_header/header_backgroundimg_dog.png);
-    background-repeat: no-repeat;
-    width: 1332px;
-    height: 836px;
-    background-size: cover;
-}
-
 .header_nav {
-    background-color: rgb(250, 244, 242);
+
 }
 
 .nav__image_container {
     float: left;
     width: 182px;
     height: 33px;
+    margin: 30px 0px 10px 205px;
 }
+
+.nav__menu {
+    float:left;
+    margin:40px 30px 10px 155px;
+}
+
+.menu__item {
+    margin-right:40px;
+    color: rgb(107, 107, 107);
+    font-size: 15px;
+    font-family:'PT Sans',sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.nav__icons_container {
+    float: left;
+    margin: 35px 150px 50px 20px;
+}
+
+
+
+.header__navandtext {
+    background: rgb(250, 244, 242) url(../img/img_header/header_backgroundimg_dog.png);
+    background-repeat: no-repeat;
+    height: 836px;
+    background-size: cover;
+}
+
+
 
 
