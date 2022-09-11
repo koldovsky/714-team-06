@@ -34,6 +34,7 @@
     height: 97px;
     border: 1px solid var(--button-text-color);
     border-radius: 5px;
+    text-align: center;
 }
 
 .promotion-countdown__time {
