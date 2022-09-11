@@ -22,6 +22,10 @@
     font-size: 19px;
     color: var(--subtitle-color);
 }
+ 
+.promotion__text span {
+    color: var(--price-text-color);
+}
 
 .promotion-countdown {
     width: 470px;
