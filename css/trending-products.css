@@ -15,7 +15,15 @@
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     font-size: 18px;
+}
+
+.trending-products__item h3 a {
+    text-decoration: none;
     color: var(--subtitle-color);
+}
+
+.trending-products__item h3 a:hover {
+    text-decoration: underline;
 }
 
 .trending-products__price {
