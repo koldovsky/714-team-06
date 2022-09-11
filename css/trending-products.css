@@ -11,15 +11,18 @@
     color: var(--subtitle-color);
 }
 
-.trending-products__item h3 {
+
+.trending-products__item h3 a {
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     font-size: 18px;
-}
-
-.trending-products__item h3 a {
     text-decoration: none;
     color: var(--subtitle-color);
+}
+
+.trending-products__items {
+    width: 1170px;
+    display: flex;
 }
 
 .trending-products__item h3 a:hover {
