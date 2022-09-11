@@ -21,4 +21,6 @@ font-family: 'PT Sans', sans-serif;
     --price-text-color: #ed6536;
     --button-text-color: #45c1c7;
     --button-bg-color: #b2e7ea;
+    --button-text-color-hover: #eb653e;
+    --button-bg-color-hover: #ffe6d5;
 }
