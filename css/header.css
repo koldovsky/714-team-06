@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header__contacts {
+    background-color:rgb(242, 232, 228);
+    font-family: 'PT Sans', sans-serif;
+    font-size:15px;
+    color: #ed6435;
+    box-sizing: border-box;
+    height: 42px;
+}
+
+.contacts__workinghours {
+    float: left;
+    margin: 11px 0px 10px 80px;
+}
+
+.contacts__emailphone {
+    float: right;
+    margin: 11px 80px 10px 0px;
+ }
+
+ .emailphone__phone {
+    margin-left:15px;
+}
+
+.contacts__emailphone a {
+    color: #ed6435;
+    text-decoration: none;
+}
+
+.contacts__emailphone a:hover {
+    color: #ed6435;
+    text-decoration: underline;
+}
+
+.header__navandtext {
+    background: rgb(250, 244, 242) url(../img/img_header/header_backgroundimg_dog.png);
+    background-repeat: no-repeat;
+    width: 1332px;
+    height: 836px;
+    background-size: cover;
+}
+
+.header_nav {
+    background-color: rgb(250, 244, 242);
+}
+
+.nav__image_container {
+    float: left;
+    width: 182px;
+    height: 33px;
+}
+
+
