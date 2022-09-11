@@ -1,0 +1,29 @@
+.body__title {
+    font-family: 'Baloo 2', cursive;
+    font-size: 50px;
+    color: var(--title-color);
+}
+.body__img-bone {
+    height: 26;
+    width: 60;
+}
+.body__text {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+    color: var(--subtitle-color);
+}
+.body__list {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+    color: var(--subtitle-color); 
+}
+.item-column__title {
+    font-family: 'Baloo 2', cursive;
+    font-size: 23px;
+    color: var(--title-color);
+}
+.item-colum__text {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    color: var(--subtitle-color);
+}
