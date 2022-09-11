@@ -43,4 +43,10 @@
     border-radius: 25px;
     width: 142px;
     height: 46px;
+    transition: all 0.5s;
+}
+
+.trending-products__button:hover {
+    color: var(--button-text-color-hover);
+    background-color: var(--button-bg-color-hover);
 }
