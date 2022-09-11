@@ -1,0 +1,78 @@
+.promotion {
+    min-height: 865px;
+    background: url(../img/countdown-background.png) center center/cover no-repeat;
+}
+
+.promotion__label {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--button-text-color);
+}
+
+.promotion__title {
+    font-family: 'Baloo 2', cursive;
+    font-size: 82px;
+    color: var(--title-color);
+}
+
+.promotion__text {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: var(--subtitle-color);
+}
+ 
+.promotion__text span {
+    color: var(--price-text-color);
+}
+
+.promotion-countdown {
+    width: 470px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.promotion-countdown__item {
+    width: 97px;
+    height: 97px;
+    border: 1px solid var(--button-text-color);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.promotion-countdown__time {
+    font-family: 'Baloo 2', cursive;
+    font-size: 36px;
+    color: var(--title-color);
+}
+
+.promotion-countdown__label {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--subtitle-color);
+}
+
+.promotion__button {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 11px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16.5px;
+    color: var(--button-text-color);
+    background-color: var(--button-bg-color);
+    border: none;
+    border-radius: 25px;
+    width: 132px;
+    height: 46px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.promotion__button:hover {
+    color: var(--button-text-color-hover);
+    background-color: var(--button-bg-color-hover);   
+}
