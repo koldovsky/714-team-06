@@ -14,3 +14,11 @@ font-family: 'PT Sans', sans-serif;
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --title-color: #3c3731;
+    --subtitle-color: #958b7e;
+    --price-text-color: #ed6536;
+    --button-text-color: #45c1c7;
+    --button-bg-color: #b2e7ea;
+}
