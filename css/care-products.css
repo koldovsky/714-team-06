@@ -12,7 +12,7 @@
     font-size: 17px;
     color: var(--subtitle-color);
 }
-.body__list {
+.list__item__text {
     font-family: 'PT Sans', sans-serif;
     font-size: 17px;
     color: var(--subtitle-color); 
