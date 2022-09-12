@@ -1,3 +1,26 @@
+any_products {
+    font-family: 'PT Sans',sans-serif;
+    display: block;
+}
+
+
 .orange_color_text {
     color: #ed6435;
+}
+.cards_products {
+    display: flex;
+}
+.food_for_pets {
+    background: url(../img/img_any_pets/dog_feed.png);
+    width: 619px;
+    height: 265px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.discount {
+    background: url(../img/img_any_pets/pet_toys.png);
+    width: 619px;
+    height: 265px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
