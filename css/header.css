@@ -100,4 +100,30 @@
     padding: 35px 0px 10px 205px;
 }
 
+.textbutton__buttonheader {
+    float: left;
+    margin: 45px 0px 0px 205px;
+}
+
+.buttonheader__buttonabout {
+    border:#ed6435 2px ;
+    border-radius:30px;
+    padding: 15px 30px;
+    background-color: #ffe6d4;
+
+}
+
+.buttonheader__buttonabout {
+    color: #ed6435;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16,5px;
+    font-weight: 700;
+
+}
+
+.buttonheader__buttoncategories {
+
+}
+
 
