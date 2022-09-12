@@ -12,7 +12,11 @@
     font-size: 17px;
     color: var(--subtitle-color);
 }
+.list__item__svg {
+    display: inline;
+}
 .list__item__text {
+    display: inline;
     font-family: 'PT Sans', sans-serif;
     font-size: 17px;
     color: var(--subtitle-color); 
