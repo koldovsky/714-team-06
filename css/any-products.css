@@ -1,8 +1,17 @@
-any_products {
+.any_products {
     font-family: 'PT Sans',sans-serif;
     display: block;
 }
 
+.butchers {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.baloo__font {
+    font-family: 'Baloo 2', cursive;
+    font-size: 30px;
+}
 
 .orange_color_text {
     color: #ed6435;
@@ -21,6 +30,25 @@ any_products {
     background: url(../img/img_any_pets/pet_toys.png);
     width: 619px;
     height: 265px;
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.button_to_dry_food {
+    font-size: 16.5px;
+    font-weight: bold;
+    width: 123px;
+    text-decoration: none;
+    
+}
+
+.button_to_see_products {
+    font-size: 16.5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.carousel_cards {
+    display: flex;
 }
