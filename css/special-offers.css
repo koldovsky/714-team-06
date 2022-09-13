@@ -1,3 +1,16 @@
 .special_offers_and_brands_headder {
     visibility: hidden;
 }
+
+
+.aquarium_announcement, .pet_accessories_types, .pet_accessories_announcement {
+    color: #3c3731!important
+}
+
+.sale_value, .price_value, .button_text {
+    color: #ed6435!important;
+}
+
+.pet_accessories_price, .pet_accessories_types {
+    color: rgba(35,35,35,0.45);
+}
