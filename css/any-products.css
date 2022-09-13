@@ -40,13 +40,27 @@
     font-weight: bold;
     width: 123px;
     text-decoration: none;
-    
+    text-align: center;
+    background: #ffe6d4;
+    display: block;
+    padding: 15px;
+    border-width: 1px;
+    border-radius: 25px;
+    letter-spacing: 0.7px;
 }
 
 .button_to_see_products {
     font-size: 16.5px;
     font-weight: bold;
     text-decoration: none;
+    text-align: center;
+    width: 157px;
+    background: #ffe6d4;
+    display: block;
+    padding: 15px;
+    border-width: 1px;
+    border-radius: 25px;
+    letter-spacing: 0.7px;
 }
 
 .carousel_cards {
