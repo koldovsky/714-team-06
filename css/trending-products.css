@@ -1,4 +1,8 @@
 
+.trending-products__items {
+    display: flex;
+}
+
 .trending-products__items article {
     display: none;
 }
@@ -9,7 +13,6 @@
     }
     .trending-products__items {
         width: 315px;
-        display: flex;
         justify-content: center;
     }
 }
