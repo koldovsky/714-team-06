@@ -15,6 +15,9 @@
         width: 315px;
         justify-content: center;
     }
+    .trending-products h2 {
+        font-size: 35px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -24,6 +27,9 @@
     .trending-products__items {
         width: 704px;
         justify-content: space-between;
+    }
+    .trending-products h2 {
+        font-size: 45px;
     }
 }
 
@@ -35,11 +41,13 @@
     .trending-products__items {
         width: 1170px;
     }
+    .trending-products h2 {
+        font-size: 50px;
+    }
 }
 
 .trending-products h2 {
     font-family: 'Baloo 2', cursive;
-    font-size: 50px;
     color: var(--title-color);
     text-align: center;
 }
