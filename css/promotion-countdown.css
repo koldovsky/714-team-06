@@ -12,7 +12,6 @@
 
 .promotion__title {
     font-family: 'Baloo 2', cursive;
-    font-size: 82px;
     color: var(--title-color);
 }
 
@@ -28,14 +27,11 @@
 }
 
 .promotion-countdown {
-    width: 470px;
     display: flex;
     justify-content: space-between;
 }
 
 .promotion-countdown__item {
-    width: 97px;
-    height: 97px;
     border: 1px solid var(--button-text-color);
     border-radius: 5px;
     text-align: center;
@@ -43,14 +39,12 @@
 
 .promotion-countdown__time {
     font-family: 'Baloo 2', cursive;
-    font-size: 36px;
     color: var(--title-color);
 }
 
 .promotion-countdown__label {
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
-    font-size: 18px;
     color: var(--subtitle-color);
 }
 
@@ -75,4 +69,68 @@
 .promotion__button:hover {
     color: var(--button-text-color-hover);
     background-color: var(--button-bg-color-hover);   
+}
+
+@media (min-width: 320px) {
+    .promotion__title {
+        font-size: 50px;
+    }
+    .promotion-countdown {
+        width: 272px;
+    }
+    .promotion-countdown__item {
+        width: 55px;
+        height: 55px;
+    }
+    .promotion-countdown__time {
+        font-size: 20px;
+    }
+    .promotion-countdown__label {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 480px) {
+    .promotion__title {
+        font-size: 55px;
+    }
+    .promotion-countdown {
+        width: 300px;
+    }
+    .promotion-countdown__item {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (min-width: 768px) {
+    .promotion__title {
+        font-size: 70px;
+    }
+    .promotion-countdown {
+        width: 470px;
+    }
+    .promotion-countdown__item {
+        width: 97px;
+        height: 97px;
+    }
+    .promotion-countdown__time {
+        font-size: 36px;
+    }
+    .promotion-countdown__label {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 992px) {
+    .promotion__title {
+        font-size: 82px;
+    }
+    .promotion-countdown {
+        width: 470px;
+    }
+    .promotion-countdown__item {
+        width: 97px;
+        height: 97px;
+    }
 }
