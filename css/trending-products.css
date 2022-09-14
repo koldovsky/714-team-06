@@ -1,10 +1,37 @@
-.trending-products__items {
-    width: 1170px;
-    display: flex;
-    justify-content: space-between;
-}
-.trending-products__items article:last-child {
+
+.trending-products__items article {
     display: none;
+}
+
+@media (min-width: 320px) {
+    .trending-products__items article:nth-of-type(1) {
+        display: block;
+    }
+    .trending-products__items {
+        width: 315px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .trending-products__items article:nth-of-type(2) {
+        display: block;
+    }
+    .trending-products__items {
+        width: 704px;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 992px) {
+    .trending-products__items article:nth-of-type(3),
+    .trending-products__items article:nth-of-type(4) {
+        display: block;
+    }
+    .trending-products__items {
+        width: 1170px;
+    }
 }
 
 .trending-products h2 {
