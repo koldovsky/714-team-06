@@ -33,7 +33,7 @@
 .header__navandtext {
     background: rgb(250, 244, 242) url(../img/img_header/header_backgroundimg_dog.png) ;
     background-repeat: no-repeat;
-    height: 836px;
+    height: 750px;
     background-size: cover;
 }
 
@@ -128,12 +128,19 @@
     font-size: 16.5px;
     font-weight: 700;
     letter-spacing:1px;
-    padding: 10px 28px 13px 28px;
+    padding: 13px 28px 13px 28px;
     border: var(--button-text-color) 1px solid;
     border-radius: 30px;
     text-decoration: none;
-    text-align: center ;
+    align-content: center;
     transition:0.4s;
+}
+
+.buttoncategories__arrowitem {
+    width: 24px;
+    height: 24px;
+    padding-left: 5px;
+    font-weight: bold;
 }
 
 .buttonheader__buttoncategories svg {
