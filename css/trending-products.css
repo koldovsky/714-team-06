@@ -1,50 +1,74 @@
+.trending-products {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.trending-products__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trending-products__slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
 
 .trending-products__items {
     display: flex;
+    min-width: 242px;
+    overflow: hidden;
 }
 
-.trending-products__items article {
-    display: none;
+.trending-products__item {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 240px;
 }
 
+.trending-products__image {
+    display: block;
+    width: 100%;
+}
 @media (min-width: 320px) {
-    .trending-products__items article:nth-of-type(1) {
-        display: block;
-    }
     .trending-products__items {
-        width: 315px;
-        justify-content: center;
-    }
-    .trending-products h2 {
-        font-size: 35px;
-    }
+        width: 272px;
+    } 
+}
+
+@media (min-width: 375px) {
+    .trending-products__items {
+        width: 327px;
+    } 
+}
+
+@media (min-width: 480px) {
+    .trending-products__items {
+        width: 432px;
+    } 
 }
 
 @media (min-width: 768px) {
-    .trending-products__items article:nth-of-type(2) {
-        display: block;
-    }
     .trending-products__items {
         width: 704px;
-        justify-content: space-between;
-    }
-    .trending-products h2 {
-        font-size: 45px;
-    }
+    } 
 }
 
 @media (min-width: 992px) {
-    .trending-products__items article:nth-of-type(3),
-    .trending-products__items article:nth-of-type(4) {
-        display: block;
-    }
     .trending-products__items {
-        width: 1170px;
-    }
-    .trending-products h2 {
-        font-size: 50px;
-    }
+        width: 912px;
+    } 
 }
+
+@media (min-width: 1024px) {
+    .trending-products__items {
+        min-width: 994px;
+    } 
+}
+
 
 .trending-products h2 {
     font-family: 'Baloo 2', cursive;
