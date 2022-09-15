@@ -5,9 +5,14 @@
     align-items: center;
     padding: 90px 24px;
 }
-
+.arrivals_cards_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .new_arrivals_header {
-    font-size: 30px;
+    font-size: 50px;
     font-family: 'Baloo 2', cursive;
 }
 
@@ -24,6 +29,7 @@
 }
 
 .arrivals_cards {
+    width: fit-content;
     padding: 40px 15px;
     display: flex;
     flex-direction: column;
