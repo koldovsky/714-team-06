@@ -3,13 +3,6 @@
     padding-bottom: 90px;
 }
 
-.trending-products__header {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .trending-products__slider {
     display: flex;
     justify-content: center;
@@ -30,7 +23,6 @@
 .trending-products_img-container {
     min-width: 242px;
 }
-
 
 .trending-products__image {
     display: block;
@@ -61,8 +53,7 @@
     } 
     .trending-products__img-container {
         min-width: 402px;
-    }
-   
+    }  
 }
 
 @media (min-width: 768px) {
