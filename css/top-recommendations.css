@@ -31,6 +31,40 @@
     line-height: 1.5;
 }
 
+.product__item h3 a {
+    font-size: 18px;
+    line-height: 1.4444;
+    font-family: "PT Sans",sans-serif;
+    color: var(--subtitle-color);
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.price {
+    color: var(--price-text-color);
+    text-align: left;
+    font-weight: 700;
+}
+
+.product__item button {
+    display: block;
+    margin: auto;
+    padding: 16px 28px;
+    border-radius: 25px;
+    font-size: 16.5px;
+    line-height: 1em;
+    font-weight: 700;
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    border: none;
+    cursor: pointer;
+}
+
+.product__item button:hover {
+    background-color: var(--button-bg-color-hover);
+    color: var(--button-text-color-hover);
+}
+
 .recommendations-content {
     display: flex;
     gap: 10px;
