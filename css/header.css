@@ -14,9 +14,7 @@
     padding: 5px 40px;
 }
 
-.contacts__emailphone {
-    
- }
+
 
  .emailphone__phone {
     padding-left: 20px;
@@ -39,17 +37,10 @@
     background-size: cover;
 }
 
-.header_nav {
-
-}
 
 .nav__image_container {
     width: 182px;
     height: 33px;
-
-}
-
-.nav__menu {
 
 }
 
@@ -67,9 +58,7 @@
     color:#ed6435;
 }
 
-.nav__icons_container {
 
-}
 
 .icons_container__item {
 
@@ -129,6 +118,7 @@
     font-weight: 700;
     letter-spacing:1px;
     text-align: center;
+    transition:0.4s;
 }
 
 
@@ -143,6 +133,7 @@
     border-radius: 30px;
     text-decoration: none;
     text-align: center ;
+    transition:0.4s;
 }
 
 .buttonheader__buttoncategories svg {
@@ -150,6 +141,15 @@
     height: 24px;
 }
 
+.buttonheader__buttonabout:hover {
+    background-color: #b2e7e9;
+    color: var(--button-text-color);
+}
+
+.buttonheader__buttoncategories:hover {
+    background-color:var(--button-text-color);
+    color: white;
+}
 
 
 
