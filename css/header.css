@@ -1,30 +1,25 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 .header__contacts {
     background-color:rgb(242, 232, 228);
     font-family:'PT Sans',sans-serif;
     font-size:15px;
     color: #ed6435;
-    box-sizing: border-box;
+    box-sizing:border-box;
+    max-width: 100%;
     height: 42px;
     font-weight: 700;
-}
-
-.contacts__workinghours {
-    float: left;
-    margin: 11px 0px 10px 205px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 40px;
 }
 
 .contacts__emailphone {
-    float: right;
-    margin: 11px 210px 10px 0px;
+    
  }
 
  .emailphone__phone {
-    margin-left:15px;
+    padding-left: 20px;
 }
 
 .contacts__emailphone a {
@@ -38,7 +33,7 @@
 }
 
 .header__navandtext {
-    background: rgb(250, 244, 242) url(../img/img_header/header_backgroundimg_dog.png);
+    background: rgb(250, 244, 242) url(../img/img_header/header_backgroundimg_dog.png) ;
     background-repeat: no-repeat;
     height: 836px;
     background-size: cover;
@@ -49,15 +44,13 @@
 }
 
 .nav__image_container {
-    float: left;
     width: 182px;
     height: 33px;
-    margin: 30px 0px 10px 205px;
+
 }
 
 .nav__menu {
-    float:left;
-    margin:38px 30px 10px 155px;
+
 }
 
 
@@ -75,26 +68,37 @@
 }
 
 .nav__icons_container {
-    float: left;
-    margin: 33px 135px 50px 155px;
+
 }
 
 .icons_container__item {
-    margin-right: 10px;
+
     transition: all .5s ease;
-    fill: #45c1c7;
+    fill: var(--button-text-color);
 }
 
 .icons_container__item:hover {
     fill:#46a2a7
 }
 
+.navandtext__textbutton {
+    display: flex;
+    margin: 110px 0 150px 0;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+.textbutton__textleft {
+    text-align: start;
+}
+
 .textleft__textbig {
-    padding: 293px 0px 10px 205px;
     font-family: 'Baloo 2', cursive;
-    font-size: 82px;
+    font-size: 46px;
     color:rgb(60,55,49);
-    line-height:80px;
+    line-height:50px;
+    align-content: center;
+    margin-bottom: 40px;
 }
 
 .textleft__textlittle {
@@ -102,45 +106,50 @@
     font-family: 'PT Sans',sans-serif;
     color: rgb(149,139,126);
     font-weight: 400;
-    padding: 35px 0px 10px 205px;
+    text-align: left;
+    line-height: 30px;
+    margin-bottom: 35px;
 }
 
 .textbutton__buttonheader {
-    float: left;
-    margin: 55px 0px 0px 205px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .buttonheader__buttonabout {
-    border: 2px;
     border-radius:30px;
-    padding: 13px 27px;
-    background-color: #ffe6d4;
+    padding: 13px 28px;
+    background-color: var(--button-bg-color-hover);
     color: #ed6435;
     text-decoration: none;
     font-family: 'PT Sans', sans-serif;
     font-size: 16.5px;
     font-weight: 700;
     letter-spacing:1px;
+    text-align: center;
 }
 
 
 .buttonheader__buttoncategories {
-    color: #45c1c7;
+    color: var(--button-text-color);
     font-family: 'PT Sans', sans-serif;
     font-size: 16.5px;
     font-weight: 700;
     letter-spacing:1px;
-    border: #45c1c7 1px solid;
+    padding: 10px 28px 13px 28px;
+    border: var(--button-text-color) 1px solid;
     border-radius: 30px;
-    padding: 12px 27px ;
-    margin-left: 17px;
     text-decoration: none;
+    text-align: center ;
 }
 
 .buttonheader__buttoncategories svg {
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
 }
+
 
 
 
