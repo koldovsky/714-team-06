@@ -32,6 +32,7 @@
 }
 .cards_products {
     display: flex;
+    margin-top: 60px;
 }
 .food_for_pets {
     background: url(../img/img_any_pets/dog_feed.png);
@@ -40,6 +41,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
+    margin: auto;
+    margin-right: 15px;
 }
 .discount {
     background: url(../img/img_any_pets/pet_toys.png);
@@ -47,7 +50,10 @@
     height: 348px;
     background-repeat: no-repeat;
     background-size: cover;
-    
+    display: block;
+    margin: auto;
+    margin-left: 15px;
+
 }
 
 .button_to_dry_food {
@@ -81,7 +87,71 @@
     margin: auto;
     display: block;
     margin-top: 30px;
+}
+
+.products {
+    display: block;
+}
+
+.center_text {
+    font-size: 50px;
+    font-family: 'Baloo 2', cursive;
+    margin: auto;
+    text-align: center;
+    color: #3c3731;
+    padding-top: 85px;
+}
+
+.bone_icon {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    display: block;
+    width: 100px;
+}
+
+.happy_paw {
+    font-family: 'PT Sans',sans-serif;
+    font-size: 19px;
+    color: #958b7e;
+    margin-top: 20px;
+}
 
 .carousel_cards {
-    display: flex;
+    display: flex
+;
+}
+
+.hamster_card {
+    width: 259px;
+    height: 345px;
+    border: 2px solid #fbd6bf;
+    margin: auto;
+    padding-top: 40px;
+    text-align: center;
+
+}
+
+.corousel_card__image {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+.for_pet {
+    font-family: 'Baloo 2', cursive;
+    color: #3c3731;
+    font-size: 24px;
+    padding-top: 18px;
+}
+
+.blue_arrow {
+    color: #45c1c7;
+}
+
+.bottom_text {
+    font-size: 15px;
+    font-family: 'PT Sans',sans-serif;
+    color: #958b7e;
+    padding-top: 18px;
 }
