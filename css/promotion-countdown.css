@@ -1,7 +1,45 @@
 .promotion {
-    min-height: 865px;
+    min-height: 769px;
     background: url(../img/countdown-background.png) center center/cover no-repeat;
+    padding-top: 90px;
+    padding-bottom: 100px;
 }
+
+@media (min-width: 375px) {
+    .promotion {
+        min-height: 704px;
+    }
+}
+
+@media (min-width: 480px) {
+    .promotion {
+        min-height: 697px;
+    }
+}
+
+@media (min-width: 768px) {
+    .promotion {
+        min-height: 857px;
+        padding-top: 117px;
+        padding-bottom: 125px;
+    }
+}
+
+@media (min-width: 992px) {
+    .promotion {
+        min-height: 953px;
+        padding-top: 145px;
+        padding-bottom: 150px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .promotion {
+        min-height: 955px;
+    }
+}
+
+
 
 .promotion__label {
     font-family: 'PT Sans', sans-serif;
