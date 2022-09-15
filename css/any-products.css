@@ -118,5 +118,40 @@
 }
 
 .carousel_cards {
-    display: flex;
+    display: flex
+;
+}
+
+.hamster_card {
+    width: 259px;
+    height: 345px;
+    border: 2px solid #fbd6bf;
+    margin: auto;
+    padding-top: 40px;
+    text-align: center;
+
+}
+
+.corousel_card__image {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+.for_pet {
+    font-family: 'Baloo 2', cursive;
+    color: #3c3731;
+    font-size: 24px;
+    padding-top: 18px;
+}
+
+.blue_arrow {
+    color: #45c1c7;
+}
+
+.bottom_text {
+    font-size: 15px;
+    font-family: 'PT Sans',sans-serif;
+    color: #958b7e;
+    padding-top: 18px;
 }
