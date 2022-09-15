@@ -4,15 +4,29 @@
 }
 
 .butchers {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;
+    padding-top: 50px;
+    padding-left: 35px;
+    text-align: left;
 }
 
 .baloo__font {
     font-family: 'Baloo 2', cursive;
-    font-size: 30px;
+    font-size: 50px;
+    padding-left: 35px;
+    text-align: left;
+    color: #3c3731;
 }
 
+.baloo__font__discount {
+    font-family: 'Baloo 2', cursive;
+    font-size: 32px;
+    margin: auto;
+    text-align: center;
+    color: #3c3731;
+    padding-top: 60px;
+}
 .orange_color_text {
     color: #ed6435;
 }
@@ -21,15 +35,16 @@
 }
 .food_for_pets {
     background: url(../img/img_any_pets/dog_feed.png);
-    width: 619px;
-    height: 265px;
+    width: 570px;
+    height: 348px;
     background-repeat: no-repeat;
     background-size: cover;
+    display: block;
 }
 .discount {
     background: url(../img/img_any_pets/pet_toys.png);
-    width: 619px;
-    height: 265px;
+    width: 570px;
+    height: 348px;
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -47,6 +62,8 @@
     border-width: 1px;
     border-radius: 25px;
     letter-spacing: 0.7px;
+    margin-left: 35px;
+    margin-top: 27px;
 }
 
 .button_to_see_products {
@@ -61,7 +78,9 @@
     border-width: 1px;
     border-radius: 25px;
     letter-spacing: 0.7px;
-}
+    margin: auto;
+    display: block;
+    margin-top: 30px;
 
 .carousel_cards {
     display: flex;
