@@ -32,6 +32,7 @@
 }
 .cards_products {
     display: flex;
+    margin-top: 60px;
 }
 .food_for_pets {
     background: url(../img/img_any_pets/dog_feed.png);
@@ -40,6 +41,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
+    margin: auto;
+    margin-right: 15px;
 }
 .discount {
     background: url(../img/img_any_pets/pet_toys.png);
@@ -47,7 +50,10 @@
     height: 348px;
     background-repeat: no-repeat;
     background-size: cover;
-    
+    display: block;
+    margin: auto;
+    margin-left: 15px;
+
 }
 
 .button_to_dry_food {
@@ -81,7 +87,7 @@
     margin: auto;
     display: block;
     margin-top: 30px;
-
+}
 .carousel_cards {
     display: flex;
 }
