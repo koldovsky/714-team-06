@@ -32,7 +32,7 @@
 }
 .cards_products {
     display: flex;
-    margin-top: 60px;
+    margin-top: 200px;
 }
 .food_for_pets {
     background: url(../img/img_any_pets/dog_feed.png);
@@ -118,8 +118,8 @@
 }
 
 .carousel_cards {
-    display: flex
-;
+    display: flex;
+    margin-top: 50px;
 }
 
 .hamster_card {
@@ -130,6 +130,51 @@
     padding-top: 40px;
     text-align: center;
 
+}
+
+.kitty_card {
+    width: 259px;
+    height: 345px;
+    border: 2px solid #fbd6bf;
+    margin: auto;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.puppy_card {
+    width: 259px;
+    height: 345px;
+    border: 2px solid #fbd6bf;
+    margin: auto;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.parrot_card {
+    width: 259px;
+    height: 345px;
+    border: 2px solid #fbd6bf;
+    margin: auto;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.rabbit_card {
+    width: 259px;
+    height: 345px;
+    border: 2px solid #fbd6bf;
+    margin: auto;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.fish_card {
+    width: 259px;
+    height: 345px;
+    border: 2px solid #fbd6bf;
+    margin: auto;
+    padding-top: 40px;
+    text-align: center;
 }
 
 .corousel_card__image {
@@ -154,4 +199,5 @@
     font-family: 'PT Sans',sans-serif;
     color: #958b7e;
     padding-top: 18px;
+    
 }
