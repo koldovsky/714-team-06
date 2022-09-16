@@ -23,6 +23,12 @@ font-family: 'PT Sans', sans-serif;
     --button-bg-color: #b2e7ea;
     --button-text-color-hover: #eb653e;
     --button-bg-color-hover: #ffe6d5;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.titles {
+    font-family: 'Baloo 2', sans-serif;
+    color: var(--title-color);
 }
 
 .container {
@@ -30,3 +36,9 @@ font-family: 'PT Sans', sans-serif;
     margin: auto;
 }
 
+.bone-icon {
+    height: 32px;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+}
