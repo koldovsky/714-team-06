@@ -26,7 +26,20 @@ font-family: 'PT Sans', sans-serif;
     --light-bg-color: #faf4f2;
 }
 
+.titles {
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Baloo 2', sans-serif;
+    color: var(--title-color);
+}
+
 .container {
     max-width: 1200px;
     margin: auto;
+}
+
+.bone-icon {
+    height: 32px;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
 }
