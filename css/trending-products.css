@@ -10,7 +10,7 @@
 
 }
 
-.trending-products__slider-arrow img {
+.trending-products__arrow-img {
     position: absolute;
     display: block;
     width: 30px;
@@ -18,7 +18,7 @@
     top: 25%;
 }
 
-.slider-arrow-left img {
+.trending-products__img-left {
     left: 10px;
 }
 
