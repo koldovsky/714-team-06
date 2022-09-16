@@ -1,8 +1,7 @@
 .promotion {
     min-height: 769px;
     background: url(../img/countdown-background.png) center center/cover no-repeat;
-    padding-top: 90px;
-    padding-bottom: 100px;
+    padding: 90px 15px 100px 15px;
 }
 
 @media (min-width: 320px) {
