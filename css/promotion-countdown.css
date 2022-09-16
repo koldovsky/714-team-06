@@ -5,6 +5,12 @@
     padding-bottom: 100px;
 }
 
+@media (min-width: 320px) {
+    .promotion {
+        background-position: left;
+    }
+}
+
 @media (min-width: 375px) {
     .promotion {
         min-height: 704px;
@@ -14,6 +20,7 @@
 @media (min-width: 480px) {
     .promotion {
         min-height: 697px;
+        background-position: 35% 25%;
     }
 }
 
@@ -30,6 +37,7 @@
         min-height: 953px;
         padding-top: 145px;
         padding-bottom: 150px;
+        background-position: center;
     }
 }
 
