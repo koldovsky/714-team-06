@@ -6,20 +6,15 @@
 .trending-products__slider {
     display: flex;
     justify-content: center;
-    position: relative;
-
+    /* position: relative; */
 }
 
 .trending-products__arrow-img {
-    position: absolute;
+    /* position: absolute; */
     display: block;
     width: 30px;
-    height: 30px;   
-    top: 25%;
-}
-
-.trending-products__img-left {
-    left: 10px;
+    height: 30px;
+    margin-top: 103px;
 }
 
 .trending-products__items {
