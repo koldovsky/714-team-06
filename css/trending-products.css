@@ -7,12 +7,26 @@
     display: flex;
     justify-content: center;
     position: relative;
+
+}
+
+.trending-products__arrow-img {
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;   
+    top: 25%;
+}
+
+.trending-products__img-left {
+    left: 10px;
 }
 
 .trending-products__items {
     display: flex;
     min-width: 242px;
     overflow: hidden;
+    position: relative;
 }
 
 .trending-products__item {
