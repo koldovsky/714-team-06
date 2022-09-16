@@ -1,3 +1,7 @@
+.care {
+    background-color: var(--light-bg-color);
+}
+
 .care__body {
     display: flex;
     flex-direction: column;
@@ -5,7 +9,9 @@
 
 .body__img img {
     margin: 20px;
+    display: block;
     max-width: 100%;
+    padding-right: 30px;
 }
 
 .body__text {
@@ -25,6 +31,7 @@
     height: 32px;
     width: auto;
     margin: 20px 0px 0px 0px;
+    text-align: center;
 }
 
 .body__paragraph p {
@@ -38,6 +45,7 @@
 
 .body__list {
     list-style-type: none;
+    margin-bottom: 40px;
 }
 
 .list__item {
@@ -60,6 +68,7 @@
 
 .care__footer {
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin-left: 20px;
 }
@@ -67,16 +76,22 @@
 .item-column__icon img {
     width: 26px;
     height: 26px;
+    margin-right: 20px;
 }
 
 .care__column {
     display: flex;
     align-items: center;
+    margin-bottom: 40px;
+}
+
+.item-column__article {
+    line-height: 20px;
 }
 
 .item-column__title {
     font-family: 'Baloo 2', cursive;
-    font-size: 23px;
+    font-size: 22px;
     color: var(--title-color);
 
 }
