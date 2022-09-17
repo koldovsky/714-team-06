@@ -4,17 +4,14 @@
 }
 
 .trending-products__slider {
-    display: flex;
-    justify-content: center;
-    /* position: relative; */
+    
 }
 
-.trending-products__arrow-img {
-    /* position: absolute; */
-    display: block;
+.trending-products__arrow-img {    
+    display: none;
     width: 30px;
     height: 30px;
-    margin-top: 103px;
+    
 }
 
 .trending-products__items {
@@ -22,6 +19,7 @@
     min-width: 242px;
     overflow: hidden;
     position: relative;
+    margin: 0 auto;
 }
 
 .trending-products__item {
@@ -84,11 +82,19 @@
 }
 
 @media (min-width: 1024px) {
+    .trending-products__slider {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .trending-products__items {
         min-width: 944px;
     }
     .trending-products__img-container {
         min-width: 206px;
+    }
+    .trending-products__arrow-img {    
+        display: block; 
     }
 }
 
