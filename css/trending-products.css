@@ -14,6 +14,11 @@
     
 }
 
+.trending-products__sm-arrow-img {
+    width: 32px;
+    height: 32px;
+}
+
 .trending-products__items {
     display: flex;
     min-width: 242px;
@@ -95,6 +100,9 @@
     }
     .trending-products__arrow-img {    
         display: block; 
+    }
+    .trending-products__sm-arrow-img {
+        display: none;
     }
 }
 
