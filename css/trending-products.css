@@ -4,7 +4,7 @@
 }
 
 .trending-products__slider {
-    
+    position: relative;
 }
 
 .trending-products__arrow-img {    
@@ -15,11 +15,19 @@
 }
 
 .trending-products__sm-arrow-img {
+    position: absolute;
     width: 32px;
     height: 32px;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.trending-products__sm-arrow-right {
+    right: 0px;
 }
 
 .trending-products__items {
+    position: relative;
     display: flex;
     min-width: 242px;
     overflow: hidden;
