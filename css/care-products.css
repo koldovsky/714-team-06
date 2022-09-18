@@ -71,7 +71,8 @@
 .care__footer {
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+    margin: 20px 0px 0px 20px;
+    
 }
 
 .item-column__icon img {
@@ -122,5 +123,6 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        margin-top: 40px;
     }
 }
