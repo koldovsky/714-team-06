@@ -68,8 +68,7 @@
 
 .care__footer {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    flex-direction: column;
     margin-left: 20px;
 }
 
@@ -100,4 +99,26 @@
     font-family: 'PT Sans', sans-serif;
     font-size: 15px;
     color: var(--subtitle-color);
+}
+
+@media (min-width: 550px) {
+    .care__footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 770px) {
+    .care__body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width:1000px) {
+    .care__footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
