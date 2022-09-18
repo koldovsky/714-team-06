@@ -24,10 +24,10 @@ font-family: 'PT Sans', sans-serif;
     --button-text-color-hover: #eb653e;
     --button-bg-color-hover: #ffe6d5;
     --light-bg-color: #faf4f2;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .titles {
-    font-family: 'PT Sans', sans-serif;
     font-family: 'Baloo 2', sans-serif;
     color: var(--title-color);
 }
