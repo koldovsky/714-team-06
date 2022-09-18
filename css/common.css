@@ -84,6 +84,8 @@ font-family: 'PT Sans', sans-serif;
     cursor: pointer;
     transition: all 0.5s;
     font-family: inherit;
+    line-height: 1em;
+    letter-spacing: .05em;
 }
 
 .button:hover {
