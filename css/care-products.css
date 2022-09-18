@@ -1,5 +1,7 @@
 .care {
     background-color: var(--light-bg-color);
+    padding-top: 90px;
+    padding-bottom: 70px;
 }
 
 .care__body {
