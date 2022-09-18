@@ -21,7 +21,7 @@
     text-align: justify;
 }
 
-.body__title {
+.body__title h3 {
     font-family: 'Baloo 2', cursive;
     font-size: 30px;
     color: var(--title-color);
@@ -111,6 +111,11 @@
 }
 
 @media (min-width: 770px) {
+    .body__title h3 {
+        font-size: 44px;
+        line-height: 52.8px;
+    }
+
     .care__body {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -118,6 +123,12 @@
 }
 
 @media (min-width:1000px) {
+    .body__title h3 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+
     .care__footer {
         display: flex;
         flex-direction: row;
