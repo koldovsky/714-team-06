@@ -26,6 +26,7 @@ font-family: 'PT Sans', sans-serif;
     --light-bg-color: #faf4f2;
     scroll-behavior: smooth;
     font-family: 'PT Sans', sans-serif;
+    --status-product:#61A854;
 }
 
 .titles {
