@@ -24,10 +24,10 @@ font-family: 'PT Sans', sans-serif;
     --button-text-color-hover: #eb653e;
     --button-bg-color-hover: #ffe6d5;
     --light-bg-color: #faf4f2;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .titles {
-    font-family: 'PT Sans', sans-serif;
     font-family: 'Baloo 2', sans-serif;
     color: var(--title-color);
 }
@@ -37,9 +37,58 @@ font-family: 'PT Sans', sans-serif;
     margin: auto;
 }
 
+@media (min-width: 320px) {
+    .container {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+
 .bone-icon {
     height: 32px;
     display: block;
     margin: auto;
     margin-top: 25px;
+}
+
+.button {
+    padding: 16px 28px;
+    border-radius: 25px;
+    font-size: 16.5px;
+    font-weight: 700;
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+    font-family: inherit;
+    line-height: 1em;
+    letter-spacing: .05em;
+}
+
+.button:hover {
+    background-color: var(--button-bg-color-hover);
+    color: var(--button-text-color-hover);
 }
