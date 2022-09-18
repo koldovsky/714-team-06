@@ -73,7 +73,7 @@ font-family: 'PT Sans', sans-serif;
     margin-top: 25px;
 }
 
-.btn {
+.button {
     padding: 16px 28px;
     border-radius: 25px;
     font-size: 16.5px;
@@ -83,9 +83,10 @@ font-family: 'PT Sans', sans-serif;
     border: none;
     cursor: pointer;
     transition: all 0.5s;
+    font-family: inherit;
 }
 
-.btn:hover {
+.button:hover {
     background-color: var(--button-bg-color-hover);
     color: var(--button-text-color-hover);
 }
