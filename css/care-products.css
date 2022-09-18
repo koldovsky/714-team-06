@@ -22,9 +22,7 @@
 }
 
 .body__title h3 {
-    font-family: 'Baloo 2', cursive;
     font-size: 30px;
-    color: var(--title-color);
     line-height: 36px;
     text-align: left;
 }
@@ -33,7 +31,6 @@
     height: 32px;
     width: auto;
     margin: 20px 0px 0px 0px;
-    text-align: center;
 }
 
 .body__paragraph p {
@@ -75,9 +72,11 @@
 }
 
 .item-column__icon img {
-    width: 26px;
-    height: 26px;
+    width: 36px;
+    height: 36px;
     margin-right: 20px;
+    background-color: var(--button-bg-color-hover);
+    border-radius: 25px;
 }
 
 .care__column {
@@ -91,10 +90,7 @@
 }
 
 .item-column__title {
-    font-family: 'Baloo 2', cursive;
     font-size: 22px;
-    color: var(--title-color);
-
 }
 
 .item-colum__text {
