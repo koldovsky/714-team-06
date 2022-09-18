@@ -99,21 +99,7 @@ section .tabs__products {
 }
 
 .product__item button {
-    padding: 16px 28px;
-    border-radius: 25px;
-    font-size: 16.5px;
-    line-height: 1em;
-    font-weight: 700;
-    background-color: var(--button-bg-color);
-    color: var(--button-text-color);
-    border: none;
-    cursor: pointer;
     margin-top: 24px;
-}
-
-.product__item button:hover {
-    background-color: var(--button-bg-color-hover);
-    color: var(--button-text-color-hover);
 }
 
 .recommendations-content {
