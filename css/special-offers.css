@@ -2,4 +2,10 @@
     visibility: hidden;
 }
 
+.special_offers_aquarium {
+    background-image: url(../img/aquarium_background.png);
+}
 
+.special_offers_pet_accessories {
+    background-image: url(../img/picks_background.png);
+}
