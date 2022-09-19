@@ -58,8 +58,6 @@
 }
 
 .promotion__title {
-    font-family: 'Baloo 2', cursive;
-    color: var(--title-color);
     font-size: 48px;
     margin-top: 20px;
     line-height: 1;
