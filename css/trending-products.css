@@ -187,20 +187,5 @@
 }
 
 .trending-products__button {
-    font-weight: 700;
-    font-size: 16.5px;
-    color: var(--button-text-color);
-    background-color: var(--button-bg-color);
-    border: none;
-    border-radius: 25px;
-    width: 142px;
-    height: 46px;
-    cursor: pointer;
-    transition: all 0.5s;
     margin-top: 24px;
-}
-
-.trending-products__button:hover {
-    color: var(--button-text-color-hover);
-    background-color: var(--button-bg-color-hover);
 }
