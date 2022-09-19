@@ -148,13 +148,7 @@
     margin-top: 35px;
     text-decoration: none;
     text-align: center;
-    padding: 11px;
-    font-weight: 700;
-    font-size: 16.5px;
-    color: var(--button-text-color);
-    background-color: var(--button-bg-color);
-    border: none;
-    border-radius: 25px;
+    padding: 13px;
     width: 132px;
     height: 46px;
     cursor: pointer;
@@ -165,11 +159,6 @@
     .promotion__button {
         margin-top: 40px;
     }
-}
-
-.promotion__button:hover {
-    color: var(--button-text-color-hover);
-    background-color: var(--button-bg-color-hover);   
 }
 
 @media (min-width: 320px) {
