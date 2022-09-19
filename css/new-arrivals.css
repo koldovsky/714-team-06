@@ -17,8 +17,9 @@
     font-size: 50px;
     font-family: 'Baloo 2', cursive;
 }
-.bone-icon{
-    margin:auto;
+
+.bone-icon {
+    margin: auto;
 }
 
 .adv_arrivals {
@@ -45,6 +46,7 @@
 .arrow {
     cursor: pointer;
 }
+
 .arrivals_cards_name {
     color: var(--subtitle-color);
     font-size: 18px;
@@ -117,4 +119,5 @@
             justify-content: center;
             align-items: center;
         }
-    }}
+    }
+}
