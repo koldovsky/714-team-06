@@ -51,7 +51,6 @@
 }
 
 .promotion__label {
-    font-family: 'PT Sans', sans-serif;
     font-weight: 700;
     font-size: 15px;
     color: var(--button-text-color);
@@ -64,7 +63,6 @@
 }
 
 .promotion__text {
-    font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     font-size: 19px;
     color: var(--subtitle-color);
@@ -141,7 +139,6 @@
 }
 
 .promotion-countdown__label {
-    font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     color: var(--subtitle-color);
 }
@@ -152,7 +149,6 @@
     text-decoration: none;
     text-align: center;
     padding: 11px;
-    font-family: 'PT Sans', sans-serif;
     font-weight: 700;
     font-size: 16.5px;
     color: var(--button-text-color);
