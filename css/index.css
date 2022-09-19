@@ -1,10 +1,11 @@
 @import url(common.css);
 @import url(header.css);
+@import url(any-products.css);
+@import url(care-products.css);
 @import url(trending-products.css);
+@import url(special-offers.css);
 @import url(new-arrivals.css);
 @import url(promotion-countdown.css);
-@import url(care-products.css);
 @import url(top-recommendations.css);
 @import url(index-testimonials.css);
-@import url(any-products.css);
-@import url(special-offers.css);
+
