@@ -139,12 +139,6 @@
     line-height: 36px;
 }
 
-.trending-products__bone-icon {
-    display: block;
-    margin: 0 auto;
-    width: 80px;
-}
-
 .trending-products__text {
     font-family: 'PT Sans', sans-serif;
     font-size: 19px;
