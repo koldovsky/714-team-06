@@ -1,11 +1,41 @@
+.special_offers_and_brands {
+    background-color: var(--light-bg-color);
+}
+
+
 .special_offers_and_brands_headder {
-    visibility: hidden;
+   visibility: hidden;
+
 }
 
-.special_offers_aquarium {
-    background-image: url(../img/aquarium_background.png);
+
+.special_offers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10%;
 }
 
-.special_offers_pet_accessories {
-    background-image: url(../img/picks_background.png);
+
+@media(min-width: 375px)  {
+    .special_offers_pet_accessories, .special_offers_aquarium {
+        display: flexbox;
+        width: 570px;
+        min-height: 378.93px;
+    } 
+    .special_offers_aquarium {
+        background-image: url(../img/aquarium_background.png);
+        background-position-y: bottom;
+        background-size: cover;
+
+    }
+    
+    .special_offers_pet_accessories {
+        background-image: url(../img/picks_background.png);
+        background-position-x: right;
+        background-size: cover;
+    }
 }
+
+
+
