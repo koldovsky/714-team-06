@@ -33,6 +33,26 @@
     height: 33px;
 }
 
+.nav__menu {
+    text-decoration:none; 
+    display: flex; 
+    line-height: 10px; 
+    color:#2F73B6;
+}
+
+.menu__item:after {
+	display:inline-block; 
+    content: ""; 
+    height: 2px; 
+    width: 0; 
+    background-color: black; 
+    transition: width 0.3s ease-in-out; 
+}
+
+ .menu__item:hover:after,
+.menu__item:focus:after {
+	width: 100%; 
+}
 
 .menu__item {
     margin-right:35px;
