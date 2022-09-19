@@ -60,7 +60,7 @@ font-family: 'PT Sans', sans-serif;
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
     .container {
         padding-left: 15px;
         padding-right: 15px;

@@ -24,13 +24,16 @@
     transform: translateY(-50%)
 }
 
-.trending-products__sm-arrow-right,
-.trending-products__arrow-img-right {
+.trending-products__sm-arrow-right {
     right: 0px;
 }
 
+.trending-products__arrow-img-right {
+    right: -15px;
+}
+
 .trending-products__arrow-img-left {
-    left: 0px;
+    left: -15px;
 }
 
 .trending-products__items {
@@ -129,7 +132,6 @@
         display: none;
     }
 }
-
 
 .trending-products h2 {
     font-family: 'Baloo 2', cursive;
