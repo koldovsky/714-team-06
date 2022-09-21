@@ -21,7 +21,6 @@
     background-image: url(../img/aquarium_background.png);
     background-position-y: bottom;
     background-size: cover;
-
     }
 
 .special_offers_pet_accessories {
@@ -62,6 +61,44 @@
         margin-left: 10%;
         margin-right: 10%;
     }
+}
+
+.aquarium_announcement {
+    width: 510px;
+    min-height: 120px;
+    font-size: 50px;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    text-align: center;
+    }
+
+.sale_value {
+    color: var(--price-text-color);
+}
+
+.pet_accessories_announcement {
+    text-align: left;
+    font-size: 32px;
+    margin-left: 5%;
+    max-width: 200px;
+} 
+
+.pet_accessories_types, .pet_accessories_price {
+    font-family: PT Sans,sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    color: var(--subtitle-color);
+}
+
+.pet_accessories_price {
+    font-size: 17px;
+}
+
+.price_value {
+    color: var(--price-text-color);
 }
 
 /*
