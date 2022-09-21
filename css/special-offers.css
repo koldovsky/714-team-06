@@ -1,3 +1,7 @@
+:root {
+    --brand_img_background_color: #ffe6d4;
+}
+
 .special_offers_and_brands {
     background-color: var(--light-bg-color);
 }
@@ -99,6 +103,77 @@
 
 .price_value {
     color: var(--price-text-color);
+}
+
+@media(max-width: 600px) {
+    .brand_img {
+        width: 298px;
+        min-height: 209px;
+    }
+    .felix {
+        max-height: 209px;
+    }
+    
+}
+
+@media(min-width: 600px) {
+    .brand_img {
+        width: 165px;
+        min-height: 90.88px;
+    }
+    .felix {
+        max-height: 90.88px;
+    }
+}
+
+.brand_img {
+    background-color: var(--brand_img_background_color);
+}
+
+
+
+@media(max-width: 400px) {
+    .brands_img_container {
+        max-width: 327.2px;
+        max-height: 156.24px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(min-width: 400px) {
+    .brands_img_container {
+        max-width: 492px;
+        max-height: 118.5px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(min-width: 600px) {
+    .brands_img_container {
+        max-width: 848px;
+        max-height: 135.46px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.brands {
+    margin-left: 10%;
+}
+
+@media(min-width: 700px) {
+    .brands_img_container {
+        max-width: 1170px;
+        max-height: 90.88px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+.brand_img {
+    margin-left: 20%;
 }
 
 /*
