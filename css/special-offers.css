@@ -123,9 +123,18 @@
 
 .pet_accessories_button {
     margin-left: 5%;
-    border-color: var(--price-text-color);
+    color: var(--price-text-color);
     background: none;
+    border-radius: 30px;
+    border-color: var(--price-text-color);
+    min-height: 48px;
+    min-width: 143px;
 
+}
+
+.pet_accessories_button:hover {
+    background-color: var(--price-text-color);
+    color: var(--light-bg-color);
 }
 
 @media(max-width: 600px) {
