@@ -128,19 +128,24 @@
 }
 
 .promotion-countdown__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border: 1px solid var(--button-text-color);
     border-radius: 5px;
-    text-align: center;
 }
 
 .promotion-countdown__time {
     font-family: 'Baloo 2', cursive;
     color: var(--title-color);
+    margin-bottom: 0;
 }
 
 .promotion-countdown__label {
     font-weight: 400;
     color: var(--subtitle-color);
+    margin-bottom: 0;
 }
 
 .promotion__button {
@@ -170,10 +175,10 @@
         height: 55px;
     }
     .promotion-countdown__time {
-        font-size: 20px;
+        font-size: 17px;
     }
     .promotion-countdown__label {
-        font-size: 15px;
+        font-size: 10px;
     }
 }
 
