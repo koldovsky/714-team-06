@@ -40,7 +40,7 @@
     display: flex;
     min-width: 242px;
     overflow: hidden;
-    position: relative;
+    position: static;
     margin: 0 auto;
 }
 
