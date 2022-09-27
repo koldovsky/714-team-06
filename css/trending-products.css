@@ -119,7 +119,7 @@
 
 @media (min-width: 1200px) {
     .trending-products__items {
-        min-width: 1120px;
+        min-width: 1110px;
         position: static;
     }
     .trending-products__img-container {
