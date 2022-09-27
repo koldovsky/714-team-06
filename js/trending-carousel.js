@@ -1,26 +1,19 @@
-const productContainers = document.querySelectorAll('.trending-products__items');
-const nxtBtn = document.querySelectorAll('.trending-products__arrow-img-right');
-const preBtn = document.querySelectorAll('.trending-products__arrow-img-left');
-const nxtBtnSmall = document.querySelectorAll('.trending-products__sm-arrow-right');
-const preBtnSmall = document.querySelectorAll('.trending-products__sm-arrow-left');
+const productContainer = document.querySelector('.trending-products__items'); 
+const itemWidth = document.querySelector('.trending-products__item').getBoundingClientRect().width;
+const nxtBtn = document.querySelector('.trending-products__arrow-img-right');
+const preBtn = document.querySelector('.trending-products__arrow-img-left');
+const nxtBtnSmall = document.querySelector('.trending-products__sm-arrow-right');
+const preBtnSmall = document.querySelector('.trending-products__sm-arrow-left');
 
-productContainers.forEach((item, i) => {
-    let containerDimensions = item.getBoundingClientRect();
-    let containerWidth = containerDimensions.width;
-
-    nxtBtn[i].addEventListener('click', () => {
-        item.scrollLeft += containerWidth;
-    })
-
-    preBtn[i].addEventListener('click', () => {
-        item.scrollLeft -= containerWidth;
-    })
-
-    nxtBtnSmall[i].addEventListener('click', () => {
-        item.scrollLeft += containerWidth;
-    })
-
-    preBtnSmall[i].addEventListener('click', () => {
-        item.scrollLeft -= containerWidth;
-    })
-})
+nxtBtnSmall.addEventListener('click', () => {
+    productContainer.scrollLeft += itemWidth + 30;
+});
+preBtnSmall.addEventListener('click', () => {
+    productContainer.scrollLeft -= itemWidth + 30;
+});
+nxtBtn.addEventListener('click', () => {
+    productContainer.scrollLeft += itemWidth + 30;
+});
+preBtn.addEventListener('click', () => {
+    productContainer.scrollLeft -= itemWidth + 30;
+});
