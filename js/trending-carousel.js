@@ -1,8 +1,8 @@
-const productContainers = [...document.querySelectorAll('.trending-products__items')];
-const nxtBtn = [...document.querySelectorAll('.trending-products__arrow-img-right')];
-const preBtn = [...document.querySelectorAll('.trending-products__arrow-img-left')];
-const nxtBtnSmall = [...document.querySelectorAll('.trending-products__sm-arrow-right')];
-const preBtnSmall = [...document.querySelectorAll('.trending-products__sm-arrow-left')];
+const productContainers = document.querySelectorAll('.trending-products__items');
+const nxtBtn = document.querySelectorAll('.trending-products__arrow-img-right');
+const preBtn = document.querySelectorAll('.trending-products__arrow-img-left');
+const nxtBtnSmall = document.querySelectorAll('.trending-products__sm-arrow-right');
+const preBtnSmall = document.querySelectorAll('.trending-products__sm-arrow-left');
 
 productContainers.forEach((item, i) => {
     let containerDimensions = item.getBoundingClientRect();
