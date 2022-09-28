@@ -39,7 +39,7 @@
 .trending-products__items {
     display: flex;
     min-width: 242px;
-    overflow: hidden;
+    overflow: scroll;
     position: static;
     margin: 0 auto;
     scroll-behavior: smooth;
@@ -189,4 +189,5 @@
 
 .trending-products__button {
     margin-top: 24px;
+    margin-bottom: 20px;
 }
