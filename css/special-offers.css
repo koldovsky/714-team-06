@@ -135,6 +135,24 @@
     color: var(--light-bg-color);
 }
 
+
+.brand-carousel-slides {
+    display: flex;
+    justify-content: space-around;
+}
+
+.brand-carousel-slides {
+    min-height: 120px;
+}
+
+.brand_img {
+    width: 165px;
+    min-height: 90.88px;
+    background-color: var(--brand_img_background_color);
+}
+
+/*
+
 @media(max-width: 600px) {
     .brand_img {
         width: 298px;
