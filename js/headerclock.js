@@ -1,3 +1,4 @@
+(function() {
 const clockHeader = document.querySelector('.clockdate__clock')
 function nextTimeClock() {
     clockHeader.innerText = new Date().toLocaleTimeString();
@@ -9,3 +10,5 @@ function nextDateCounter() {
     dateHeader.innerText = new Date().toLocaleDateString();
 }
 setInterval(nextDateCounter, 1000);
+
+})()
