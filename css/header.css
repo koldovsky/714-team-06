@@ -1,7 +1,3 @@
-* {
-    /* border: red solid 2px; */
-}
-
 .header {
     height: 763px;
 }
@@ -166,6 +162,41 @@
 
 .header__clockdate {
     opacity: 0;
+}
+
+@media (max-width:991px) {
+    .header__contacts {
+        display: none;
+    }
+    .hamburger {
+        position: fixed;
+        z-index: 100;
+        padding: 4px;
+        border: black solid 1px;
+        background: #2F73B6;
+        cursor: pointer;
+    }
+    .closeIcon {
+        display: none;
+    }
+    
+    .nav__menuburgercontent {
+        position: fixed;
+        transform: translateY(-100%);
+        transition: transform 0.2s;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 99;
+        background: #fff4f2;
+        color: #ed6435;
+        list-style: none;
+        padding-top: 4rem;
+    }
+    .showMenu {
+        transform: translateY(0);
+      }
 }
 
 @media (min-width:375px) {
