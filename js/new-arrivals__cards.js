@@ -32,17 +32,17 @@
       },
     ];
   
-    {
-      /* <svg class="arrow" width="14" height="26" viewBox="0 0 14 26" fill="none"
-  xmlns="http://www.w3.org/2000/svg">
-  <path d="M12.5 2L1.5 13L12.5 24" stroke="#464C5C" stroke-width="2" stroke-miterlimit="10"
-      stroke-linecap="square"></path>
-  </svg> */
-    }
+    
+//        <svg class="arrow" width="14" height="26" viewBox="0 0 14 26" fill="none"
+//   xmlns="http://www.w3.org/2000/svg">
+//   <path d="M12.5 2L1.5 13L12.5 24" stroke="#464C5C" stroke-width="2" stroke-miterlimit="10"
+//       stroke-linecap="square"></path>
+//   </svg> 
+    
+
     function renderProducts(products) {
-      let productsContainer = " ";
-      productsContainer = document.querySelector(".arrivals_cards_container");
-  
+     const productsContainer = document.querySelector(".arrivals_cards_container");
+      productsContainer.innerHTML = " ";
       for (const product of products) {
         productsContainer.innerHTML += `    
       
@@ -55,11 +55,11 @@
   </article>`;
       }
     }
-    /* <svg class="arrow" width="14" height="26" viewBox="0 0 14 26" fill="none"
-  // xmlns="http://www.w3.org/2000/svg">
-  // <path d="M1.5 24L12.5 13L1.5 2" stroke="#464C5C" stroke-width="2" stroke-miterlimit="10"
-  //     stroke-linecap="square"></path>
-  // </svg> */
+//      <svg class="arrow" width="14" height="26" viewBox="0 0 14 26" fill="none"
+//   xmlns="http://www.w3.org/2000/svg">
+//   <path d="M1.5 24L12.5 13L1.5 2" stroke="#464C5C" stroke-width="2" stroke-miterlimit="10"
+//       stroke-linecap="square"></path>
+//   </svg> 
   
     renderProducts(products);
   })();
