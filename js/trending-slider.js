@@ -17,3 +17,4 @@ nxtBtn.addEventListener('click', () => {
 preBtn.addEventListener('click', () => {
     productContainer.scrollLeft -= itemWidth + 30;
 });
+
