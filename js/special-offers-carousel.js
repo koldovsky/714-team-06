@@ -20,7 +20,12 @@
 
     function nextBrandSlide() {
         currentBrandSlideIdx = currentBrandSlideIdx + 1 >= brandSlides.length ? 0 : currentBrandSlideIdx + 1;
-        renderBrandSlide()
+        renderBrandSlide();
+    }
+
+    function previousBrandSlide() {
+        currentBrandSlideIdx = currentBrandSlideIdx - 1 <0 ? brandSlides.length - 1 : currentBrandSlideIdx - 1;
+        renderBrandSlide();
     }
     
    renderBrandSlide() 
@@ -29,6 +34,9 @@
     setInterval(nextBrandSlide, 1000);*/
 
     const brandBtnNext = document.querySelector('.brands .brand-btn-next');
-    brandBtnNext.addEventListener('click', nextBrandSlide)
+    brandBtnNext.addEventListener('click', nextBrandSlide);
+    
+    const brandBtnPrevious = document.querySelector('.brands .brand-btn-previous');
+    brandBtnPrevious.addEventListener('click', previousBrandSlide);
 
 })();
