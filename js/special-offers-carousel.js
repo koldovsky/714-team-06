@@ -1,13 +1,13 @@
 (function() {
 
     const brandSlides = [
-        '<div><img scr="/workspace/714-team-06/img/aquarium.png" alt="Applaws logo"></div>',
-        '<div><img scr="img/docas.png" alt="Docas logo"></div>',
-        '<div><img scr="img/felix.png" alt="Felix logo"></div>',
-        '<div><img scr="img/gourmet.png" alt="Gourmet logo"></div>',
-        '<div><img scr="img/purizon.png" alt="Purizon logo"></div>',
-        '<div><img scr="img/rocco.png" alt="Rocco logo"></div>',
-        '<div><img scr="img/tigerino.png" alt="Tigerino logo"></div>',
+        '<div><img src="img/applaws.png" alt="Applaws logo"></div>',
+        '<div><img src="img/docas.png" alt="Docas logo"></div>',
+        '<div><img src="img/felix.png" alt="Felix logo"></div>',
+        '<div><img src="img/gourmet.png" alt="Gourmet logo"></div>',
+        '<div><img src="img/purizon.png" alt="Purizon logo"></div>',
+        '<div><img src="img/rocco.png" alt="Rocco logo"></div>',
+        '<div><img src="img/tigerino.png" alt="Tigerino logo"></div>',
     ];
 
     let currentBrandSlideIdx = 0;
@@ -20,11 +20,23 @@
 
     function nextBrandSlide() {
         currentBrandSlideIdx = currentBrandSlideIdx + 1 >= brandSlides.length ? 0 : currentBrandSlideIdx + 1;
-        renderBrandSlide()
+        renderBrandSlide();
+    }
+
+    function previousBrandSlide() {
+        currentBrandSlideIdx = currentBrandSlideIdx - 1 <0 ? brandSlides.length - 1 : currentBrandSlideIdx - 1;
+        renderBrandSlide();
     }
     
+   renderBrandSlide() 
 
+/*
+    setInterval(nextBrandSlide, 1000);*/
 
-    setInterval(nextBrandSlide, 1000);
+    const brandBtnNext = document.querySelector('.brands .brand-btn-next');
+    brandBtnNext.addEventListener('click', nextBrandSlide);
+    
+    const brandBtnPrevious = document.querySelector('.brands .brand-btn-previous');
+    brandBtnPrevious.addEventListener('click', previousBrandSlide);
 
 })();
