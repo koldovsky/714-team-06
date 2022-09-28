@@ -1,7 +1,7 @@
 (function() {
 
     const brandSlides = [
-        '<div><img scr="img/applaws.png" alt="Applaws logo"></div>',
+        '<div><img scr="/workspace/714-team-06/img/aquarium.png" alt="Applaws logo"></div>',
         '<div><img scr="img/docas.png" alt="Docas logo"></div>',
         '<div><img scr="img/felix.png" alt="Felix logo"></div>',
         '<div><img scr="img/gourmet.png" alt="Gourmet logo"></div>',
@@ -18,6 +18,13 @@
         brandSlideContainer.innerHTML = brandSlides[currentBrandSlideIdx];
     }
 
-    renderBrandSlide();
+    function nextBrandSlide() {
+        currentBrandSlideIdx = currentBrandSlideIdx + 1 >= brandSlides.length ? 0 : currentBrandSlideIdx + 1;
+        renderBrandSlide()
+    }
+    
+
+
+    setInterval(nextBrandSlide, 1000);
 
 })();
