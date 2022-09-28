@@ -16,6 +16,14 @@
 
     function renderBrandSlide() {
         brandSlideContainer.innerHTML = brandSlides[currentBrandSlideIdx];
+        if (window.innerWidth > 600) {
+          const secondBrandSlideIdx = currentBrandSlideIdx + 1 >= brandSlides.length ? 0 : currentBrandSlideIdx + 1 >= brandSlides.length ? 0 : currentBrandSlideIdx + 1;
+          brandSlideContainer.innerHTML += brandSlides[secondBrandSlideIdx];
+          if (window.innerWidth > 900) {
+            const thirdBrandSlideIdx = secondBrandSlideIdx + 1 >= brandSlides.length ? 0: secondBrandSlideIdx + 1 >= brandSlides.length ? 0 : secondBrandSlideIdx + 1;
+            brandSlideContainer.innerHTML += brandSlides[thirdBrandSlideIdx];
+          }
+        }
     }
 
     function nextBrandSlide() {
