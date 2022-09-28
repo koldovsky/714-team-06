@@ -8,23 +8,23 @@
      
     
 // })()
-(function () {
+// (function () {
 
-   let currentSlideIndx = 0;
+//    let currentSlideIndx = 0;
 
-   const slideContainer = document.querySelector(".arrivals_cards_container");
+//    const slideContainer = document.querySelector(".arrivals_cards_container");
 
-   function renderSlide() {
-      slideContainer.innerHTML = slides[currentSlideIndx];
-   }
+//    function renderSlide() {
+//       slideContainer.innerHTML = slides[currentSlideIndx];
+//    }
    
-   function nextSlide(){
-      currentSlideIndx = currentSlideIndx >= slides.length?currentSlideIndx = 0:currentSlideIndx++ ;
-      renderSlide;
-   }
+//    function nextSlide(){
+//       currentSlideIndx = currentSlideIndx >= slides.length?currentSlideIndx = 0:currentSlideIndx++ ;
+//       renderSlide;
+//    }
 
-   renderSlide();
+//    renderSlide();
 
-   setInterval(renderSlide,2000);
+//    setInterval(renderSlide,2000);
 
-})();
+// })();

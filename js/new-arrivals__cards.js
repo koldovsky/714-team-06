@@ -72,11 +72,11 @@
     const slideContainer = document.querySelector(".arrivals_cards_container");
  
     function renderSlide() {
-       slideContainer.innerHTML = productsContainer[currentSlideIndx];
+       slideContainer.innerHTML = product[currentSlideIndx];
     }
     
     function nextSlide(){
-       currentSlideIndx = currentSlideIndx+1 >= productsContainer.length?currentSlideIndx = 0:currentSlideIndx++ ;
+       currentSlideIndx = currentSlideIndx >= slides.length?currentSlideIndx = 0:currentSlideIndx++ ;
        renderSlide;
     }
  
