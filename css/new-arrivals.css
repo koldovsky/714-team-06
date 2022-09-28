@@ -35,8 +35,18 @@
     height: 242px;
 }
 
+.slider-track {
+    overflow: hidden;
+    width: 80vw;
+    display: flex;
+    min-height: fit-content;
+    transition: 0.2s;
+    min-width: 80vw;
+    max-height: 400px;
+}
+
 .arrivals_cards {
-    width: fit-content;
+    min-width: fit-content;
     padding: 40px 15px;
     display: flex;
     flex-direction: column;
@@ -45,6 +55,7 @@
 
 .arrow {
     cursor: pointer;
+    display: flex;
 }
 
 .arrivals_cards_name {
@@ -60,24 +71,6 @@
     font-size: 18px;
     font-family: 'PT Sans', sans-serif;
 }
-
-/* .add_to_card_btn {
-    background-color: var(--button-bg-color);
-    color: var(--button-text-color);
-    font: 16.5px "PT Sans", sans-serif;
-    width: 142px;
-    height: 46px;
-    border-radius: 25px;
-    border: none;
-    margin-top: 24px;
-}
-
-.add_to_card_btn:hover {
-    background-color: var(--button-bg-color-hover);
-    color: var(--button-text-color-hover);
-    font: 16.5px "PT Sans", sans-serif;
-    border: none;
-} */
 
 @media(min-width:340px) {
     .new_arrivals_photos {
