@@ -39,7 +39,7 @@
 .trending-products__items {
     display: flex;
     min-width: 242px;
-    overflow: scroll;
+    overflow: hidden;
     position: static;
     margin: 0 auto;
     scroll-behavior: smooth;
