@@ -1,3 +1,4 @@
+(function () { 
 const productContainer = document.querySelector('.trending-products__items'); 
 const itemWidth = document.querySelector('.trending-products__item').getBoundingClientRect().width;
 const nxtBtn = document.querySelector('.trending-products__arrow-img-right');
@@ -17,4 +18,4 @@ nxtBtn.addEventListener('click', () => {
 preBtn.addEventListener('click', () => {
     productContainer.scrollLeft -= itemWidth + 30;
 });
-
+})();

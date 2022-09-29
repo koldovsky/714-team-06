@@ -39,7 +39,7 @@
 .trending-products__items {
     display: flex;
     min-width: 242px;
-    overflow: scroll;
+    overflow: hidden;
     position: static;
     margin: 0 auto;
     scroll-behavior: smooth;
@@ -190,4 +190,48 @@
 .trending-products__button {
     margin-top: 24px;
     margin-bottom: 20px;
+}
+
+
+.weather {
+    margin-top: 50px;
+}
+
+.weather input {
+    display: block;
+    margin: auto;
+}
+
+.weather h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 50px;
+}
+
+.weather input[type="text"] {
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 25px;
+    border: 1px solid var(--button-text-color);
+    text-align: center;
+    
+}
+.weather input[type="text"]::placeholder {
+    color: var(--subtitle-color);
+}
+
+
+.weather-display {
+    text-align: center;
+    padding: 20px;
+    width: 70%;
+    min-height: 250px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: #faf4f2;
+    margin-top: 20px;
+    color: var(--subtitle-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
