@@ -1,4 +1,5 @@
-const countdown = () => {
+(function () { 
+    const countdown = () => {
     const countDate = new Date("October 28, 2022 00:00:00").getTime();
     const currentTime = new Date().getTime();
     const gap = countDate - currentTime;
@@ -27,3 +28,4 @@ const countdown = () => {
 }
 
 setInterval(countdown, 1000);
+})();
