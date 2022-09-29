@@ -35,7 +35,7 @@
                 <div class="nav__iconandburgermenu">
                     <div class="nav__image_container">
                         <a href="#">
-                            <img width="182" src="img/img_header/logo_petstore.svg" alt="logo_petstore">
+                            <img width="182" src="img/img_header/logo_petstore.svg" alt="logo_petstore" class="imagecontainer-burgerposition">
                         </a>
                     </div>
                     <div class="buttonburgercontainer">
@@ -46,27 +46,28 @@
                     </div>
                 </div>
                 <div class="nav__menuburgercontent">
-                <div class="nav__menu">
-                    <a href="#main__aboutusanchor" class="menu__navitem menu__headerburgeritem">About Us</a>
-                    <a href="#products__categoriesanchor" class="menu__navitem menu__headerburgeritem">Categories</a>
-                    <a href="#main__bestsellersanchor" class="menu__navitem menu__headerburgeritem">Best Sellers</a>
-                    <a href="#container__newarrivalsanchor" class="menu__navitem menu__headerburgeritem">New Arrivals</a>
-                    <a href="#top-recommendations" class="menu__navitem menu__headerburgeritem">Our Shop</a>
-                </div>
-                <div class="headerburgercontacts">
-                    <div class="contacts__workinghours">
-                        Working Hours: 08 AM - 08 PM
+                    <div class="menuburgercontentedit">
+                        <div class="nav__menu">
+                            <a href="#main__aboutusanchor" class="menu__navitem menu__headerburgeritem">About Us</a>
+                            <a href="#products__categoriesanchor" class="menu__navitem menu__headerburgeritem">Categories</a>
+                            <a href="#main__bestsellersanchor" class="menu__navitem menu__headerburgeritem">Best Sellers</a>
+                            <a href="#container__newarrivalsanchor" class="menu__navitem menu__headerburgeritem">New Arrivals</a>
+                            <a href="#top-recommendations" class="menu__navitem menu__headerburgeritem">Our Shop</a>
+                        </div>
+                        <div class="headerburgercontacts">
+                            <div class="contacts__workinghours">
+                                Working Hours: 08 AM - 08 PM
+                            </div>
+                            <div class="contacts__emailphone">
+                                <span class="emailphone__email">
+                                    Email: <a href="mailto:happypaw@email.com" class="email__linkemaliphone menu__headerburgeritem">happypaw@email.com</a>
+                                </span>
+                                <span class="emailphone__phone">
+                                    Phone: <a href="phone:+12345678900" class="phone__linkemaliphone menu__headerburgeritem">+1 (234) 567 89 00</a>
+                                </span>
+                            </div>
                     </div>
-                    <div class="contacts__emailphone">
-                        <span class="emailphone__email">
-                            Email: <a href="mailto:happypaw@email.com" class="email__linkemaliphone menu__headerburgeritem">happypaw@email.com</a>
-                        </span>
-                        <span class="emailphone__phone">
-                            Phone: <a href="phone:+12345678900" class="phone__linkemaliphone menu__headerburgeritem">+1 (234) 567 89 00</a>
-                        </span>
-                    </div>
-                </div>
-                <div class="nav__icons_container">
+                    <div class="nav__icons_container">
                     <a href="https://facebook.com/" target="_blank" class="menu__headerburgeritem">
                         <svg class="icons_container__item" width="30" height="30" viewBox="0 0 32 32"
                             style="border-radius:50%">
@@ -138,6 +139,7 @@
 
                             </path>
                         </svg></a>
+                    </div>
                 </div>
             </div>
             </nav>
@@ -337,6 +339,20 @@
         </section>
 
         <!-- Trending products | Sokoltsova-->
+        <section class="weather container">
+            <div class="weather__form">
+                <h2 class="titles">Weather forecast</h2>
+                <input type="text" class="weather_city" placeholder="Enter a city name">
+                <input type="button" class="weather_button button" value="Submit">
+            </div>
+            <div class="weather-display">
+                <h3 class="weather-display__city">City:</h3>
+                <h3 class="weather-city__descr">Sky:</h3>
+                <h3 class= "weather-city__temp">Temperature:</h3>
+                <h3 class= "weather-city__wind">Wind:</h3>
+            </div>
+            
+        </section>
         <section class="trending-products" id="main__bestsellersanchor">
             <div class="container">
                 <div class="trending-products__heading">
@@ -1307,6 +1323,7 @@
 <script src="js/special-offers-carousel.js"></script>
 <script src="js/headerclock.js"></script>
 <script src="js/burger.js"></script>
+<script src="js/weather-forecast.js"></script>
 <script src="js/products-for-dogs.js"></script>
 <script src="js/products-for-cats.js"></script>
 </body>
