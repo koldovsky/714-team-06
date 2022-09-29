@@ -1,5 +1,5 @@
 .header {
-    height: 763px;
+    height: 100vh;
 }
 
 .emailphone__phone {
@@ -19,7 +19,7 @@
 .header__navandtext {
     background: rgb(250, 244, 242) url(../img/img_header/header_backgroundimg_dog.png) ;
     background-repeat: no-repeat;
-    height: 750px;
+    height: 100%;
     background-size: cover;
 }
 
@@ -36,7 +36,7 @@
     color:#2F73B6;
 }
 
-.menu__headerburgeritem:after {
+.menu__navitem:after {
 	display:inline-block; 
     content: ""; 
     height: 2px; 
@@ -45,12 +45,12 @@
     transition: width 0.3s ease-in-out; 
 }
 
- .menu__headerburgeritem:hover:after,
-.menu__headerburgeritem:focus:after {
+.menu__navitem:hover:after,
+.menu__navitem:focus:after {
 	width: 100%; 
 }
 
-.menu__headerburgeritem {
+.menu__navitem {
     margin-right:35px;
     color: rgb(107, 107, 107);
     font-size: 15px;
@@ -59,7 +59,7 @@
     text-decoration: none;
 }
 
-.menu__headerburgeritem:hover {
+.menu__navitem:hover {
     color:#ed6435;
 }
 
@@ -79,7 +79,7 @@
     display: flex;
     margin: 80px 0 0 0;
     flex-direction: column;
-    padding: 0 30px;
+    padding: 0 30px 80px 30px;
 }
 
 .textbutton__textleft {
@@ -165,6 +165,9 @@
 }
 
 @media (max-width:991px) {
+    .header__navandtext {
+        height: 100%;
+    }
 
     .header__contacts {
         display: none;
@@ -174,7 +177,21 @@
         display: none;
     }
 
+    .nav__iconandburgermenu {
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+
+    .nav__image_container {
+        position: relative;
+        z-index: 100;
+        margin-right: 50px;
+    }
+
     .nav__menu {
+        position: fixed;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -184,16 +201,15 @@
         position: fixed;
         z-index: 100;
         padding: 4px;
-        border: black solid 1px;
-        background: #2F73B6;
+        background-color: #fff4f2;
+        border: #ed6435 1px solid;
+        border-radius: 50%;
         cursor: pointer;
+        margin-right: 20px;
     }
-    .burgerclosedmenu {
-        display: none;
-    }
-    
+
     .nav__menuburgercontent {
-        max-height: 750px;
+        max-height: 100%;
         position:fixed;
         transform: translateY(-100%);
         transition: transform 0.2s;
@@ -216,13 +232,21 @@
 
 @media (min-width:375px) {
     .header {
-        height: 646px;
+        height: 100vh;
+    }
+
+    .buttonburgercontainer {
+        padding-left: 50px;
+    }
+
+    .navandtext__textbutton {
+        padding-top: 50px;
     }
 
     .header__navandtext {
         background-position: 100px, 0%;
         background-color: #fff4f2;
-        height: 590px;
+        height: 100%;
     }
 
     .textbutton__buttonheader {
@@ -237,13 +261,17 @@
 
 @media  (min-width: 480px){
     .header {
-        height: 646px;
+        height: 100vh;
+    }
+
+    .buttonburgercontainer {
+        padding-left: 150px;
     }
 
     .header__navandtext {
         background-position: 120px, 0%;
         background-color: #fff4f2;
-        height: 610px;
+        height: 100%;
     }
 
     .navandtext__textbutton {
@@ -272,13 +300,17 @@
 
 @media (min-width:768px) {
     .header {
-        height: 880px;
+        height: 100vh;
+    }
+
+    .buttonburgercontainer {
+        padding-left: 380px;
     }
 
     .header__navandtext {
         background-position: 135px, 0%;
         background-color: #fff4f2;
-        height: 843px;
+        height: 100%;
     }
 
     .navandtext__textbutton {
@@ -310,7 +342,7 @@
 @media (min-width:992px) {
 
     .header {
-        height: 1111px;
+        height: 100vh;
     }
 
     .headerburgerbutton {
@@ -341,7 +373,7 @@
     .header__navandtext {
         background-position: 190px, 0%;
         background-color: #fff4f2;
-        height: 1070px;
+        height: 100%;
     }
 
     .header__contacts {
@@ -389,7 +421,7 @@
 
 @media (min-width:1024px) {
     .header {
-        height: 1111px;
+        height: 100vh;
     }
 
     .header__nav {
@@ -416,7 +448,7 @@
 
 @media (min-width:1200px) {
     .header {
-        height: 1053px;
+        height: 100vh;
     }
 
     .header__nav {
@@ -435,7 +467,7 @@
     .header__navandtext {
         background-position: 150px, 0%;
         background-color: #fff4f2;
-        height: 1010px;
+        height: 100%;
     }
 
     .textbutton__textleft {
@@ -454,7 +486,7 @@
 
 @media (min-width:1280px) {
     .header {
-        height: 971px;
+        height: 100vh;
     }
 
     .header__contacts {
@@ -503,7 +535,7 @@
 
 @media (min-width:1440px) {
     .header {
-        height: 971px;
+        height: 100vh;
     }
 
     .header__contacts {
@@ -529,7 +561,7 @@
 
 @media (min-width:1810px) {
     .header {
-        height: 971px;
+        height: 100vh;
     }
 
     .header__navandtext {
@@ -537,7 +569,7 @@
     }
 
     .header__navandtext {
-        height: 928px;
+        height: 100%;
     }
 
     .header__contacts {
