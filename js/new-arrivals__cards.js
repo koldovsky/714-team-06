@@ -31,13 +31,7 @@
         price: '5,00',
       },
     ];
-  
-    
-//        <svg class="arrow" width="14" height="26" viewBox="0 0 14 26" fill="none"
-//   xmlns="http://www.w3.org/2000/svg">
-//   <path d="M12.5 2L1.5 13L12.5 24" stroke="#464C5C" stroke-width="2" stroke-miterlimit="10"
-//       stroke-linecap="square"></path>
-//   </svg> 
+
     
 
     function renderProducts(products) {
@@ -55,34 +49,11 @@
   </article>`;
       }
     }
-//      <svg class="arrow" width="14" height="26" viewBox="0 0 14 26" fill="none"
-//   xmlns="http://www.w3.org/2000/svg">
-//   <path d="M1.5 24L12.5 13L1.5 2" stroke="#464C5C" stroke-width="2" stroke-miterlimit="10"
-//       stroke-linecap="square"></path>
-//   </svg> 
+
   
     renderProducts(products);
   })();
 
 
-  (function () {
-
-    let currentSlideIndx = 0;
- 
-    const slideContainer = document.querySelector(".arrivals_cards_container");
- 
-    function renderSlide() {
-       slideContainer.innerHTML = product[currentSlideIndx];
-    }
-    
-    function nextSlide(){
-       currentSlideIndx = currentSlideIndx >= slides.length?currentSlideIndx = 0:currentSlideIndx++ ;
-       renderSlide;
-    }
- 
-    renderSlide();
- 
-    setInterval(renderSlide,2000);
- 
- })();
+  
   
