@@ -13,7 +13,7 @@ function toggleMenu() {
     menuIcon.style.display = "block";
     footerBurgerHide.style.display = "block";
     mainBurgerHide.style.display = "block";
-
+      
   } else {
     menu.classList.add("showMenu");
     closeIcon.style.display = "block";

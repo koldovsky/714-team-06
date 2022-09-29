@@ -185,7 +185,6 @@
     }
 
     .nav__image_container {
-        position: relative;
         z-index: 100;
         margin-right: 50px;
     }
@@ -227,7 +226,40 @@
         transform: translateY(0);
     }
 
+    .burgerclosedmenu {
+        display: none;
+    }
 
+    .menuburgercontentedit {
+        display: grid;
+    }
+    
+    .nav__menu {
+        display: flex;
+        padding-top: 30px;
+        align-self: flex-start;
+        padding-left: 145px;
+        line-height: 35px;
+    }
+
+    .headerburgercontacts {
+        display: flex;
+        flex-direction: column;
+        align-self:center;
+        padding-top: 250px;
+        padding-left: 60px;
+        text-align:left;
+    }
+
+    .nav__icons_container {
+        display: flex;
+        padding-left: 100px;
+        padding-top: 30px;        
+    }
+
+    .icons_container__item {
+        margin-left: 15px;
+    }
 }
 
 @media (min-width:375px) {
@@ -353,8 +385,12 @@
         display: none;
     }
 
-    .nav__menuburgercontent {
+    .menuburgercontentedit{
         display: flex;
+    }
+
+    .nav__iconandburgermenu {
+        margin-right: -200px;
     }
     
     .icons_container__item {
