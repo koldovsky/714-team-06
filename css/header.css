@@ -217,10 +217,11 @@
     }
 
     .nav__menuburgercontent {
+        overflow: scroll;
         max-height: 100%;
         position:fixed;
         transform: translateY(-150%);
-        transition: transform 0.2s;
+        transition: transform 0.8s;
         top: 0;
         left: 0;
         right: 0;
@@ -228,7 +229,6 @@
         z-index: 99;
         background: #fff4f2;
         color: #ed6435;
-        list-style: none;
         padding-top: 4rem;
     }
 
