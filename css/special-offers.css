@@ -165,17 +165,64 @@
 
 .brand-carousel-slides {
     display: flex;
-    justify-content: space-around;
+    gap: 2.5%;
+    justify-content: center;
 }
 
 .brand-carousel-slides {
     min-height: 120px;
 }
 
+@media(min-width: 360px) {
+    .brand_img {
+        width: 250px;
+        height: 95%;
+    }
+}
+
+@media(min-width: 540px) {
+    .brand_img {
+        width: 216px;
+        height: 85%;
+    }
+}
+
+@media(min-width: 540px) {
+    .brand_img {
+        width: 200px;
+        height: 80%;
+    }
+}
+
+@media(min-width: 760px) {
+    .brand_img {
+        width: 180px;
+        height: 75%;
+    }
+}
+
+@media(min-width: 900px) {
+    .brand_img {
+        width: 165px;
+        height: 70%;
+    }
+}
+
 .brand_img {
-    width: 165px;
-    min-height: 90.88px;
     background-color: var(--brand_img_background_color);
+}
+
+.brands {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7%;
+}
+
+.brand-btn-previous,
+.brand-btn-next {
+    background: none;
+    border: none;
 }
 
 /*
