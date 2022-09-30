@@ -11,13 +11,17 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    width: calc(100vw- 40px);
+    padding: 40px;
+    overflow: hidden;
 }
 
 .new_arrivals_header {
     font-size: 50px;
     font-family: 'Baloo 2', cursive;
+    text-align: center;
 }
 
 .bone-icon {
@@ -38,12 +42,10 @@
 }
 
 .slider-track {
-    overflow: hidden;
     display: flex;
-    min-height: fit-content;
-    transition: 0.2s;
-    min-width: 80vw;
-    max-height: auto;
+    width: 75vw;
+    transition:  .5s;
+   align-items: center;
 }
 
 .arrivals_cards {
@@ -57,6 +59,7 @@
 .arrow {
     cursor: pointer;
     display: flex;
+    border-color: white;
 }
 
 .arrivals_cards_name {
@@ -66,6 +69,7 @@
     margin: 8px 0px 0px;
     text-decoration: none;
 }
+
 .arrivals_cards_name:hover {
    text-decoration: underline;
    color: var(--subtitle-color);
@@ -79,10 +83,25 @@
 
 @media(min-width:340px) {
     .new_arrivals_photos {
-        max-width: 667px;
-        max-height: 667px;
+        max-width: 423px;
+        max-height: 423px;
         width: 100%;
         height: auto;
+    }
+    .arrivals_cards_container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        width: calc(100vw- 40px);
+        padding: 40px;
+        overflow: hidden;
+    }
+    .slider-track {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -97,9 +116,11 @@
     .arrivals_cards_container {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
         align-items: center;
+        width: calc(100vw- 40px);
+        padding: 40px;
     }
 
     @media(min-width:990px) {
@@ -113,9 +134,18 @@
         .arrivals_cards_container {
             display: flex;
             flex-direction: row;
-            flex-wrap: wrap;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            align-items: center;
+            width: calc( 100vw - 40px);
+            overflow: hidden;
+        }
+        
+        .slider-track {
+            display: flex;
             justify-content: center;
             align-items: center;
+
         }
     }
 }

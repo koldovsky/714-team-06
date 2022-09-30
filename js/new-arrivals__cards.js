@@ -33,7 +33,6 @@
     ];
 
     
-
     function renderProducts(products) {
      const productsContainer = document.querySelector(".arrivals_cards_container");
       productsContainer.innerHTML = " ";
@@ -49,7 +48,6 @@
   </article>`;
       }
     }
-
   
     renderProducts(products);
   })();
