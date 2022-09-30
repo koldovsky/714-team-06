@@ -23,6 +23,11 @@ const dogLogoPositionHeader = document.querySelector(".imagecontainer-burgerposi
             footerBurgerHide.style.display = "none";
             mainBurgerHide.style.display = "none";
             dogLogoPositionHeader.style.position = "fixed";
+            menuItems.forEach( 
+                function(menuItem) { 
+                menuItem.addEventListener("click", toggleMenu);
+                }
+            )
             
             
             
@@ -30,9 +35,3 @@ const dogLogoPositionHeader = document.querySelector(".imagecontainer-burgerposi
     }
 
     burgerBtn.addEventListener("click", toggleMenu);
-
-    menuItems.forEach( 
-        function(menuItem) { 
-        menuItem.addEventListener("click", toggleMenu);
-        }
-    )

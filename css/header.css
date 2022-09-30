@@ -262,7 +262,7 @@
         position: fixed;
         display: flex;
         flex-direction: column;
-        padding-top: 250px;
+        margin-top: 250px;
         text-align: center;
         font-weight: bold;
         line-height: 40px;
@@ -286,7 +286,7 @@
         position: fixed;
         display: flex;
         padding-left: 95px;
-        padding-top: 390px;        
+        margin-top: 390px;        
     }
 
     .icons_container__item {
@@ -322,7 +322,7 @@
 
     .nav__icons_container {
         padding-left: 125px;
-        padding-top: 400px;
+        margin-top: 400px;
     }
 
     .navandtext__textbutton {
@@ -360,16 +360,15 @@
 
     .menu__headerburgeritem {
         font-size: 18px;
-        line-height: 50px;
     }
 
     .headerburgercontacts {
-        padding-top: 300px;
+        margin-top: 250px;
         padding-left: 180px;
     }
 
     .nav__icons_container {
-        padding-top: 460px;
+        margin-top: 420px;
         padding-left: 230px;
     }
 
@@ -492,7 +491,7 @@
 
     .nav__menu {
         margin: 0 15px 0 0;
-        padding: 0;
+        padding:15px 0 0 0;
     }
 
     .menu__navitem {
