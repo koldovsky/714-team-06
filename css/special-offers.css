@@ -10,13 +10,40 @@
 
 }
 
+
+
 .special_offers {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     margin: 0;
     padding-top: 120px;
     padding-bottom: 30px;
+}
+
+@media(max-width: 600px) {
+    .special_offers {
+            flex-direction: column;
+    }
+    .special_offers_aquarium {
+        margin-bottom: 10%;
+    }
+    .special_offers_aquarium, .special_offers_pet_accessories {
+        min-height: 300px;
+    }
+}
+
+@media(min-width: 700px) {
+    .special_offers {
+        margin-left: 8%;
+        margin-right: 8%;
+        flex-direction: row;
+        gap: 2%
+        
+    }
+    .special_offers_aquarium, .special_offers_pet_accessories {
+        width: 50%;
+        min-height: 380px;
+    }
 }
 
 .special_offers_aquarium {
@@ -32,7 +59,7 @@
     background-size: cover;
     }
 
-
+/*
 @media(max-width: 600px) {
     .special_offers_aquarium, .special_offers_pet_accessories {
         width: 492px;
@@ -65,7 +92,7 @@
         margin-right: 10%;
     }
 }
-
+*/
 .aquarium_announcement {
     font-weight: bold;
     width: 510px;
