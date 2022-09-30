@@ -177,11 +177,19 @@
         display: none;
     }
 
+    .header__nav {
+        display: flex;
+        padding-top: 25px;
+        padding-left: 25px;
+    }
+
+    .buttonburgercontainer {
+        margin-top: -3px;
+    }
+
     .nav__iconandburgermenu {
         display: flex;
         justify-content: flex-start;
-        padding-top: 30px;
-        padding-left: 20px;
     }
 
     .nav__image_container {
@@ -194,17 +202,18 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-right: 20px;
     }
     
     .headerburgerbutton {
         position: fixed;
         z-index: 100;
-        padding: 4px;
+        padding: 3px 3px 4px 3px;
         background-color: #fff4f2;
         border: #ed6435 1px solid;
         border-radius: 50%;
         cursor: pointer;
-        margin-right: 20px;
+        
     }
 
     .nav__menuburgercontent {
@@ -227,6 +236,11 @@
         transform: translateY(0);
     }
 
+    .headerburgerbutton img {
+        width: 28px;
+        height: 28px;
+    }
+
     .burgerclosedmenu {
         display: none;
     }
@@ -236,26 +250,43 @@
     }
     
     .nav__menu {
+        position: fixed;
         display: flex;
         padding-top: 30px;
         align-self: flex-start;
-        padding-left: 145px;
-        line-height: 35px;
+        padding-left: 125px;
+        line-height: 40px;
     }
 
     .headerburgercontacts {
+        position: fixed;
         display: flex;
         flex-direction: column;
-        align-self:center;
         padding-top: 250px;
-        padding-left: 60px;
-        text-align:left;
+        text-align: center;
+        font-weight: bold;
+        line-height: 40px;
+        padding-left: 45px;
+    }
+    
+    .contacts__workinghours {
+        padding-left: 5px
+    }
+
+    .emailphone__email {
+        padding-left: 5px;
+    }
+
+    .emailphone__phone {
+        text-align: center;
+        padding-right: 10px;
     }
 
     .nav__icons_container {
+        position: fixed;
         display: flex;
-        padding-left: 100px;
-        padding-top: 30px;        
+        padding-left: 95px;
+        padding-top: 390px;        
     }
 
     .icons_container__item {
@@ -269,7 +300,29 @@
     }
 
     .buttonburgercontainer {
-        padding-left: 50px;
+        padding-left: 60px;
+    }
+
+    .buttonburgercontainer img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .buttonburgercontainer {
+        margin-top: -5px;
+    }
+
+    .nav__menu {
+        margin-left: 30px;
+    }
+
+    .headerburgercontacts {
+        padding-left: 75px;
+    }
+
+    .nav__icons_container {
+        padding-left: 125px;
+        padding-top: 400px;
     }
 
     .navandtext__textbutton {
@@ -298,7 +351,30 @@
     }
 
     .buttonburgercontainer {
-        padding-left: 150px;
+        padding-left: 50px;
+    }
+
+    .nav__menu {
+        margin-left: 130px;
+    }
+
+    .menu__headerburgeritem {
+        font-size: 18px;
+        line-height: 50px;
+    }
+
+    .headerburgercontacts {
+        padding-top: 300px;
+        padding-left: 180px;
+    }
+
+    .nav__icons_container {
+        padding-top: 460px;
+        padding-left: 230px;
+    }
+
+    .buttonburgercontainer {
+        margin-left: 90px;
     }
 
     .header__navandtext {
@@ -337,7 +413,19 @@
     }
 
     .buttonburgercontainer {
-        padding-left: 380px;
+        padding-left: 340px;
+    }
+
+    .nav__menu {
+        padding-left: 230px;
+    }
+
+    .headerburgercontacts {
+        padding-left: 280px;
+    }
+
+    .nav__icons_container {
+        padding-left: 340px;
     }
 
     .header__navandtext {
@@ -390,8 +478,12 @@
         display: flex;
     }
 
+    .header__nav {
+        margin: 0 20px;
+    }
+
     .nav__iconandburgermenu {
-        margin-right: -200px;
+        margin-right: -220px;
     }
     
     .icons_container__item {
@@ -399,12 +491,17 @@
     }
 
     .nav__menu {
-        margin-left: 35px;
+        margin: 0 15px 0 0;
+        padding: 0;
+    }
+
+    .menu__navitem {
+        margin: 0 25px 0 0;
     }
 
     .nav__icons_container {
-        margin-top: -10px;
-        margin-left: 20px;
+        margin-top: 0;
+        padding: 0;
     }
 
     .header__navandtext {
@@ -466,7 +563,7 @@
     }
 
     .nav__menu {
-        margin-left: 40px;
+        margin-left: 10px;
         margin-right: 15px;
     }
 
@@ -488,13 +585,9 @@
         height: 100vh;
     }
 
-    .header__nav {
-        justify-content: space-evenly;
-        text-align: center;
-    }
-
     .nav__menu {
-        margin-right: 130px;
+        margin-right: 80px;
+        margin-left: 60px;
     }
 
     .nav__icons_container {
@@ -531,11 +624,7 @@
     }
 
     .header__nav {
-        padding:30px 25px 0 30px;
-    }
-
-    .nav__icons_container {
-        padding-top: 10px;
+        padding: 30px 40px 0 40px;
     }
 
     .navandtext__textbutton {
@@ -548,9 +637,8 @@
     }
 
     .nav__menu {
-        padding-top: 10px;
-        margin-right: 150px;
-        margin-left: 90px;
+        margin-right: 100px;
+        margin-left: 100px;
     }
 
     .header__clockdate {
@@ -558,19 +646,18 @@
     }
 }
     @media (min-width:1400px){
+        .header__nav {
+            margin:0;
+            padding: 30px 0 0 0;
+        }
+
         .nav__menu {
-            margin-right: 270px;
+            margin: 0 140px;
         }
 
 }
 
-@media (min-width:1500px) {
-    .nav__menu {
-        padding-left: 60px;
-    }
-}
-
-@media (min-width:1440px) {
+    @media (min-width:1440px) {
     .header {
         height: 100vh;
     }
@@ -580,11 +667,12 @@
     }
 
     .header__nav {
-        padding:30px 110px 0px 110px
+        padding:30px 0 0 0;
+        margin: 0;
     }
 
     .nav__menu {
-        margin: 0 125px;
+        margin: 0 40px;
     }
 
     .navandtext__textbutton {
@@ -614,7 +702,7 @@
     }
 
     .header__nav {
-        padding:30px 290px;
+        padding:30px 190px;
     }
 
     .navandtext__textbutton{
