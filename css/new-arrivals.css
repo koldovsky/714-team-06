@@ -1,6 +1,7 @@
 .new_arrivals_container {
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     padding: 90px 24px;
@@ -8,7 +9,8 @@
 
 .arrivals_cards_container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
 }
@@ -37,12 +39,11 @@
 
 .slider-track {
     overflow: hidden;
-    width: 80vw;
     display: flex;
     min-height: fit-content;
     transition: 0.2s;
     min-width: 80vw;
-    max-height: 400px;
+    max-height: auto;
 }
 
 .arrivals_cards {
@@ -64,6 +65,10 @@
     font-family: 'PT Sans', sans-serif;
     margin: 8px 0px 0px;
     text-decoration: none;
+}
+.arrivals_cards_name:hover {
+   text-decoration: underline;
+   color: var(--subtitle-color);
 }
 
 .price {
