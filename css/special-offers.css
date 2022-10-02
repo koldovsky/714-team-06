@@ -98,8 +98,8 @@
     width: 510px;
     min-height: 120px;
     font-size: 50px;
-    padding-top: 6%;
-    padding-bottom: 2%;
+    margin-top: 5%;
+    margin-bottom: 1%;
     }
 
 .sale_value {
@@ -217,13 +217,18 @@
     flex-direction: row;
     justify-content: center;
     gap: 7%;
+    align-items: baseline;
 }
 
 .brand-btn-previous,
 .brand-btn-next {
     background: none;
     border: none;
+    color: var(--subtitle-color);
+    font-size: 30px;
 }
+
+
 
 /*
 
