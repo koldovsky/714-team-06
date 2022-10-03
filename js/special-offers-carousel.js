@@ -45,9 +45,6 @@
     
    renderBrandSlide() 
 
-/*
-    setInterval(nextBrandSlide, 1000);*/
-
     const brandBtnNext = document.querySelector('.brands .brand-btn-next');
     brandBtnNext.addEventListener('click', nextBrandSlide);
     
