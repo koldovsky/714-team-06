@@ -1,13 +1,13 @@
 
 
 .special_offers_and_brands {
+    padding-bottom: 120px;
     background-color: var(--light-bg-color);
 }
 
 
 .special_offers_and_brands_headder {
    visibility: hidden;
-
 }
 
 
@@ -141,6 +141,11 @@
     color: var(--title-color); 
 }
 
+.fa-arrow-right {
+    font-weight: 15px;
+    color: var(--button-bg-color);
+}
+
 .aquarium_button:hover {
     text-decoration: underline;
     color: var(--price-text-color);
@@ -213,6 +218,7 @@
 }
 
 .brands {
+    margin-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: center;
