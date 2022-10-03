@@ -178,12 +178,13 @@
 @media(min-width: 900px) {
     .brand_img {
         width: 165px;
-        height: 70%;
+        max-height: 70%;
     }
 }
 
 .brand_img {
     background-color: var(--brand_img_background_color);
+    max-height: 120px;
 }
 
 .brands {
