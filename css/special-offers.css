@@ -1,29 +1,58 @@
 
 
 .special_offers_and_brands {
+    padding-bottom: 120px;
     background-color: var(--light-bg-color);
 }
 
 
 .special_offers_and_brands_headder {
    visibility: hidden;
-
 }
+
+
 
 .special_offers {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     margin: 0;
     padding-top: 120px;
     padding-bottom: 30px;
 }
 
+@media(max-width: 600px) {
+    .special_offers {
+        flex-direction: column;
+    }
+    .special_offers_aquarium {
+        margin-bottom: 10%;
+    }
+    .special_offers_aquarium, .special_offers_pet_accessories {
+        min-height: 300px;
+    }
+}
+
+@media(min-width: 700px) {
+    .special_offers {
+        margin-left: 8%;
+        margin-right: 8%;
+        flex-direction: row;
+        gap: 2%
+        
+    }
+    .special_offers_aquarium, .special_offers_pet_accessories {
+        width: 50%;
+        min-height: 380px;
+    }
+}
+
 .special_offers_aquarium {
     background-image: url(../img/aquarium_background.png);
     background-position-y: bottom;
     background-size: cover;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     }
 
 .special_offers_pet_accessories {
@@ -33,46 +62,13 @@
     }
 
 
-@media(max-width: 600px) {
-    .special_offers_aquarium, .special_offers_pet_accessories {
-        width: 492px;
-        min-height: 190px;
-    }
-}
-
-@media(min-width: 600px) {
-    .special_offers_aquarium, .special_offers_pet_accessories {
-        width: 570px;
-        min-height: 378.93px;
-    }
-}
-
-@media(max-width: 600px) {
-    .special_offers {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 5px;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-}
-
-@media(min-width: 600px) {
-    .special_offers {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-}
-
 .aquarium_announcement {
     font-weight: bold;
-    width: 510px;
+    max-width: 350px;
     min-height: 120px;
     font-size: 50px;
-    padding-top: 6%;
-    padding-bottom: 2%;
+    margin-top: 5%;
+    margin-bottom: 1%;
     }
 
 .sale_value {
@@ -114,6 +110,11 @@
     color: var(--title-color); 
 }
 
+.fa-arrow-right {
+    font-weight: 15px;
+    color: var(--button-bg-color);
+}
+
 .aquarium_button:hover {
     text-decoration: underline;
     color: var(--price-text-color);
@@ -138,152 +139,67 @@
 
 .brand-carousel-slides {
     display: flex;
-    justify-content: space-around;
+    gap: 2.5%;
+    justify-content: center;
 }
 
 .brand-carousel-slides {
     min-height: 120px;
 }
 
-.brand_img {
-    width: 165px;
-    min-height: 90.88px;
-    background-color: var(--brand_img_background_color);
-}
-
-/*
-
-@media(max-width: 600px) {
+@media(min-width: 360px) {
     .brand_img {
-        width: 298px;
-        min-height: 209px;
+        width: 250px;
+        height: 95%;
     }
-    .felix {
-        max-height: 209px;
-    }
-    
 }
 
-@media(min-width: 600px) {
+@media(min-width: 540px) {
+    .brand_img {
+        width: 216px;
+        height: 85%;
+    }
+}
+
+@media(min-width: 540px) {
+    .brand_img {
+        width: 200px;
+        height: 80%;
+    }
+}
+
+@media(min-width: 760px) {
+    .brand_img {
+        width: 180px;
+        height: 75%;
+    }
+}
+
+@media(min-width: 900px) {
     .brand_img {
         width: 165px;
-        min-height: 90.88px;
-    }
-    .felix {
-        max-height: 90.88px;
+        height: 70%;
     }
 }
 
 .brand_img {
     background-color: var(--brand_img_background_color);
-}
-
-
-
-@media(max-width: 400px) {
-    .brands_img_container {
-        max-width: 327.2px;
-        max-height: 156.24px;
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-}
-
-@media(min-width: 400px) {
-    .brands_img_container {
-        max-width: 492px;
-        max-height: 118.5px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media(min-width: 600px) {
-    .brands_img_container {
-        max-width: 848px;
-        max-height: 135.46px;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
 }
 
 .brands {
-    margin-left: 10%;
-}
-
-@media(min-width: 700px) {
-    .brands_img_container {
-        max-width: 1170px;
-        max-height: 90.88px;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    }
-}
-
-.brand_img {
-    margin-left: 20%;
-}
-
-
-
-/*
-.special_offers {
+    margin-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 0;
-    padding-top: 120px;
-    padding-bottom: 30px;
+    gap: 7%;
+    align-items: baseline;
 }
 
-
-@media(min-width: 375px)  {
-    .special_offers_pet_accessories, .special_offers_aquarium {
-        display: flexbox;
-        width: 570px;
-        min-height: 378.93px;
-        margin-right: 30px;
-        text-align: center;
-    }
+.brand-btn-previous,
+.brand-btn-next {
+    background: none;
+    border: none;
+    color: var(--subtitle-color);
+    font-size: 30px;
 }
-
-.special_offers_aquarium {
-    background-image: url(../img/aquarium_background.png);
-    background-position-y: bottom;
-    background-size: cover;
-
-    }
-
-.special_offers_pet_accessories {
-    background-image: url(../img/picks_background.png);
-    background-position-x: right;
-    background-size: cover;
-    }
-
-@media (min-width: 375px) {
-    .special_offers_pet_accessories, .special_offers_aquarium {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 5px;
-    
-        } 
-    }
-
-@media (min-width: 600px) {
-    .special_offers_pet_accessories, .special_offers_aquarium {
-        grid-template-columns: 1fr 1fr;
-        } 
-    }
-
-    
-.aquarium_announcement {
-    width: 510px;
-    min-height: 120px;
-    font-size: 50px;
-    padding-top: 90px;
-    padding-bottom: 90px;
-    } */
-
-
-
 
