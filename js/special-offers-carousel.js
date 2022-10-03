@@ -16,23 +16,22 @@
 
     function renderBrandSlide() {
         brandSlideContainer.innerHTML = brandSlides[currentBrandSlideIdx];
-        if (window.innerWidth > 540) {
-          const secondBrandSlideIdx = currentBrandSlideIdx + 1 >= brandSlides.length ? 0 : currentBrandSlideIdx + 1 >= brandSlides.length ? 0 : currentBrandSlideIdx + 1;
-          brandSlideContainer.innerHTML += brandSlides[secondBrandSlideIdx];
-          if (window.innerWidth > 768) {
-            const thirdBrandSlideIdx = secondBrandSlideIdx + 1 >= brandSlides.length ? 0: secondBrandSlideIdx + 1 >= brandSlides.length ? 0 : secondBrandSlideIdx + 1;
-            brandSlideContainer.innerHTML += brandSlides[thirdBrandSlideIdx];
-            if (window.innerWidth > 900) {
-                const fourthBrandSlideIdx = thirdBrandSlideIdx + 1 >= brandSlides.length ? 0: thirdBrandSlideIdx + 1 >= brandSlides.length ? 0 : thirdBrandSlideIdx + 1;
-                brandSlideContainer.innerHTML += brandSlides[fourthBrandSlideIdx]; 
-                const fifthBrandSlideIdx = fourthBrandSlideIdx + 1 >= brandSlides.length ? 0: fourthBrandSlideIdx + 1 >= brandSlides.length ? 0 : fourthBrandSlideIdx + 1;
-                brandSlideContainer.innerHTML += brandSlides[fifthBrandSlideIdx]; 
-                const sixthBrandSlideIdx = fifthBrandSlideIdx + 1 >= brandSlides.length ? 0: fifthBrandSlideIdx + 1 >= brandSlides.length ? 0 : fifthBrandSlideIdx + 1;
-                brandSlideContainer.innerHTML += brandSlides[sixthBrandSlideIdx]; 
+            if (window.innerWidth > 768) {
+                const secondBrandSlideIdx = currentBrandSlideIdx + 1 >= brandSlides.length ? 0 : currentBrandSlideIdx + 1 >= brandSlides.length ? 0 : currentBrandSlideIdx + 1;
+                brandSlideContainer.innerHTML += brandSlides[secondBrandSlideIdx];
+                const thirdBrandSlideIdx = secondBrandSlideIdx + 1 >= brandSlides.length ? 0: secondBrandSlideIdx + 1 >= brandSlides.length ? 0 : secondBrandSlideIdx + 1;
+                brandSlideContainer.innerHTML += brandSlides[thirdBrandSlideIdx];
+                if (window.innerWidth > 900) {
+                    const fourthBrandSlideIdx = thirdBrandSlideIdx + 1 >= brandSlides.length ? 0: thirdBrandSlideIdx + 1 >= brandSlides.length ? 0 : thirdBrandSlideIdx + 1;
+                    brandSlideContainer.innerHTML += brandSlides[fourthBrandSlideIdx]; 
+                    const fifthBrandSlideIdx = fourthBrandSlideIdx + 1 >= brandSlides.length ? 0: fourthBrandSlideIdx + 1 >= brandSlides.length ? 0 : fourthBrandSlideIdx + 1;
+                    brandSlideContainer.innerHTML += brandSlides[fifthBrandSlideIdx]; 
+                    const sixthBrandSlideIdx = fifthBrandSlideIdx + 1 >= brandSlides.length ? 0: fifthBrandSlideIdx + 1 >= brandSlides.length ? 0 : fifthBrandSlideIdx + 1;
+                    brandSlideContainer.innerHTML += brandSlides[sixthBrandSlideIdx]; 
+                }
             }
-          }
         }
-    }
+
 
     function nextBrandSlide() {
         currentBrandSlideIdx = currentBrandSlideIdx + 1 >= brandSlides.length ? 0 : currentBrandSlideIdx + 1;
