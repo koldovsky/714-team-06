@@ -1,21 +1,37 @@
 .new_arrivals_container {
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     padding: 90px 24px;
 }
 
+.new-arrivals__caroussel {
+    display: flex;
+    flex-direction: row;
+}
+
 .arrivals_cards_container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
     align-items: center;
+    width: calc(100vw- 40px);
+    padding: 40px;
+    overflow: hidden;
+    scroll-behavior: smooth;
 }
 
 .new_arrivals_header {
     font-size: 50px;
     font-family: 'Baloo 2', cursive;
+    text-align: center;
+}
+
+.bone-icon {
+    margin: auto;
 }
 
 .adv_arrivals {
@@ -31,13 +47,40 @@
     height: 242px;
 }
 
+.slider-track {
+    display: flex;
+    margin: 0 auto;
+    width: 95vw;
+    transition: .5s;
+    align-items: center;
+}
+
 .arrivals_cards {
-    width: fit-content;
+    min-width: fit-content;
     padding: 40px 15px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
+
+.btn-previous-caroussel, .btn-next-caroussel {
+    display: block;
+    position: static;
+    cursor: pointer;
+    border-style: hidden;
+    block-size: fit-content;
+    background-color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.arrow-icon{
+    z-index: 1;
+    opacity: .85;
+    height: 30px;
+    width: 30px;
+}
+
 
 .arrivals_cards_name {
     color: var(--subtitle-color);
@@ -47,36 +90,40 @@
     text-decoration: none;
 }
 
+.arrivals_cards_name:hover {
+    text-decoration: underline;
+    color: var(--subtitle-color);
+}
+
 .price {
     color: var(--price-text-color);
     font-size: 18px;
     font-family: 'PT Sans', sans-serif;
 }
 
-.add_to_card_btn {
-    background-color: var(--button-bg-color);
-    color: var(--button-text-color);
-    font: 16.5px "PT Sans", sans-serif;
-    width: 142px;
-    height: 46px;
-    border-radius: 25px;
-    border: none;
-    margin-top: 24px;
-}
-
-.add_to_card_btn:hover {
-    background-color: var(--button-bg-color-hover);
-    color: var(--button-text-color-hover);
-    font: 16.5px "PT Sans", sans-serif;
-    border: none;
-}
-
 @media(min-width:340px) {
     .new_arrivals_photos {
-        max-width: 667px;
-        max-height: 667px;
+        max-width: 423px;
+        max-height: 423px;
         width: 100%;
         height: auto;
+    }
+
+    .arrivals_cards_container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        width: calc(100vw- 40px);
+        padding: 40px;
+        overflow: hidden;
+    }
+
+    .slider-track {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -91,9 +138,11 @@
     .arrivals_cards_container {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
         align-items: center;
+        width: calc(100vw- 40px);
+        padding: 40px;
     }
 
     @media(min-width:990px) {
@@ -107,8 +156,22 @@
         .arrivals_cards_container {
             display: flex;
             flex-direction: row;
-            flex-wrap: wrap;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            align-items: center;
+            width: calc(100vw - 40px);
+            overflow: hidden;
+        }
+        
+        .arrivals_cards_container {
+           max-width: 1070px;
+        }
+
+        .slider-track {
+            display: flex;
             justify-content: center;
             align-items: center;
+            max-width: 1070px;
         }
-    }}
+    }
+}

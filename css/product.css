@@ -1,0 +1,172 @@
+.link_to_homepage {
+    margin: 20px;
+    color: black;
+}
+
+.main-info_product_container {
+    display: flex;
+    flex-direction: column;
+    padding: 90px 24px;
+}
+
+.link_to_homepage {
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+    display: flex;
+    align-items: flex-start;
+}
+
+.link_to_homepage:hover {
+    color: var(--button-text-color-hover);
+    cursor: pointer;
+}
+
+.img_product_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.product_main_photo_nav {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 30px;
+}
+
+.arrow {
+    display: block;
+    margin: 190px 0px 0px;
+    cursor: pointer;
+}
+
+.product_big_img {
+    min-width: 204px;
+    margin: 25px 0px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    max-width: 396px;
+}
+
+.product_small_img {
+    width: 33px;
+    border: 1px black;
+    cursor: pointer;
+    display: flex;
+    align-self: flex-start;
+}
+
+.product_info_and_price_container {
+    margin: 0px 15px;
+}
+
+.status {
+    font:17px 'PT Sans', sans-serif;
+    color: var(--status-product);
+    font-style: normal;
+}
+
+.product_name {
+    font: 22px 'Baloo 2', cursive;
+}
+
+.product_code {
+    font: 14px 'Open Sans', sans-serif;
+    color: var(--subtitle-color);
+    margin: 8px 0px 0px;
+    width: 275px;
+    height: 20px;
+}
+
+.price_product-page {
+    color: var(--subtitle-color);
+    font: 20px 'PT Sans', sans-serif;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+
+.order_line {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.change_number {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    margin-right: 16px;
+    padding: 8px 12px;
+    width: 35px;
+    height: 22px;
+}
+
+.add_to_card_btn {
+    font: 16.5px "PT Sans", sans-serif;
+    min-width: 195px;
+    max-width: 612px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    margin-top: 24px;
+    background-color: var(--button-bg-color-hover);
+    color: var(--button-text-color-hover);
+    flex-grow: 3;
+}
+
+.add_to_card_btn:hover {
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    font: 16.5px "PT Sans", sans-serif;
+    border: none;
+
+}
+
+.tablink {
+    border: none;
+    color: var(--subtitle-color);
+    background-color: white;
+    font: 12px "PT Sans", sans-serif;
+    padding: 0px 10px 10px;
+    width: 90px;
+    height: 26px;
+    margin-top: 16px;
+}
+
+.tablink:hover {
+    cursor: pointer;
+}
+
+.description_product_text {
+    font: 17px "PT Sans", sans-serif;
+    color: var(--subtitle-color);
+    line-height: 1.5;
+}
+
+@media(min-width:769px) {
+    .main-info_product_container {
+        display: flex;
+        flex-direction: row;
+        margin: 0px 118px;
+    }
+
+    .img_product_main_photo_nav {
+        margin-left: 50px;
+    }
+
+    .product_big_img {
+        min-width: 267px;
+        max-width: 427.5px;
+    }
+
+    .product_info_and_price_container {
+        max-width: 570px;
+        max-height: 560px;
+        margin: 15px auto;
+    }
+}

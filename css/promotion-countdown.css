@@ -51,22 +51,18 @@
 }
 
 .promotion__label {
-    font-family: 'PT Sans', sans-serif;
     font-weight: 700;
     font-size: 15px;
     color: var(--button-text-color);
 }
 
 .promotion__title {
-    font-family: 'Baloo 2', cursive;
-    color: var(--title-color);
     font-size: 48px;
     margin-top: 20px;
     line-height: 1;
 }
 
 .promotion__text {
-    font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     font-size: 19px;
     color: var(--subtitle-color);
@@ -132,20 +128,24 @@
 }
 
 .promotion-countdown__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border: 1px solid var(--button-text-color);
     border-radius: 5px;
-    text-align: center;
 }
 
 .promotion-countdown__time {
     font-family: 'Baloo 2', cursive;
     color: var(--title-color);
+    margin-bottom: 0;
 }
 
 .promotion-countdown__label {
-    font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     color: var(--subtitle-color);
+    margin-bottom: 0;
 }
 
 .promotion__button {
@@ -153,14 +153,7 @@
     margin-top: 35px;
     text-decoration: none;
     text-align: center;
-    padding: 11px;
-    font-family: 'PT Sans', sans-serif;
-    font-weight: 700;
-    font-size: 16.5px;
-    color: var(--button-text-color);
-    background-color: var(--button-bg-color);
-    border: none;
-    border-radius: 25px;
+    padding: 13px;
     width: 132px;
     height: 46px;
     cursor: pointer;
@@ -173,11 +166,6 @@
     }
 }
 
-.promotion__button:hover {
-    color: var(--button-text-color-hover);
-    background-color: var(--button-bg-color-hover);   
-}
-
 @media (min-width: 320px) {
     .promotion-countdown {
         width: 272px;
@@ -187,10 +175,10 @@
         height: 55px;
     }
     .promotion-countdown__time {
-        font-size: 20px;
+        font-size: 17px;
     }
     .promotion-countdown__label {
-        font-size: 15px;
+        font-size: 10px;
     }
 }
 

@@ -1,0 +1,32 @@
+[
+    {
+       "id":1,
+       "img":"img/dora-metal-pet-brush.png",
+       "title":"DORA Metal Pet Brush",
+       "price":"$15,00"
+    },
+    {
+       "id":2,
+       "img":"img/kittens-heaven-set.png",
+       "title":"Kitten\\'s Heaven Set",
+       "price":"$12,00"
+    },
+    {
+       "id":3,
+       "img":"img/opty-pet-carrier.png",
+       "title":"OPTY Pet Carrier",
+       "price":"$8,00"
+    },
+    {
+       "id":4,
+       "img":"img/aga-rope-toy.png",
+       "title":"AGA Rope Toy",
+       "price":"$5,00"
+    },
+    {
+       "id":5,
+       "img":"img/dora-pet-carrier.png",
+       "title":"DORA Pet Carrier",
+       "price":"$23,00"
+    }
+ ]

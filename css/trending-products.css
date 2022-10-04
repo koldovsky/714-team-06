@@ -24,26 +24,30 @@
     transform: translateY(-50%)
 }
 
-.trending-products__sm-arrow-right,
-.trending-products__arrow-img-right {
+.trending-products__sm-arrow-right {
     right: 0px;
 }
 
+.trending-products__arrow-img-right {
+    right: -15px;
+}
+
 .trending-products__arrow-img-left {
-    left: 0px;
+    left: -15px;
 }
 
 .trending-products__items {
     display: flex;
     min-width: 242px;
     overflow: hidden;
-    position: relative;
+    position: static;
     margin: 0 auto;
+    scroll-behavior: smooth;
 }
 
 .trending-products__item {   
     margin-left: 15px;
-    margin-right: 15px;  
+    margin-right: 15px;
 }
 
 .trending-products_img-container {
@@ -57,7 +61,7 @@
 
 @media (min-width: 320px) {
     .trending-products__items {
-        width: 272px;
+        max-width: 272px;
     } 
     .trending-products__img-container {
         min-width: 242px;
@@ -66,7 +70,7 @@
 
 @media (min-width: 375px) {
     .trending-products__items {
-        width: 327px;
+        max-width: 327px;
     } 
     .trending-products__img-container {
         min-width: 293px;
@@ -75,7 +79,7 @@
 
 @media (min-width: 480px) {
     .trending-products__items {
-        width: 432px;
+        max-width: 432px;
     } 
     .trending-products__img-container {
         min-width: 402px;
@@ -84,7 +88,7 @@
 
 @media (min-width: 768px) {
     .trending-products__items {
-        width: 704px;
+        max-width: 704px;
     } 
     .trending-products__img-container {
         min-width: 322px;
@@ -93,7 +97,7 @@
 
 @media (min-width: 992px) {
     .trending-products__items {
-        width: 912px;
+        max-width: 912px;
     } 
     .trending-products__img-container {
         min-width: 198px;
@@ -116,7 +120,7 @@
 
 @media (min-width: 1200px) {
     .trending-products__items {
-        min-width: 1120px;
+        min-width: 1110px;
         position: static;
     }
     .trending-products__img-container {
@@ -130,23 +134,13 @@
     }
 }
 
-
 .trending-products h2 {
-    font-family: 'Baloo 2', cursive;
-    color: var(--title-color);
     text-align: center;
     margin-bottom: 32px;
     line-height: 36px;
 }
 
-.trending-products__bone-icon {
-    display: block;
-    margin: 0 auto;
-    width: 80px;
-}
-
 .trending-products__text {
-    font-family: 'PT Sans', sans-serif;
     font-size: 19px;
     font-weight: 400;
     line-height: 1.5;
@@ -176,7 +170,6 @@
 
 .trending-products__item h3 a {
     display: block;
-    font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     font-size: 18px;
     text-decoration: none;
@@ -189,28 +182,56 @@
 }
 
 .trending-products__price {
-    font-family: 'PT Sans', sans-serif;
     font-weight: 700;
     font-size: 18px;
     color: var(--price-text-color);
 }
 
 .trending-products__button {
-    font-family: 'PT Sans', sans-serif;
-    font-weight: 700;
-    font-size: 16.5px;
-    color: var(--button-text-color);
-    background-color: var(--button-bg-color);
-    border: none;
-    border-radius: 25px;
-    width: 142px;
-    height: 46px;
-    cursor: pointer;
-    transition: all 0.5s;
     margin-top: 24px;
+    margin-bottom: 20px;
 }
 
-.trending-products__button:hover {
-    color: var(--button-text-color-hover);
-    background-color: var(--button-bg-color-hover);
+
+.weather {
+    margin-top: 50px;
+}
+
+.weather input {
+    display: block;
+    margin: auto;
+}
+
+.weather h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 50px;
+}
+
+.weather input[type="text"] {
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 25px;
+    border: 1px solid var(--button-text-color);
+    text-align: center;
+    
+}
+.weather input[type="text"]::placeholder {
+    color: var(--subtitle-color);
+}
+
+
+.weather-display {
+    text-align: center;
+    padding: 20px;
+    width: 70%;
+    min-height: 250px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: #faf4f2;
+    margin-top: 20px;
+    color: var(--subtitle-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

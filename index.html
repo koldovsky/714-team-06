@@ -8,6 +8,9 @@
     <title>Pet Store Website Template Demo</title>
     <link rel="shortcut icon" href="img/img_header/shortcut_icon_petstore.png" type="image/x-icon">
     <link rel="stylesheet" href="css/index.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/defaaea7b2.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -31,96 +34,125 @@
         <!-- Header Navigation | Semykin -->
         <div class="header__navandtext">
             <nav class="header__nav">
-                <div class="nav__image_container">
-                    <a href="#">
-                        <img width="182" src="img/img_header/logo_petstore.svg" alt="logo_petstore">
-                    </a>
+                <div class="nav__iconandburgermenu">
+                    <div class="nav__image_container">
+                        <a href="#">
+                            <img width="182" src="img/img_header/logo_petstore.svg" alt="logo_petstore" class="imagecontainer-burgerposition">
+                        </a>
+                    </div>
+                    <div class="buttonburgercontainer">
+                        <button class="headerburgerbutton">
+                            <i class="burgeropenicon"><img src="img/img_header/shortcut_icon_petstore.png" alt="logo__petstore" ></i>
+                            <i class="burgerclosedmenu"><img src="img/img_header/shortcut_icon_petstore__reverse.png" alt="logopetstorereverse"></i>
+                        </button>
+                    </div>
                 </div>
-                <div class="nav__menu">
-                    <a href="#about" class="menu__item">About Us</a>
-                    <a href="#categories" class="menu__item">Categories</a>
-                    <a href="#bestsellers" class="menu__item">Best Sellers</a>
-                    <a href="#newarrivals" class="menu__item">New Arrivals</a>
-                    <a href="#ourshop" class="menu__item">Our Shop</a>
+                <div class="nav__menuburgercontent">
+                    <div class="menuburgercontentedit">
+                        <div class="nav__menu">
+                            <a href="#main__aboutusanchor" class="menu__navitem menu__headerburgeritem">About Us</a>
+                            <a href="#products__categoriesanchor" class="menu__navitem menu__headerburgeritem">Categories</a>
+                            <a href="#main__bestsellersanchor" class="menu__navitem menu__headerburgeritem">Best Sellers</a>
+                            <a href="#container__newarrivalsanchor" class="menu__navitem menu__headerburgeritem">New Arrivals</a>
+                            <a href="#top-recommendations" class="menu__navitem menu__headerburgeritem">Our Shop</a>
+                        </div>
+                        <div class="headerburgercontacts">
+                            <div class="contacts__workinghours">
+                                Working Hours: 08 AM - 08 PM
+                            </div>
+                            <div class="contacts__emailphone">
+                                <span class="emailphone__email">
+                                    Email: <a href="mailto:happypaw@email.com" class="email__linkemaliphone menu__headerburgeritem">happypaw@email.com</a>
+                                </span><br>
+                                <span class="emailphone__phone">
+                                    Phone: <a href="phone:+12345678900" class="phone__linkemaliphone menu__headerburgeritem">+1 (234) 567 89 00</a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="nav__icons_container">
+                            <a href="https://facebook.com/" target="_blank" class="menu__headerburgeritem">
+                                <svg class="icons_container__item" width="30" height="30" viewBox="0 0 32 32"
+                                    style="border-radius:50%">
+                                    <path class="outer_bDW"
+                                        d="M32 0H0V32H32V0ZM16.9133 25H13.6383V16.0044H12V13.1936H13.6383V10.9374H13.6443C13.7014 8.9864 14.3604 7.129 17.5674 7.0126V7H19.6171V9.8108H17.9447C17.3379 9.8108 16.9133 10.5002 16.9133 11.1568V13.1936H19.8561L19.3702 16.0044H16.9133V25Z">
+
+                                    </path>
+
+                                    <path
+                                        d="M16,31 C24.2842712,31 31,24.2842712 31,16 C31,7.71572875 24.2842712,1 16,1 C7.71572875,1 1,7.71572875 1,16 C1,24.2842712 7.71572875,31 16,31 Z M16,32 C7.163444,32 0,24.836556 0,16 C0,7.163444 7.163444,0 16,0 C24.836556,0 32,7.163444 32,16 C32,24.836556 24.836556,32 16,32 Z"
+                                        class="border_2yy">
+
+                                    </path>
+
+                                    <path class="logo_2gS"
+                                        d="M13.6383 25H16.9133V16.0044H19.3702L19.8561 13.1936H16.9133V11.1568C16.9133 10.5002 17.3379 9.8108 17.9447 9.8108H19.6171V7H17.5674V7.0126C14.3604 7.129 13.7014 8.9864 13.6443 10.9374H13.6383V13.1936H12V16.0044H13.6383V25Z"
+                                        style="color:#fff;fill:#fff">
+
+                                    </path>
+                                </svg></a>
+
+                            <a href="https://instagram.com/" target="_blank" class="menu__headerburgeritem">
+                                <svg class="icons_container__item" width="30" height="30" viewBox="0 0 32 32"
+                                    style="border-radius:50%">
+                                    <g>
+                                        <path class="outer_bDW"
+                                            d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z">
+
+                                        </path>
+                                        <path
+                                            style="fill:url(#si63173164005e26000ff30c2bfdd4cc56a1cb4eaba73b87b4011e3af21662464365431instagramhover)"
+                                            d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z">
+                                        </path>
+                                    </g>
+                                    <path
+                                        d="M16,31 C24.2842712,31 31,24.2842712 31,16 C31,7.71572875 24.2842712,1 16,1 C7.71572875,1 1,7.71572875 1,16 C1,24.2842712 7.71572875,31 16,31 Z M16,32 C7.163444,32 0,24.836556 0,16 C0,7.163444 7.163444,0 16,0 C24.836556,0 32,7.163444 32,16 C32,24.836556 24.836556,32 16,32 Z">
+
+                                    </path>
+                                    <g>
+                                        <path style="fill:#fff;color:#fff"
+                                            d="M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z">
+
+                                        </path>
+
+                                        <path style="fill:#fff;color:#fff"
+                                            d="M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z">
+
+                                        </path>
+                                    </g>
+                                </svg></a>
+
+                            <a href="https://youtube.com/" target="_blank" class="menu__headerburgeritem">
+                                <svg class="icons_container__item" width="30" height="30" viewBox="0 0 32 32"
+                                    style="border-radius:50%">
+                                    <path class="outer_bDW"
+                                        d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M24.8319297,11.4874563 C24.6803369,10.1603684 24.3639692,9.77357894 24.1398754,9.59352174 C23.7839619,9.31343284 23.1380446,9.21340113 22.2746246,9.15338207 C20.8905163,9.06001905 18.537532,9 16,9 C13.455877,9 11.1094837,9.05335028 9.72537529,9.15338207 C8.86195533,9.21340113 8.21603808,9.31343284 7.8601245,9.59352174 C7.63603076,9.77357894 7.32625412,10.1603684 7.1680703,11.4874563 C6.94397657,13.4013973 6.94397657,17.7627818 7.1680703,19.6767227 C7.32625412,21.0038107 7.63603076,21.3906002 7.8601245,21.5706573 C8.21603808,21.8507463 8.86195533,21.950778 9.72537529,22.0107971 C11.1094837,22.1041601 13.455877,22.164179 16,22.164179 C18.544123,22.164179 20.8905163,22.1041601 22.2746246,22.0107971 C23.1380446,21.950778 23.7839619,21.8507463 24.1398754,21.5706573 C24.3639692,21.3972689 24.6737458,21.0038107 24.8319297,19.6767227 C25.0560234,17.7627818 25.0560234,13.4013973 24.8319297,11.4874563 Z M13.8249725,18.4429978 L13.8249725,12.7145125 L19.2559502,15.5754208 L13.8249725,18.4429978 Z">
+
+                                    </path>
+
+                                    <path
+                                        d="M16,31 C24.2842712,31 31,24.2842712 31,16 C31,7.71572875 24.2842712,1 16,1 C7.71572875,1 1,7.71572875 1,16 C1,24.2842712 7.71572875,31 16,31 Z M16,32 C7.163444,32 0,24.836556 0,16 C0,7.163444 7.163444,0 16,0 C24.836556,0 32,7.163444 32,16 C32,24.836556 24.836556,32 16,32 Z"
+                                        class="border_2yy">
+
+                                    </path>
+
+                                    <path class="logo_2gS"
+                                        d="M24.8319297,11.4874563 C24.6803369,10.1603684 24.3639692,9.77357894 24.1398754,9.59352174 C23.7839619,9.31343284 23.1380446,9.21340113 22.2746246,9.15338207 C20.8905163,9.06001905 18.537532,9 16,9 C13.455877,9 11.1094837,9.05335028 9.72537529,9.15338207 C8.86195533,9.21340113 8.21603808,9.31343284 7.8601245,9.59352174 C7.63603076,9.77357894 7.32625412,10.1603684 7.1680703,11.4874563 C6.94397657,13.4013973 6.94397657,17.7627818 7.1680703,19.6767227 C7.32625412,21.0038107 7.63603076,21.3906002 7.8601245,21.5706573 C8.21603808,21.8507463 8.86195533,21.950778 9.72537529,22.0107971 C11.1094837,22.1041601 13.455877,22.164179 16,22.164179 C18.544123,22.164179 20.8905163,22.1041601 22.2746246,22.0107971 C23.1380446,21.950778 23.7839619,21.8507463 24.1398754,21.5706573 C24.3639692,21.3972689 24.6737458,21.0038107 24.8319297,19.6767227 C25.0560234,17.7627818 25.0560234,13.4013973 24.8319297,11.4874563 Z M13.8249725,18.4429978 L13.8249725,12.7145125 L19.2559502,15.5754208 L13.8249725,18.4429978 Z"
+                                        style="color:#fff;fill:#fff">
+
+                                    </path>
+                                </svg></a>
+                        </div>
                 </div>
-                <div class="nav__icons_container">
-                    <a href="https://facebook.com/" target="_blank">
-                        <svg class="icons_container__item" width="30" height="30" viewBox="0 0 32 32"
-                            style="border-radius:50%">
-                            <path class="outer_bDW"
-                                d="M32 0H0V32H32V0ZM16.9133 25H13.6383V16.0044H12V13.1936H13.6383V10.9374H13.6443C13.7014 8.9864 14.3604 7.129 17.5674 7.0126V7H19.6171V9.8108H17.9447C17.3379 9.8108 16.9133 10.5002 16.9133 11.1568V13.1936H19.8561L19.3702 16.0044H16.9133V25Z">
-
-                            </path>
-
-                            <path
-                                d="M16,31 C24.2842712,31 31,24.2842712 31,16 C31,7.71572875 24.2842712,1 16,1 C7.71572875,1 1,7.71572875 1,16 C1,24.2842712 7.71572875,31 16,31 Z M16,32 C7.163444,32 0,24.836556 0,16 C0,7.163444 7.163444,0 16,0 C24.836556,0 32,7.163444 32,16 C32,24.836556 24.836556,32 16,32 Z"
-                                class="border_2yy">
-
-                            </path>
-
-                            <path class="logo_2gS"
-                                d="M13.6383 25H16.9133V16.0044H19.3702L19.8561 13.1936H16.9133V11.1568C16.9133 10.5002 17.3379 9.8108 17.9447 9.8108H19.6171V7H17.5674V7.0126C14.3604 7.129 13.7014 8.9864 13.6443 10.9374H13.6383V13.1936H12V16.0044H13.6383V25Z"
-                                style="color:#fff;fill:#fff">
-
-                            </path>
-                        </svg></a>
-
-                    <a href="https://instagram.com/" target="_blank">
-                        <svg class="icons_container__item" width="30" height="30" viewBox="0 0 32 32"
-                            style="border-radius:50%">
-                            <g>
-                                <path class="outer_bDW"
-                                    d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z">
-
-                                </path>
-                                <path
-                                    style="fill:url(#si63173164005e26000ff30c2bfdd4cc56a1cb4eaba73b87b4011e3af21662464365431instagramhover)"
-                                    d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z">
-                                </path>
-                            </g>
-                            <path
-                                d="M16,31 C24.2842712,31 31,24.2842712 31,16 C31,7.71572875 24.2842712,1 16,1 C7.71572875,1 1,7.71572875 1,16 C1,24.2842712 7.71572875,31 16,31 Z M16,32 C7.163444,32 0,24.836556 0,16 C0,7.163444 7.163444,0 16,0 C24.836556,0 32,7.163444 32,16 C32,24.836556 24.836556,32 16,32 Z">
-
-                            </path>
-                            <g>
-                                <path style="fill:#fff;color:#fff"
-                                    d="M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z">
-
-                                </path>
-
-                                <path style="fill:#fff;color:#fff"
-                                    d="M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z">
-
-                                </path>
-                            </g>
-                        </svg></a>
-
-                    <a href="https://youtube.com/" target="_blank">
-                        <svg class="icons_container__item" width="30" height="30" viewBox="0 0 32 32"
-                            style="border-radius:50%">
-                            <path class="outer_bDW"
-                                d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M24.8319297,11.4874563 C24.6803369,10.1603684 24.3639692,9.77357894 24.1398754,9.59352174 C23.7839619,9.31343284 23.1380446,9.21340113 22.2746246,9.15338207 C20.8905163,9.06001905 18.537532,9 16,9 C13.455877,9 11.1094837,9.05335028 9.72537529,9.15338207 C8.86195533,9.21340113 8.21603808,9.31343284 7.8601245,9.59352174 C7.63603076,9.77357894 7.32625412,10.1603684 7.1680703,11.4874563 C6.94397657,13.4013973 6.94397657,17.7627818 7.1680703,19.6767227 C7.32625412,21.0038107 7.63603076,21.3906002 7.8601245,21.5706573 C8.21603808,21.8507463 8.86195533,21.950778 9.72537529,22.0107971 C11.1094837,22.1041601 13.455877,22.164179 16,22.164179 C18.544123,22.164179 20.8905163,22.1041601 22.2746246,22.0107971 C23.1380446,21.950778 23.7839619,21.8507463 24.1398754,21.5706573 C24.3639692,21.3972689 24.6737458,21.0038107 24.8319297,19.6767227 C25.0560234,17.7627818 25.0560234,13.4013973 24.8319297,11.4874563 Z M13.8249725,18.4429978 L13.8249725,12.7145125 L19.2559502,15.5754208 L13.8249725,18.4429978 Z">
-
-                            </path>
-
-                            <path
-                                d="M16,31 C24.2842712,31 31,24.2842712 31,16 C31,7.71572875 24.2842712,1 16,1 C7.71572875,1 1,7.71572875 1,16 C1,24.2842712 7.71572875,31 16,31 Z M16,32 C7.163444,32 0,24.836556 0,16 C0,7.163444 7.163444,0 16,0 C24.836556,0 32,7.163444 32,16 C32,24.836556 24.836556,32 16,32 Z"
-                                class="border_2yy">
-
-                            </path>
-
-                            <path class="logo_2gS"
-                                d="M24.8319297,11.4874563 C24.6803369,10.1603684 24.3639692,9.77357894 24.1398754,9.59352174 C23.7839619,9.31343284 23.1380446,9.21340113 22.2746246,9.15338207 C20.8905163,9.06001905 18.537532,9 16,9 C13.455877,9 11.1094837,9.05335028 9.72537529,9.15338207 C8.86195533,9.21340113 8.21603808,9.31343284 7.8601245,9.59352174 C7.63603076,9.77357894 7.32625412,10.1603684 7.1680703,11.4874563 C6.94397657,13.4013973 6.94397657,17.7627818 7.1680703,19.6767227 C7.32625412,21.0038107 7.63603076,21.3906002 7.8601245,21.5706573 C8.21603808,21.8507463 8.86195533,21.950778 9.72537529,22.0107971 C11.1094837,22.1041601 13.455877,22.164179 16,22.164179 C18.544123,22.164179 20.8905163,22.1041601 22.2746246,22.0107971 C23.1380446,21.950778 23.7839619,21.8507463 24.1398754,21.5706573 C24.3639692,21.3972689 24.6737458,21.0038107 24.8319297,19.6767227 C25.0560234,17.7627818 25.0560234,13.4013973 24.8319297,11.4874563 Z M13.8249725,18.4429978 L13.8249725,12.7145125 L19.2559502,15.5754208 L13.8249725,18.4429978 Z"
-                                style="color:#fff;fill:#fff">
-
-                            </path>
-                        </svg></a>
-                </div>
+        </div>
             </nav>
+            <div class="header__clockdate">
+                <div class="clockdate__clock"></div>
+                <div class="clockdate__date"></div>
+            </div>
             <!-- Header Text and button | Semykin -->
             <div class="navandtext__textbutton">
                 <div class="textbutton__textleft">
-                    <h2 class="textleft__textbig">Everything Your Pet Needs</h2>
+                    <h2 class="textleft__textbig title">Everything Your Pet Needs</h2>
                     <p class="textleft__textlittle">Pet supplies, food, and products from the best manufacturers.</p>
                 </div>
                 <div class="textbutton__buttonheader">
@@ -157,8 +189,8 @@
                     <a href="#" class="button_to_see_products orange_color_text ">See Products</a>
                 </div>
             </div>
-            <div class="products">
-                <h2 class="center_text">Any Products for Any Pets</h2>
+            <div class="products" id="products__categoriesanchor">
+                <h2 class="center_text" >Any Products for Any Pets</h2>
                 <img class="bone_icon" src="img/bone-icon.svg" alt="Bone" width="60">
                 <p class="happy_paw">Best picks for your beloved companions only in Happy Paw.</p>
             </div>
@@ -204,9 +236,9 @@
         </section>
 
         <!-- Care your pets | Surmay -->
-        <section class="care">
+        <section class="care" id="main__aboutusanchor">
             <div class="container">
-                <div class="care__body">
+                <div class="care__body" >
                     <div class="body__img">
                         <img src="img/cat-and-parrot.png" alt="Cat and parrot">
                     </div>
@@ -307,24 +339,39 @@
                 </div>
             </div>
         </section>
+
         <!-- Trending products | Sokoltsova-->
-        <section class="trending-products">
+        <section class="weather container">
+            <div class="weather__form">
+                <h2 class="titles">Weather forecast</h2>
+                <input type="text" class="weather_city" placeholder="Enter a city name">
+                <input type="button" class="weather_button button" value="Submit">
+            </div>
+            <div class="weather-display">
+                <h3 class="weather-display__city">City:</h3>
+                <h3 class="weather-city__descr">Sky:</h3>
+                <h3 class= "weather-city__temp">Temperature:</h3>
+                <h3 class= "weather-city__wind">Wind:</h3>
+            </div>
+            
+        </section>
+        <section class="trending-products" id="main__bestsellersanchor">
             <div class="container">
                 <div class="trending-products__heading">
-                    <h2>Trending Products</h2>
-                    <img class="trending-products__bone-icon" src="img/bone-icon.svg" alt="bone icon">
+                    <h2 class="titles">Trending Products</h2>
+                    <img class="bone-icon" src="img/bone-icon.svg" alt="bone icon">
                     <p class="trending-products__text">Top-selling items and popular picks by our customers. Check them
                         now!
                     </p>
                 </div>
                 <div class="trending-products__slider">
+                    <div class="trending-products__slider-arrow"><img
+                        class="trending-products__arrow-img trending-products__arrow-img-left"
+                        src="img/arrow-left.svg" alt="arrow-left"></div>
+                    <div class="trending-products__sm-slider-arrow"><img
+                        class="trending-products__sm-arrow-img trending-products__sm-arrow-left"
+                        src="img/arrows/arrow-small-prev.svg" alt="small arrow left"></div>
                     <div class="trending-products__items">
-                        <div class="trending-products__slider-arrow"><img
-                                class="trending-products__arrow-img trending-products__arrow-img-left"
-                                src="img/arrow-left.svg" alt="arrow-left"></div>
-                        <div class="trending-products__sm-slider-arrow"><img
-                                class="trending-products__sm-arrow-img trending-products__sm-arrow-left"
-                                src="img/arrows/arrow-small-prev.svg" alt="small arrow left"></div>
                         <article class="trending-products__item">
                             <div class="trending-products__img-container">
                                 <a href="#"><img class="trending-products__image" src="img/dora-metal-pet-brush.png"
@@ -332,7 +379,7 @@
                                 <h3><a href="#">DORA Metal Pet Brush</a></h3>
                             </div>
                             <p class="trending-products__price">$15,00</p>
-                            <button class="trending-products__button">Add to Cart</button>
+                            <button class="trending-products__button button">Add to Cart</button>
                         </article>
                         <article class="trending-products__item">
                             <div class="trending-products__img-container">
@@ -341,7 +388,7 @@
                             </div>
                             <h3><a href="#">Kitten's Heaven Set</a></h3>
                             <p class="trending-products__price">$12,00</p>
-                            <button class="trending-products__button">Add to Cart</button>
+                            <button class="trending-products__button button">Add to Cart</button>
                         </article>
                         <article class="trending-products__item">
                             <div class="trending-products__img-container">
@@ -350,7 +397,7 @@
                             </div>
                             <h3><a href="#">OPTY Pet Carrier</a></h3>
                             <p class="trending-products__price">$8,00</p>
-                            <button class="trending-products__button">Add to Cart</button>
+                            <button class="trending-products__button button">Add to Cart</button>
                         </article>
                         <article class="trending-products__item">
                             <div class="trending-products__img-container">
@@ -359,7 +406,7 @@
                             </div>
                             <h3><a href="#">AGA Rope Toy</a></h3>
                             <p class="trending-products__price">$5,00</p>
-                            <button class="trending-products__button">Add to Cart</button>
+                            <button class="trending-products__button button">Add to Cart</button>
                         </article>
                         <article class="trending-products__item">
                             <div class="trending-products__img-container">
@@ -368,15 +415,15 @@
                             </div>
                             <h3><a href="#">DORA Pet Carrier</a></h3>
                             <p class="trending-products__price">$23,00</p>
-                            <button class="trending-products__button">Add to Cart</button>
+                            <button class="trending-products__button button">Add to Cart</button>
                         </article>
-                        <div class="trending-products__sm-slider-arrow"><img
-                                class="trending-products__sm-arrow-img trending-products__sm-arrow-right"
-                                src="img/arrows/arrow-small-next.svg" alt="small arrow right"></div>
-                        <div class="trending-products__slider-arrow"><img
-                                class="trending-products__arrow-img trending-products__arrow-img-right"
-                                src="img/arrow-right.svg" alt="arrow-right"></div>
                     </div>
+                    <div class="trending-products__sm-slider-arrow"><img
+                        class="trending-products__sm-arrow-img trending-products__sm-arrow-right"
+                        src="img/arrows/arrow-small-next.svg" alt="small arrow right"></div>
+                    <div class="trending-products__slider-arrow"><img
+                        class="trending-products__arrow-img trending-products__arrow-img-right"
+                        src="img/arrow-right.svg" alt="arrow-right"></div>
                 </div>
             </div>
         </section>
@@ -387,79 +434,51 @@
             <h2 class="special_offers_and_brands_headder">Special offers and brands</h2>
             <div class="special_offers">
                 <div class="special_offers_aquarium">
-                    <p class="aquarium_announcement">Save <span class="sale_value">10%</span> on Aquariums</p>
-                    <button type="button" class="aquarium_button">Discover Now</button>
+                    <div class="special_offers_aquarium_container">
+                        <p class="titles aquarium_announcement">Save <span class="sale_value">10%</span> on Aquariums</p>
+                    </div>
+                    <div class="special_offers_aquarium_container">
+                        <button type="button" class="aquarium_button">Discover Now <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
                 </div>
                 <div class="special_offers_pet_accessories">
                     <p class="pet_accessories_types">TOYS, TREATS & LEASHES</p>
-                    <p class="pet_accessories_announcement">Best Picks for Your Pets</p>
+                    <p class="titles pet_accessories_announcement">Best Picks for Your Pets</p>
                     <p class="pet_accessories_price">from <span class="price_value">$1.99</span></p>
                     <button type="button" class="pet_accessories_button"><span class="button_text">Learn
                             More</span></button>
                 </div>
             </div>
             <div class="brands">
-                <object class="icons" data="img/arrow_back_ios.svg"></object>
-                <div class="brands_img_container">
-                    <img class="brand_img" src="img/applaws.png" alt="applaws_logo" width="138">
-                    <img class="brand_img" src="img/tigerino.png" alt="tigerino_logo" width="138">
-                    <img class="brand_img" src="img/gourmet.png" alt="gourmet_logo" width="138">
-                    <img class="brand_img" src="img/felix.png" alt="felix_logo" width="138">
-                    <img class="brand_img" src="img/purizon.png" alt="purizon_logo" width="138">
-                    <img class="brand_img" src="img/rocco.png" alt="rocco_logo" width="138">
-                    <img class="brand_img" src="img/docas.png" alt="docas_logo" width="138">
-                </div>
-                <object class="icons" data="img/arrow_forward_ios.svg"></object>
+                <button class="brand-btn-previous"><i class="fa-solid fa-chevron-left"></i></button>
+                <div class="brand-carousel-slides"></div>
+                <button class="brand-btn-next"><i class="fa-solid fa-chevron-right"></i></button>
             </div>
         </section>
         <!--End of special offers and brands block-->
 
         <!-- New Arrivals block | Shkoda -->
-        <div class="new_arrivals_container">
+        <div class="new_arrivals_container" id="container__newarrivalsanchor">
             <h2 class="new_arrivals_header">Our New Arrivals</h2>
-            <img src="img/img__new_arrivals/bone_sign.svg" alt="bone_sign" width="60">
+            <img class="bone-icon" src="img/img__new_arrivals/bone_sign.svg" alt="bone_sign">
             <span class="adv_arrivals">We offer affordable and safe toys and accessories for your pets.</span>
             <section>
                 <!-- <h3>We offer affordable and safe toys and accessories for your pets.</h3> -->
-                <div class="arrivals_cards_container">
-                    <article class="arrivals_cards">
-                        <a href="#"><img class="new_arrivals_photos" src="img/img__new_arrivals/woven_toy.png"
-                                alt="Woven_toy" width="329"></a>
-                        <a href="product.html" class="arrivals_cards_name">DUNA Woven Toy
-                        </a>
-                        <p class="price">$1,50</p>
-                        <button class="add_to_card_btn" type="submit">Add to Card</button>
-                    </article>
-                    <article class="arrivals_cards">
-                        <a href="#"><img class="new_arrivals_photos" src="img/img__new_arrivals/butterfly_toy.png"
-                                alt="Butterfly_toy" width="329"></a>
-                        <a href="#" class="arrivals_cards_name"> EGO Butterfly Toy </a>
-                        <p class="price">$8,00</p>
-                        <button class="add_to_card_btn" type="submit">Add to Card</button>
-                    </article>
-                    <article class="arrivals_cards">
-                        <a href="#"><img class="new_arrivals_photos" src="img/img__new_arrivals/plastic_bowl.png"
-                                alt="OPTY_Plastic_Bowl" width="329"></a>
-                        <a href="#" class="arrivals_cards_name">OPTY Plastic Bowl
-                        </a>
-                        <p class="price">$2,00</p>
-                        <button class="add_to_card_btn" type="submit">Add to Card</button>
-                    </article>
-                    <article class="arrivals_cards">
-                        <a href="#"><img class="new_arrivals_photos" src="img/img__new_arrivals/woven_leash.png"
-                                alt="SERA_Woven_Leash" width="329"></a>
-                        <a href="#" class="arrivals_cards_name">SERA Woven Leash </a>
-                        <p class="price">$2,00</p>
-                        <button class="add_to_card_btn" type="submit">Add to Card</button>
-                    </article>
-                    <article class="arrivals_cards">
-                        <a href="#"><img class="new_arrivals_photos" src="img/img__new_arrivals/crunch_sticks_treat.png"
-                                alt="VITALIFE_Crunch_Sticks_Treat" width="329"></a>
-                        <a href="#" class="arrivals_cards_name">VITALIFE Crunch Sticks Treat </a>
-                        <p class="price">$5,00</p>
-                        <button class="add_to_card_btn" type="submit">Add to Card</button>
-                    </article>
+                <div class ="new-arrivals__caroussel">
+                    <button class="btn-previous-caroussel"> <svg class="arrow-icon" width="14" height="26" viewBox="0 0 14 26" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path  d="M12.5 2L1.5 13L12.5 24" stroke="#464C5C" stroke-width="2" stroke-miterlimit="10"
+                            stroke-linecap="square"></path>
+                    </svg></button>
+                <div class="slider-track">
+                    <div class="arrivals_cards_container"></div>
                 </div>
+                <button class="btn-next-caroussel"> <svg class="arrow-icon" width="14" height="26" viewBox="0 0 14 26" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.5 24L12.5 13L1.5 2" stroke="#464C5C" stroke-width="2" stroke-miterlimit="10"
+                            stroke-linecap="square"></path>
+                    </svg></button>
+                </div> 
             </section>
         </div>
         <!-- New Arrivals block end -->
@@ -469,7 +488,7 @@
             <div class="container">
                 <div class="promotion__header">
                     <p class="promotion__label">PROMOTION</p>
-                    <h2 class="promotion__title">Cat Week Is Finally Here!</h2>
+                    <h2 class="promotion__title titles">Cat Week Is Finally Here!</h2>
                     <p class="promotion__text">Don't miss special prices on products for cats: beds, litter boxes,
                         feeders,
                         and much
@@ -493,7 +512,7 @@
                         <h3 class="promotion-countdown__label">Seconds</h3>
                     </div>
                 </div>
-                <a href="#top-recommendations" class="promotion__button">Shop Now</a>
+                <a href="#top-recommendations" class="promotion__button button">Shop Now</a>
             </div>
         </section>
         <!-- The end of Promotion block -->
@@ -522,68 +541,10 @@
                     </nav>
                     <section>
                         <div class="tabs__for-dogs tabs__products">
-                            <div class="product">
-                                <article class="product__item">
-                                    <a href="#"><img class="product__img" src="img/doggy-fun-set.png"
-                                            alt="DOGGY Fun Set"></a>
-                                    <h3><a href="#">DOGGY Fun Set</a></h3>
-                                    <p class="price">$6,00</p>
-                                    <button type="button" class="button">Add to Cart</button>
-                                </article>
-                                <article class="product__item">
-                                    <a href="#"><img class="product__img" src="img/duna-pillow-bed.png"
-                                            alt="DUNA Pillow Bed"></a>
-                                    <h3><a href="#">DUNA Pillow Bed</a></h3>
-                                    <p class="price">$10,00</p>
-                                    <button type="button" class="button">Add to Cart</button>
-                                </article>
-                                <article class="product__item">
-                                    <a href="#"><img class="product__img" src="img/aga-retractable-leash.png"
-                                            alt="AGA Retractable Leash"></a>
-                                    <h3><a href="#">AGA Retractable Leash</a></h3>
-                                    <p class="price">$33,00</p>
-                                    <button type="button" class="button">Add to Cart</button>
-                                </article>
-                                <article class="product__item">
-                                    <a href="#"><img class="product__img" src="img/doggy-two-bunch-toy.png"
-                                            alt="DOGGY 2-Bunch Toy"></a>
-                                    <h3><a href="#">DOGGY 2-Bunch Toy</a></h3>
-                                    <p class="price">$5,00</p>
-                                    <button type="button" class="button">Add to Cart</button>
-                                </article>
-                            </div>
+                            <div class="product products__for-dogs"></div>
                         </div>
                         <div class="tabs__for-cats tabs__products">
-                            <div class="product">
-                                <article class="product__item">
-                                    <a href="#"><img class="product__img" src="img/aga-mice-set.png"
-                                            alt="AGA Mice Set"></a>
-                                    <h3><a href="#">AGA Mice Set</a></h3>
-                                    <p class="price">$3,00</p>
-                                    <button type="button" class="button">Add to Cart</button>
-                                </article>
-                                <article class="product__item">
-                                    <a href="#"><img class="product__img" src="img/vitalife-two-bowls-set.png"
-                                            alt="VITALIFE 2-Bowls Set"></a>
-                                    <h3><a href="#">VITALIFE 2-Bowls Set</a></h3>
-                                    <p class="price">$9,00</p>
-                                    <button type="button" class="button">Add to Cart</button>
-                                </article>
-                                <article class="product__item">
-                                    <a href="#"><img class="product__img" src="img/aga-leash-collar.png"
-                                            alt="AGA Leash & Collar"></a>
-                                    <h3><a href="#">AGA Leash & Collar</a></h3>
-                                    <p class="price">$13,00</p>
-                                    <button type="button" class="button">Add to Cart</button>
-                                </article>
-                                <article class="product__item">
-                                    <a href="#"><img class="product__img" src="img/duna-grey-bed.png"
-                                            alt="DUNA Gray Bed"></a>
-                                    <h3><a href="#">DUNA Gray Bed</a></h3>
-                                    <p class="price">$25,00</p>
-                                    <button type="button" class="button">Add to Cart</button>
-                                </article>
-                            </div>
+                            <div class="product products__for-cats"></div>
                         </div>
                         <div class="tabs__for-parrots tabs__products">
                             <div class="product">
@@ -1323,6 +1284,18 @@
                                                     </div>
                                                 </div>
         </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<script src="js/trending-slider.js"></script>
+<script src ="js/trending-products.js"></script>
+<script src="js/new-arrivals__cards.js"></script>
+<script src="js/new-arrivals__caroussel.js"></script>
+<script src="js/promotion-countdown.js"></script>
+<script src="js/special-offers-carousel.js"></script>
+<script src="js/headerclock.js"></script>
+<script src="js/burger.js"></script>
+<script src="js/weather-forecast.js"></script>
+<script src="js/products-for-dogs.js"></script>
+<script src="js/products-for-cats.js"></script>
 </body>
 
 </html>

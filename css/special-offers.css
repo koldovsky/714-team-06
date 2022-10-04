@@ -1,16 +1,206 @@
+
+
+.special_offers_and_brands {
+    padding-bottom: 120px;
+    background-color: var(--light-bg-color);
+}
+
+
 .special_offers_and_brands_headder {
-    visibility: hidden;
+   visibility: hidden;
 }
 
 
-.aquarium_announcement, .pet_accessories_types, .pet_accessories_announcement {
-    color: #3c3731!important
+
+.special_offers {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-top: 120px;
+    padding-bottom: 30px;
 }
 
-.sale_value, .price_value, .button_text {
-    color: #ed6435!important;
+@media(max-width: 600px) {
+    .special_offers {
+        flex-direction: column;
+    }
+    .special_offers_aquarium {
+        margin-bottom: 10%;
+    }
+    .special_offers_aquarium, .special_offers_pet_accessories {
+        min-height: 300px;
+    }
 }
 
-.pet_accessories_price, .pet_accessories_types {
-    color: rgba(35,35,35,0.45);
+@media(min-width: 700px) {
+    .special_offers {
+        margin-left: 8%;
+        margin-right: 8%;
+        flex-direction: row;
+        gap: 2%
+        
+    }
+    .special_offers_aquarium, .special_offers_pet_accessories {
+        width: 50%;
+        min-height: 380px;
+    }
 }
+
+.special_offers_aquarium {
+    background-image: url(../img/aquarium_background.png);
+    background-position-y: bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+.special_offers_pet_accessories {
+    background-image: url(../img/picks_background.png);
+    background-position-x: right;
+    background-size: cover;
+    }
+
+
+.aquarium_announcement {
+    font-weight: bold;
+    max-width: 350px;
+    min-height: 120px;
+    font-size: 50px;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    }
+
+.sale_value {
+    color: var(--price-text-color);
+}
+
+.pet_accessories_announcement {
+    font-weight: bold;
+    text-align: left;
+    font-size: 32px;
+    margin-left: 5%;
+    max-width: 200px;
+} 
+
+.pet_accessories_types, .pet_accessories_price {
+    font-weight: bold;
+    font-family: PT Sans,sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    color: var(--subtitle-color);
+}
+
+.pet_accessories_price {
+    font-size: 17px;
+}
+
+.price_value {
+    color: var(--price-text-color);
+}
+
+.aquarium_button {
+    background: none;
+    border: 0;
+    font-weight: bold;
+    font-size: 17px;
+    color: var(--title-color); 
+}
+
+.fa-arrow-right {
+    font-weight: 15px;
+    color: var(--button-bg-color);
+}
+
+.aquarium_button:hover {
+    text-decoration: underline;
+    color: var(--price-text-color);
+}
+
+.pet_accessories_button {
+    margin-left: 5%;
+    color: var(--price-text-color);
+    background: none;
+    border-radius: 30px;
+    border-color: var(--price-text-color);
+    min-height: 48px;
+    min-width: 143px;
+
+}
+
+.pet_accessories_button:hover {
+    background-color: var(--price-text-color);
+    color: var(--light-bg-color);
+}
+
+
+.brand-carousel-slides {
+    display: flex;
+    gap: 2.5%;
+    justify-content: center;
+}
+
+.brand-carousel-slides {
+    min-height: 120px;
+}
+
+@media(min-width: 360px) {
+    .brand_img {
+        width: 250px;
+        height: 95%;
+    }
+}
+
+@media(min-width: 540px) {
+    .brand_img {
+        width: 216px;
+        height: 85%;
+    }
+}
+
+@media(min-width: 540px) {
+    .brand_img {
+        width: 200px;
+        height: 80%;
+    }
+}
+
+@media(min-width: 760px) {
+    .brand_img {
+        width: 180px;
+        height: 75%;
+    }
+}
+
+@media(min-width: 900px) {
+    .brand_img {
+        width: 165px;
+        max-height: 70%;
+    }
+}
+
+.brand_img {
+    background-color: var(--brand_img_background_color);
+    max-height: 120px;
+}
+
+.brands {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7%;
+    align-items: baseline;
+}
+
+.brand-btn-previous,
+.brand-btn-next {
+    background: none;
+    border: none;
+    color: var(--subtitle-color);
+    font-size: 30px;
+}
+
