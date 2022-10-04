@@ -44,9 +44,10 @@
     margin-right: 15px;
     text-align: center;
     width: 70px;
-    height: 65px;
+    height: 75px;
     border: 2px solid var(--button-bg-color-hover);
     border-radius: 5px;
+    padding-top: 5px;
 }
 
 .body__countdown-label {
