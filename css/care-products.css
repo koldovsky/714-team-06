@@ -27,10 +27,30 @@
     text-align: left;
 }
 
+
+
 .body__img-bone img {
     height: 32px;
     width: auto;
     margin: 20px 0px 0px 0px;
+}
+
+.body__countdown {
+    display: flex;
+    margin-top: 20px;
+}
+
+.body__countdown-item {
+    margin-right: 15px;
+    text-align: center;
+    width: 70px;
+    height: 65px;
+    border: 2px solid var(--button-bg-color-hover);
+    border-radius: 5px;
+}
+
+.body__countdown-label {
+    font-size: 12px;
 }
 
 .body__paragraph p {
@@ -54,7 +74,7 @@
 
 .list__svg img {
     width: 20px;
-    margin:0px 10px 4px 0px;
+    margin: 0px 10px 4px 0px;
 }
 
 .list__item__text {
