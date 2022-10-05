@@ -5,7 +5,7 @@
     const item  = document.querySelector('.arrivals_cards');
     const btnPrev = document.querySelector('.btn-previous-caroussel');
     const btnNext = document.querySelector('.btn-next-caroussel');
-    const itemWidth = item.getBoundingClientRect().width + 100;
+    const itemWidth = item.getBoundingClientRect().width + 60;
 
     btnPrev.addEventListener('click', prevMove);
     btnNext.addEventListener('click', nextMove);
@@ -18,3 +18,4 @@
         slidesContainer.scrollLeft += itemWidth;
     }
 })();
+

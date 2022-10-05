@@ -10,6 +10,8 @@
 .new-arrivals__caroussel {
     display: flex;
     flex-direction: row;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .arrivals_cards_container {
@@ -18,8 +20,7 @@
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
-    width: calc(100vw- 40px);
-    padding: 40px;
+    margin: 40px;
     overflow: hidden;
     scroll-behavior: smooth;
 }
@@ -53,6 +54,7 @@
     width: 95vw;
     transition: .5s;
     align-items: center;
+    min-width:272px;
 }
 
 .arrivals_cards {
@@ -79,6 +81,14 @@
     opacity: .85;
     height: 30px;
     width: 30px;
+}
+.arrow-icon-prev{
+    position: relative;
+   right: -30px;
+}
+.arrow-icon-next{
+position: relative;
+left: -30px;
 }
 
 
@@ -109,29 +119,13 @@
         height: auto;
     }
 
-    .arrivals_cards_container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        align-items: center;
-        width: calc(100vw- 40px);
-        padding: 40px;
-        overflow: hidden;
-    }
-
-    .slider-track {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
 }
 
 @media(min-width:767px) {
     .new_arrivals_photos {
         max-width: 423px;
         max-height: 423px;
-        width: 100%;
+        max-width: 100%;
         height: auto;
     }
 
@@ -141,8 +135,11 @@
         flex-wrap: nowrap;
         justify-content: flex-start;
         align-items: center;
-        width: calc(100vw- 40px);
-        padding: 40px;
+        margin: 0 auto;
+    }
+
+    .arrivals_cards {
+        max-width: 450px;
     }
 
     @media(min-width:990px) {
@@ -159,12 +156,8 @@
             flex-wrap: nowrap;
             justify-content: flex-start;
             align-items: center;
-            width: calc(100vw - 40px);
             overflow: hidden;
-        }
-        
-        .arrivals_cards_container {
-           max-width: 1070px;
+            max-width: 1010px;
         }
 
         .slider-track {
