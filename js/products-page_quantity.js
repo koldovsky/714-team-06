@@ -4,14 +4,14 @@
     const inpt = document.querySelector('.quantity');
     
     function funcAdd (){
-        inpt.value = +inpt.value+1;
+        inpt.value = +inpt.value + 1;
     }
 
     function funcExstr(){
         const value = parseInt(inpt.value);
        
         if ( value > 0) {
-            inpt.value = +inpt--;
+            inpt.value = +inpt.value - 1;
         } 
     }
 
