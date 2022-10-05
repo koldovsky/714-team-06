@@ -27,10 +27,31 @@
     text-align: left;
 }
 
+
+
 .body__img-bone img {
     height: 32px;
     width: auto;
     margin: 20px 0px 0px 0px;
+}
+
+.body__countdown {
+    display: flex;
+    margin-top: 20px;
+}
+
+.body__countdown-item {
+    margin-right: 15px;
+    text-align: center;
+    width: 70px;
+    height: 75px;
+    border: 2px solid var(--button-bg-color-hover);
+    border-radius: 5px;
+    padding-top: 5px;
+}
+
+.body__countdown-label {
+    font-size: 12px;
 }
 
 .body__paragraph p {
@@ -45,6 +66,7 @@
 .body__list {
     list-style-type: none;
     margin-bottom: 40px;
+    padding-left: 0px;
 }
 
 .list__item {
@@ -52,9 +74,8 @@
 }
 
 .list__svg img {
-    height: 24px;
     width: 20px;
-    margin-right: 10px;
+    margin: 0px 10px 4px 0px;
 }
 
 .list__item__text {
@@ -73,10 +94,9 @@
 
 .item-column__icon img {
     width: 36px;
-    height: 36px;
-    margin-right: 20px;
     background-color: var(--button-bg-color-hover);
     border-radius: 25px;
+    margin: 0px 20px 15px 0px;
 }
 
 .care__column {
