@@ -1,0 +1,32 @@
+[
+    {
+       "id":1,
+       "img":"img/img__new_arrivals/woven_toy.png",
+       "title":"DUNA Woven Toy",
+       "price":"1,50"
+    },
+    {
+       "id":2,
+       "img":"img/img__new_arrivals/butterfly_toy.png",
+       "title":"DUNA EGO Butterfly Toy",
+       "price":"8,00"
+    },
+    {
+       "id":3,
+       "img":"img/img__new_arrivals/plastic_bowl.png",
+       "title":"OPTY Plastic Bowl",
+       "price":"2,00"
+    },
+    {
+       "id":4,
+       "img":"img/img__new_arrivals/woven_leash.png",
+       "title":"SERA Woven Leash",
+       "price":"2,00"
+    },
+    {
+       "id":5,
+       "img":"img/img__new_arrivals/crunch_sticks_treat.png",
+       "title":"VITALIFE Crunch Sticks Treat",
+       "price":"5,00"
+    }
+ ]

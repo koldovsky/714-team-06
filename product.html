@@ -12,7 +12,9 @@
 </head>
 
 <body>
-    <header></header>
+    <header>
+
+    </header>
     <main>
         <a href="index.html" class="link_to_homepage">Store Homepage</a>
         <div class="main-info_product_container">
@@ -47,7 +49,19 @@
                 </div>
                 <hr>
                 <div class="order_line">
-                    <input class="change_number" type="text" placeholder="1">
+                    <div class="quantity_inner">
+                        <input class="change_number quantity" type="text" value = "1">
+                        <button class="bt_plus">
+                            <svg viewBox="0 0 24 24">
+                                <polyline points="18 15 12 9 6 15"></polyline>
+                            </svg>
+                        </button>
+                        <button class="bt_minus">
+                            <svg viewBox="0 0 24 24">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                    </div>
                     <button class="add_to_card_btn">Add to card</button>
                 </div>
                 <div class="product_description">
@@ -62,6 +76,7 @@
         </div>
     </main>
     <footer></footer>
+    <script src="js/products-page_quantity.js"></script>
 </body>
 
 </html>
