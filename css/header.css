@@ -209,7 +209,7 @@
         position: fixed;
         z-index: 100;
         padding: 3px 3px 4px 3px;
-        background-color: #fff4f2;
+        background-color: transparent;
         border: #ed6435 1px solid;
         border-radius: 50%;
         cursor: pointer;
