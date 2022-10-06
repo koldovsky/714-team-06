@@ -36,13 +36,13 @@
 }
 .trending-products__items .slick-arrow.slick-prev {
     left: 0;
-    background: url('../img/arrows/arrow-small-prev.svg') center center/ 100% no-repeat;
+    background: url('../img/arrows/small-prev.png') center center/ 100% no-repeat;
     
 }
 
 .trending-products__items .slick-arrow.slick-next {
     right: 0;
-    background: url('../img/arrows/arrow-small-next.svg') center center/ 100% no-repeat;
+    background: url('../img/arrows/small-next.png') center center/ 100% no-repeat;
    
 }
 
