@@ -1,22 +1,26 @@
 [
-  {
-     "title":"AGA Mice Set",
-     "img":"img/aga-mice-set.png",
-     "price":3.00
-  },
-  {
-     "title":"VITALIFE 2-Bowls Set",
-     "img":"img/vitalife-two-bowls-set.png",
-     "price":9.00
-  },
-  {
-     "title":"AGA Leash & Collar",
-     "img":"img/aga-leash-collar.png",
-     "price":13.00
-  },
-  {
-     "title":"DUNA Gray Bed",
-     "img":"img/duna-grey-bed.png",
-     "price":25.00
-  }
+   {
+      "id":11,
+      "title":"AGA Mice Set",
+      "img":"img/aga-mice-set.png",
+      "price":3.00
+   },
+   {
+      "id":12,
+      "title":"VITALIFE 2-Bowls Set",
+      "img":"img/vitalife-two-bowls-set.png",
+      "price":9.00
+   },
+   {
+      "id":13,
+      "title":"AGA Leash & Collar",
+      "img":"img/aga-leash-collar.png",
+      "price":13.00
+   },
+   {
+      "id":14,
+      "title":"DUNA Gray Bed",
+      "img":"img/duna-grey-bed.png",
+      "price":25.00
+   }
 ]

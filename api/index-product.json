@@ -1,101 +1,143 @@
 [
     {
        "id":1,
-       "category":"trending products",
+       "inStock":"Not In Stock",
+       "product_code":49,
+       "category":"Trending Products",
        "img":"img/dora-metal-pet-brush.png",
        "title":"DORA Metal Pet Brush",
-       "price":"15,00"
+       "price":"15,00",
+       "description":"Keep your pet's coat soft, manageable, and good-looking will be much easier with this brush. It has flexible meal pins to remove excess fur and tangles while not hurting your pet."
     },
     {
        "id":2,
-       "category":"trending products",
+       "inStock":"In Stock",
+       "product_code":48,
+       "category":"Trending Products",
        "img":"img/kittens-heaven-set.png",
        "title":"Kitten's Heaven Set",
-       "price":"12,00"
+       "price":"12,00",
+       "description":"Have you adopted a kitten? Congratulations! It will love this set of toys for sure. Here is everything to entertain your pet — bright woolen mice, sticks with ropes, and clinking balls."
     },
     {
        "id":3,
-       "category":"trending products",
+       "inStock":"In Stock",
+       "product_code":47,
+       "category":"Trending Products",
        "img":"img/opty-pet-carrier.png",
        "title":"OPTY Pet Carrier",
-       "price":"8,00"
+       "price":"8,00",
+       "description":"This plastic carrier is large enough even for adult cats. We cannot relieve pets of the stress of being carried outside, but we can make it more comfortable, right?"
     },
     {
        "id":4,
-       "category":"trending products",
+       "product_code":46,
+       "category":"Trending Products",
        "img":"img/aga-rope-toy.png",
        "title":"AGA Rope Toy",
-       "price":"5,00"
+       "price":"5,00",
+       "description":"Play with your dog with this great and simple toy. It features a tennis ball in the middle with a knotted rope running through it. Great for tug-and-fetch games."
     },
     {
        "id":5,
-       "category":"trending products",
+       "inStock":"Not In Stock",
+       "product_code":45,
+       "category":"Trending Products",
        "img":"img/dora-pet-carrier.png",
        "title":"DORA Pet Carrier",
-       "price":"23,00"
+       "price":"23,00",
+       "description":"Do you need to go somewhere with your pet? This carrier is perfect for this. It allows enough air to pass through thanks to the grate and allows the pet to see what is happening around."
     },
     {
         "id":6,
-        "category":"new arrivals",
+        "inStock":"In Stock",
+        "product_code":44,
+        "category":"New Arrivals",
         "img":"img/img__new_arrivals/woven_toy.png",
         "title":"DUNA Woven Toy",
-        "price":"1,50"
+        "price":"1,50",
+        "description":"Here's a universal toy for your pet. It can bite, throw, and scratch this woolen jingle toy, and still, it will serve you for a very long time."
      },
      {
         "id":7,
-        "category":"new arrivals",
+        "inStock":"In Stock",
+        "product_code":43,
+        "category":"New Arrivals",
         "img":"img/img__new_arrivals/butterfly_toy.png",
         "title":"DUNA EGO Butterfly Toy",
-        "price":"8,00"
+        "price":"8,00",
+        "description":"This toy will entertain your cat for a long time. The butterfly is attached to the base with a spring and will swing in all directions, attracting the attention of your pet."
      },
      {
         "id":8,
-        "category":"new arrivals",
+        "inStock":"In Stock",
+        "product_code":42,
+        "category":"New Arrivals",
         "img":"img/img__new_arrivals/plastic_bowl.png",
         "title":"OPTY Plastic Bowl",
-        "price":"2,00"
+        "price":"2,00",
+        "description":""
      },
      {
         "id":9,
-        "category":"new arrivals",
+        "inStock":"In Stock",
+        "product_code":41,
+        "category":"New Arrivals",
         "img":"img/img__new_arrivals/woven_leash.png",
         "title":"SERA Woven Leash",
-        "price":"2,00"
+        "price":"2,00",
+        "description":"Simple and lightweight leash for your pet. The red color will keep your companion in sight in the crowd."
      },
      {
         "id":10,
-        "category":"new arrivals",
+        "inStock":"Not In Stock",
+        "product_code":40,
+        "category":"New Arrivals",
         "img":"img/img__new_arrivals/crunch_sticks_treat.png",
         "title":"VITALIFE Crunch Sticks Treat",
-        "price":"5,00"
+        "price":"5,00",
+        "description":"Treat your hamster or rabbit to a crunchy baked treat stick. It is made with seeds, whole grains, vitamins, and extra calcium. Support your pet's healthy teeth!"
+
      },
      {
         "id":11,
+        "inStock":"In Stock",
+        "product_code":39,
         "title":"AGA Mice Set",
         "category":"Products for cats",
         "img":"img/aga-mice-set.png",
-        "price":"3,00"
+        "price":"3,00",
+        "description":"This set of 3 colorful mice will entertain your cat for a long time. They are made of durable wool and feel very similar to real mice. Inside each mouse, there is a bell that attracts your pet's attention."
      },
      {
         "id":12,
+        "inStock":"In Stock",
+        "product_code":39,
         "title":"VITALIFE 2-Bowls Set",
         "category":"Products for cats",
         "img":"img/vitalife-two-bowls-set.png",
-        "price":"9,00"
+        "price":"9,00",
+        "description":"These two ceramic bowls on a metal stand will fit perfectly into your decor and are completely pet-safe. Your cat will look forward to be fed!"
      },
      {
         "id":13,
+        "inStock":"In Stock",
+        "product_code":38,
         "title":"AGA Leash & Collar",
         "category":"Products for cats",
         "img":"img/aga-leash-collar.png",
-        "price":"13,00"
+        "price":"13,00",
+        "description":"Does your cat like to walk outside with you? Buy it a collar and leash so you don't lose sight of your pet! The set is made of high-quality, strong, but soft material that will not harm the animal."
      },
      {
         "id":14,
+        "inStock":"Not In Stock",
+        "product_code":37,
         "title":"DUNA Gray Bed",
         "category":"Products for cats",
         "img":"img/duna-grey-bed.png",
-        "price":"25,00"
+        "price":"25,00",
+        "description":"Does your cat dislike beds and prefer to sleep on your face? You just haven't tried DUNA beds! They are so comfortable and soft that your cat will definitely appreciate them."
      }
 
  ]
