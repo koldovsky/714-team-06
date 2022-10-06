@@ -100,6 +100,7 @@
     flex-direction: column;
 }
 
+
 .footer__logo img {
     display: block;
     margin: auto;
@@ -127,7 +128,10 @@
 
 .footer__social-icons {
     margin: auto;
-    
+}
+
+.footer_icons_container__item {
+    margin-left: 0;
 }
 
 .footer__nav {
@@ -188,7 +192,7 @@
 }
 
 .footer__credentials { 
-    min-height: 50px;
+    min-height: 42px;
     background-color: var(--footer-bottom-color);
     padding-top: 5px;
     padding-bottom: 5px;
@@ -209,4 +213,92 @@
 
 .footer__credentials p:first-child {
     margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .footer__cta {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .cta__phone {
+        width: 40%;
+    }
+    .cta__subscribe-text p, .cta__label {
+        font-size: 14px;
+    }
+    .cta__phone a {
+        font-size: 44px;
+    }
+
+    .cta__subscribe-wrapper {
+        min-height: 145px;
+        display: flex;
+        width: 60%;
+        align-items: center;
+    }
+    .cta__subscribe-text {
+        width: 60%;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 13px;
+    }
+    .cta__subscribe-form {
+        width: 40%;
+        padding-left: 15px;
+    }
+    .cta__subscribe-form__input::placeholder {
+        font-size: 14px;    
+    }
+    .footer__main {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer__social {
+        width: 23%;
+        margin-right: 25px;
+    }
+    .footer__social-icons {
+        margin-top: 0;
+    }
+    .footer__nav {
+        width: 75%;
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+    .footer__nav-item {
+        align-items: flex-start;
+    }
+    .footer__nav-list {
+        align-items: flex-start;
+    }
+
+    .footer__logo img {
+        width: 100%;
+        margin-top: 8px;
+        margin-left: 0;
+    }
+    .footer__nav-item {
+        margin-top: 0;
+    }
+    .footer__social-email p {
+        font-size: 15px;
+        text-align: start;
+    }
+    .footer__social-icons {
+        margin-left: 0;
+    }
+    .footer__credentials .container {
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    .footer__credentials p:first-child {
+        margin-bottom: 0;
+    }
+    .footer__credentials {
+        padding-top: 10px;
+    }
 }
