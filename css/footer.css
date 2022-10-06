@@ -65,6 +65,8 @@
     padding: 11px 22px 11px 22px;
     border-radius: 25px;
     width: 100%;
+    color: var(--title-color);
+    font-size: 15px;
 }
 
 .cta__subscribe-form__input::placeholder {
