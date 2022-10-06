@@ -1,0 +1,101 @@
+[
+    {
+       "id":1,
+       "category":"trending products",
+       "img":"img/dora-metal-pet-brush.png",
+       "title":"DORA Metal Pet Brush",
+       "price":"15,00"
+    },
+    {
+       "id":2,
+       "category":"trending products",
+       "img":"img/kittens-heaven-set.png",
+       "title":"Kitten's Heaven Set",
+       "price":"12,00"
+    },
+    {
+       "id":3,
+       "category":"trending products",
+       "img":"img/opty-pet-carrier.png",
+       "title":"OPTY Pet Carrier",
+       "price":"8,00"
+    },
+    {
+       "id":4,
+       "category":"trending products",
+       "img":"img/aga-rope-toy.png",
+       "title":"AGA Rope Toy",
+       "price":"5,00"
+    },
+    {
+       "id":5,
+       "category":"trending products",
+       "img":"img/dora-pet-carrier.png",
+       "title":"DORA Pet Carrier",
+       "price":"23,00"
+    },
+    {
+        "id":6,
+        "category":"new arrivals",
+        "img":"img/img__new_arrivals/woven_toy.png",
+        "title":"DUNA Woven Toy",
+        "price":"1,50"
+     },
+     {
+        "id":7,
+        "category":"new arrivals",
+        "img":"img/img__new_arrivals/butterfly_toy.png",
+        "title":"DUNA EGO Butterfly Toy",
+        "price":"8,00"
+     },
+     {
+        "id":8,
+        "category":"new arrivals",
+        "img":"img/img__new_arrivals/plastic_bowl.png",
+        "title":"OPTY Plastic Bowl",
+        "price":"2,00"
+     },
+     {
+        "id":9,
+        "category":"new arrivals",
+        "img":"img/img__new_arrivals/woven_leash.png",
+        "title":"SERA Woven Leash",
+        "price":"2,00"
+     },
+     {
+        "id":10,
+        "category":"new arrivals",
+        "img":"img/img__new_arrivals/crunch_sticks_treat.png",
+        "title":"VITALIFE Crunch Sticks Treat",
+        "price":"5,00"
+     },
+     {
+        "id":11,
+        "title":"AGA Mice Set",
+        "category":"Products for cats",
+        "img":"img/aga-mice-set.png",
+        "price":"3,00"
+     },
+     {
+        "id":12,
+        "title":"VITALIFE 2-Bowls Set",
+        "category":"Products for cats",
+        "img":"img/vitalife-two-bowls-set.png",
+        "price":"9,00"
+     },
+     {
+        "id":13,
+        "title":"AGA Leash & Collar",
+        "category":"Products for cats",
+        "img":"img/aga-leash-collar.png",
+        "price":"13,00"
+     },
+     {
+        "id":14,
+        "title":"DUNA Gray Bed",
+        "category":"Products for cats",
+        "img":"img/duna-grey-bed.png",
+        "price":"25,00"
+     }
+
+ ]
