@@ -1,0 +1,97 @@
+.footer {
+    margin-top: 90px;
+    padding-top: 90px;
+    min-height: 400px;
+    background-color: var(--light-bg-color);
+}
+
+.footer__cta {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta__phone p {
+    font-size: 15px;
+    color: var(--button-text-color);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.cta__phone a {
+    display: block;
+    font-size: 30px;
+    color: var(--price-text-color);
+    text-decoration: none;
+    font-family: 'Baloo 2', cursive;
+    margin-bottom: 50px;
+}
+
+.cta__phone a:hover {
+    color: var(--price-text-color);
+    text-decoration: underline;
+}
+
+.cta__subscribe-text p {
+    font-size: 15px;
+    color: var(--subtitle-color);
+}
+
+.cta__label {
+    display: block;
+    margin-bottom: 50px;
+    color: var(--title-color);
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.cta__label span {
+    color: var(--button-text-color);
+}
+
+.cta__label:hover {
+    color: var(--title-color);
+    text-decoration: underline;
+}
+
+.cta__subscribe-form__input {
+    display: block;
+    margin-bottom: 21px;
+    border: none;
+    background-color: var(--form-input-color);
+    height: 40px;
+    padding: 11px 22px 11px 22px;
+    border-radius: 25px;
+    width: 100%;
+}
+
+.cta__subscribe-form__input::placeholder {
+    font-size: 15px;
+    color: var(--subtitle-color);    
+}
+
+.cta__subscribe-form__button {
+    display: block;
+    height: 40px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--button-text-color-hover);
+    background-color: var(--button-bg-color-hover);
+    width: 100%;
+    margin-bottom: 60px;
+    padding-top: 13px;
+}
+
+.cta__subscribe-form__button:hover {
+    color: var(--button-text-color);
+    background-color: var(--button-bg-color);
+}
+
+.footer__logo img {
+    display: block;
+    margin: auto;
+    max-width: 193px;
+}
