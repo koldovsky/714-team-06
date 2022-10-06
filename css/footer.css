@@ -90,8 +90,123 @@
     background-color: var(--button-bg-color);
 }
 
+.footer__main {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__social {
+    display: flex;
+    flex-direction: column;
+}
+
 .footer__logo img {
     display: block;
     margin: auto;
     max-width: 193px;
+    margin-bottom: 30px;
+}
+
+.footer__social-email p {
+    font-size: 17px;
+    color: var(--subtitle-color);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer__email {
+    color: var(--subtitle-color);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.footer__email:hover {
+    text-decoration: underline;
+    color: var(--subtile-color);
+}
+
+.footer__social-icons {
+    margin: auto;
+    
+}
+
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.footer__nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.footer__nav-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__nav-title {
+    font-size: 22px;
+}
+
+.footer__nav-divider {
+    height: 3px;
+    width: 38px;
+    background-color: var(--nav-divider-color);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer__nav-list {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.footer__nav-list li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.footer__nav-list li:last-child {
+    margin-bottom: 0;
+}
+
+.footer__nav-list a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--nav-list-color);
+    transition: all 0.5s;
+}
+
+.footer__nav-list a:hover {
+    color: var(--subtile-color);
+    text-decoration: underline;
+}
+
+.footer__credentials { 
+    min-height: 50px;
+    background-color: var(--footer-bottom-color);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer__credentials .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__credentials p {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 0;
+    color: var(--subtitle-color);
+}
+
+.footer__credentials p:first-child {
+    margin-bottom: 20px;
 }

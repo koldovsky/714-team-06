@@ -29,6 +29,9 @@ font-family: 'PT Sans', sans-serif;
     --status-product:#61A854;
     --brand_img_background_color: #ffe6d4;
     --form-input-color: #f4e6e3;
+    --nav-divider-color: #ed6435;
+    --nav-list-color: #9a9898;
+    --footer-bottom-color: #f2e8e4;
 }
 
 .titles {
