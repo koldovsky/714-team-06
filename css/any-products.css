@@ -121,6 +121,13 @@
 .carousel_cards {
     display: flex;
     margin-top: 50px;
+    overflow: hidden;
+}
+
+.slider-track {
+ display: flex;
+ transition: .2s;
+ overflow: hidden;
 }
 
 .hamster_card {
@@ -130,9 +137,9 @@
     margin: auto;
     padding-top: 40px;
     text-align: center;
-
+    margin-right: 30px;
 }
-
+/*
 .kitty_card {
     width: 259px;
     height: 345px;
@@ -177,7 +184,7 @@
     padding-top: 40px;
     text-align: center;
 }
-
+*/
 .corousel_card__image {
     border-radius: 50%;
     width: 120px;
@@ -195,6 +202,9 @@
     color: #45c1c7;
 }
 
+.slider-buttons {
+    text-align: center;
+}
 .bottom_text {
     font-size: 15px;
     font-family: 'PT Sans',sans-serif;
