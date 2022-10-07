@@ -7,6 +7,7 @@ $(document).ready(function() {
     const hamster = $('.hamster_card');
     const btnPrev = $('.btn-prev');
     const btnNext = $('.btn-next');
+    const itemsCount = hamster.length;
     const itemWidth = carousel.width() / slidesToShow;
     const movePosition = slidesToScroll * itemWidth;
 
@@ -19,20 +20,32 @@ $(document).ready(function() {
 
    
     btnNext.click (function() {
-        position -= movePosition
-    
+        //const itemsLeft
 
-    track.css({
-        transform: `translateX(${position}px)`
-    });
+        position -= movePosition
+        setPosition();
+        checkButtons();
     });
 
     btnPrev.click (function() {
         position += movePosition
-    
 
-    track.css({
-        transform: `translateX(${position}px)`
+        setPosition();
+        checkButtons();
     });
-    });
+
+    const setPosition = () => {
+        track.css({
+            transform: `translateX(${position}px)`
+        }); 
+    };
+    const checkButtons = () => {
+        btnPrev.prop('disabled', position === 0);
+        btnNext.prop(
+           'disabled', 
+            position <= -(itemsCount - slidesToShow) * itemWidth
+        );
+    };
+
+    checkButtons();
 });
