@@ -75,6 +75,10 @@
     font-size: 15px;
 }
 
+.cta__subscribe-form__input:focus {
+    outline-color: var(--button-text-color);
+}
+
 .cta__subscribe-form__input::placeholder {
     font-family: 'PT Sans', sans-serif;
     font-size: 15px;
