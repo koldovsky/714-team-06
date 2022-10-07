@@ -1,7 +1,6 @@
 .trending-products {
     padding-top: 110px;
     padding-bottom: 120px;
-    min-width: 0;
 }
 
 .trending-products__slider {
@@ -15,7 +14,6 @@
     display: flex;
     align-items: flex-start;
 }
-
 
 .trending-products__items .slick-arrow {
     position: absolute;
@@ -41,10 +39,10 @@
 
 .trending-products__items {
     display: flex;
-    min-width: 242px;
-    position: static;
-    margin: 0 auto;
-    scroll-behavior: smooth;
+    /* min-width: 242px; */
+    /* position: static; */
+    /* margin: 0 auto; */
+    /* scroll-behavior: smooth; */
 }
 
 .trending-products__item {   
@@ -53,7 +51,7 @@
 }
 
 .trending-products_img-container {
-    min-width: 242px;
+    /* min-width: 242px; */
 }
 
 .trending-products__image {
