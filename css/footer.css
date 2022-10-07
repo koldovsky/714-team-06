@@ -6,11 +6,13 @@
 }
 
 .footer__cta {
+    font-family: 'PT Sans', sans-serif;
     display: flex;
     flex-direction: column;
 }
 
 .cta__phone p {
+    font-family: 'PT Sans', sans-serif;
     font-size: 15px;
     color: var(--button-text-color);
     font-weight: 700;
@@ -18,6 +20,7 @@
 }
 
 .cta__phone a {
+    font-family: 'PT Sans', sans-serif;
     display: block;
     font-size: 30px;
     color: var(--price-text-color);
@@ -32,11 +35,13 @@
 }
 
 .cta__subscribe-text p {
+    font-family: 'PT Sans', sans-serif;
     font-size: 15px;
     color: var(--subtitle-color);
 }
 
 .cta__label {
+    font-family: 'PT Sans', sans-serif;
     display: block;
     margin-bottom: 50px;
     color: var(--title-color);
@@ -57,6 +62,7 @@
 }
 
 .cta__subscribe-form__input {
+    font-family: 'PT Sans', sans-serif;
     display: block;
     margin-bottom: 21px;
     border: none;
@@ -70,11 +76,13 @@
 }
 
 .cta__subscribe-form__input::placeholder {
+    font-family: 'PT Sans', sans-serif;
     font-size: 15px;
     color: var(--subtitle-color);    
 }
 
 .cta__subscribe-form__button {
+    font-family: 'PT Sans', sans-serif;
     display: block;
     height: 40px;
     font-family: 'PT Sans', sans-serif;
@@ -111,6 +119,7 @@
 }
 
 .footer__social-email p {
+    font-family: 'PT Sans', sans-serif;
     font-size: 17px;
     color: var(--subtitle-color);
     text-align: center;
@@ -118,6 +127,7 @@
 }
 
 .footer__email {
+    font-family: 'PT Sans', sans-serif;
     color: var(--subtitle-color);
     text-decoration: none;
     font-weight: 700;
@@ -181,6 +191,7 @@
 }
 
 .footer__nav-list a {
+    font-family: 'PT Sans', sans-serif;
     text-decoration: none;
     font-size: 17px;
     font-weight: 600;
@@ -207,6 +218,7 @@
 }
 
 .footer__credentials p {
+    font-family: 'PT Sans', sans-serif;
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 0;
@@ -221,8 +233,6 @@
     .footer__cta {
         flex-direction: row;
         flex-wrap: nowrap;
-        padding-left: 15px;
-        padding-right: 15px;
     }
     .cta__phone {
         width: 40%;
@@ -286,7 +296,7 @@
         margin-top: 0;
     }
     .footer__social-email p {
-        font-size: 15px;
+        font-size: 16px;
         text-align: start;
     }
     .footer__social-icons {
@@ -302,5 +312,12 @@
     }
     .footer__credentials {
         padding-top: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer__nav-list a {
+        font-size: 15px;
+        font-weight: 600;
     }
 }

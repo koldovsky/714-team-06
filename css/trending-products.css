@@ -1,6 +1,6 @@
 .trending-products {
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 110px;
+    padding-bottom: 120px;
     min-width: 0;
 }
 
@@ -16,20 +16,13 @@
     align-items: flex-start;
 }
 
-/* .trending-products__arrow-img { 
-    position: absolute;   
-    display: none;
-    width: 30px;
-    height: 30px;
-    top: 50%;
-    transform: translateY(-50%)    
-} */
 
 .trending-products__items .slick-arrow {
     position: absolute;
     width: 30px;
     height: 30px;
     top: 50%;
+    transform: translateY(-50%);
     z-index: 10;
     font-size: 0;
     border: none;
@@ -46,27 +39,6 @@
    
 }
 
-
-
-/* .trending-products__sm-arrow-img {
-    position: absolute;
-    width: 32px;
-    height: 32px;
-    top: 50%;
-    transform: translateY(-50%)
-}
-
-.trending-products__sm-arrow-right {
-    right: 0px;
-}
-
-.trending-products__arrow-img-right {
-    right: -15px;
-}
-
-.trending-products__arrow-img-left {
-    left: -15px;
-} */
 
 .trending-products__items {
     display: flex;
@@ -156,14 +128,16 @@
         position: static;
     }
     .trending-products__img-container {
-        max-width: 250px;
+        max-width: 263px;
     }
     .trending-products__items .slick-arrow.slick-prev {
-        background: url('../img/arrows/arrow-back.png') center center/ 100% no-repeat;
+        background: url('../img/arrows/arrow-back.png') center center/ 80% no-repeat;
+        margin-left: -20px;
         
     } 
     .trending-products__items .slick-arrow.slick-next {
-        background: url('../img/arrows/arrow-next.png') center center/ 100% no-repeat; 
+        background: url('../img/arrows/arrow-next.png') center center/ 80% no-repeat;
+        margin-right: -20px;
     }
 }
 
@@ -174,13 +148,14 @@
 }
 
 .trending-products__text {
+    font-family: 'PT Sans', sans-serif;
     font-size: 19px;
     font-weight: 400;
     line-height: 1.5;
     color: var(--subtitle-color);
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 35px;
+    margin-bottom: 65px;
 }
 
 @media (min-width: 320px) {
@@ -202,12 +177,13 @@
 }
 
 .trending-products__item h3 a {
+    font-family: 'PT Sans', sans-serif;
     display: block;
     font-weight: 400;
     font-size: 18px;
     text-decoration: none;
     color: var(--subtitle-color);
-    margin-top: 8px;
+    margin-top: 24px;
 }
 
 .trending-products__item h3 a:hover {
@@ -215,12 +191,15 @@
 }
 
 .trending-products__price {
+    font-family: 'PT Sans', sans-serif;
     font-weight: 700;
     font-size: 18px;
     color: var(--price-text-color);
+    margin-bottom: 0;
 }
 
 .trending-products__button {
+    font-family: 'PT Sans', sans-serif;
     margin-top: 24px;
     margin-bottom: 20px;
 }

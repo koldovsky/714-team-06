@@ -1,7 +1,7 @@
 .promotion {
     min-height: 769px;
     background: url(../img/countdown-background.png) center center/cover no-repeat;
-    padding: 90px 15px 100px 15px;
+    padding: 90px 0 100px 0;
 }
 
 @media (min-width: 320px) {
@@ -51,6 +51,7 @@
 }
 
 .promotion__label {
+    font-family: 'PT Sans', sans-serif;
     font-weight: 700;
     font-size: 15px;
     color: var(--button-text-color);
@@ -63,6 +64,7 @@
 }
 
 .promotion__text {
+    font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     font-size: 19px;
     color: var(--subtitle-color);
@@ -143,12 +145,14 @@
 }
 
 .promotion-countdown__label {
+    font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     color: var(--subtitle-color);
     margin-bottom: 0;
 }
 
 .promotion__button {
+    font-family: 'PT Sans', sans-serif;
     display: block;
     margin-top: 35px;
     text-decoration: none;
@@ -182,19 +186,98 @@
     }
 }
 
-@media (min-width: 480px) {
-
+@media (min-width: 375px) {
     .promotion-countdown {
-        width: 300px;
+        width: 327px;
     }
     .promotion-countdown__item {
-        width: 60px;
-        height: 60px;
+        width: 67px;
+        height: 67px;
+    }
+    .promotion-countdown__time {
+        font-size: 20px;
+    }
+    .promotion-countdown__label {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 480px) {
+    .promotion-countdown {
+        width: 432px;
+    }
+    .promotion-countdown__item {
+        width: 89px;
+        height: 89px;
+    }
+    .promotion-countdown__time {
+        font-size: 30px;
+    }
+    .promotion-countdown__label {
+        font-size: 13px;
     }
 }
 
 @media (min-width: 768px) {
 
+    .promotion-countdown {
+        width: 275px;
+    }
+    .promotion-countdown__item {
+        width: 56px;
+        height: 56px;
+    }
+    .promotion-countdown__time {
+        font-size: 18px;
+    }
+    .promotion-countdown__label {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 992px) {
+    .promotion-countdown {
+        width: 362px;
+    }
+    .promotion-countdown__item {
+        width: 74px;
+        height: 74px;
+    }
+    .promotion-countdown__time {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .promotion-countdown {
+        width: 375px;
+    }
+    .promotion-countdown__item {
+        width: 77px;
+        height: 77px;
+    }
+    .promotion-countdown__time {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .promotion-countdown {
+        width: 449px;
+    }
+    .promotion-countdown__item {
+        width: 92px;
+        height: 92px;
+    }
+    .promotion-countdown__time {
+        font-size: 29px;
+    }
+    .promotion-countdown__label {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 1280px) {
     .promotion-countdown {
         width: 470px;
     }
@@ -203,19 +286,9 @@
         height: 97px;
     }
     .promotion-countdown__time {
-        font-size: 36px;
+        font-size: 29px;
     }
     .promotion-countdown__label {
-        font-size: 18px;
-    }
-}
-
-@media (min-width: 992px) {
-    .promotion-countdown {
-        width: 470px;
-    }
-    .promotion-countdown__item {
-        width: 97px;
-        height: 97px;
+        font-size: 13px;
     }
 }
