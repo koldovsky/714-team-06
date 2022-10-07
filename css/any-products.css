@@ -127,7 +127,6 @@
 .slider-track {
  display: flex;
  transition: .2s;
- overflow: hidden;
 }
 
 .hamster_card {
