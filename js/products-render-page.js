@@ -1,15 +1,18 @@
 (async function () {
-    const response = await fetch("../api/index-product.json");
-    const products = await response.json();
-    renderProducts();
+    await fetch("../api/index-product.json")
+    .then ( res => res.json())
+    .then (data => renderProducts(data));
+
 
     function renderProducts(products) {
       const productsContainer = document.querySelector(
         ".main-info_product_container"
       );
-      productsContainer.innerHTML += " ";
+      productsContainer.innerHTML = " ";
       for (const product of products) {
-        productsContainer.innerHTML = `    
+        if(product.product_code === 45){
+        
+            productsContainer.innerHTML = `    
         <div class="img_product_container">
         <div class="product_main_photo_nav">
             <svg class="arrow" width="14" height="26" viewBox="0 0 14 26" fill="none"
@@ -61,7 +64,7 @@
             <p class="description_product_text">${product.description}</p>
         </div>
     </div>`;
-}}
+}}}
 
 
         const btnPlus = document.querySelector(".bt_plus");
@@ -81,6 +84,7 @@
         }
         
         btnPlus.addEventListener("click", funcAdd);
-        btnMinus.addEventListener("click", funcExstr);      
+        btnMinus.addEventListener("click", funcExstr);     
+
 }
     )();

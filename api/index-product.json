@@ -1,6 +1,5 @@
 [
-    {
-       "id":1,
+   "1",{
        "inStock":"Not In Stock",
        "product_code":49,
        "category":"Trending Products",
@@ -9,8 +8,7 @@
        "price":"15,00",
        "description":"Keep your pet's coat soft, manageable, and good-looking will be much easier with this brush. It has flexible meal pins to remove excess fur and tangles while not hurting your pet."
     },
-    {
-       "id":2,
+    "2",{
        "inStock":"In Stock",
        "product_code":48,
        "category":"Trending Products",
@@ -19,8 +17,7 @@
        "price":"12,00",
        "description":"Have you adopted a kitten? Congratulations! It will love this set of toys for sure. Here is everything to entertain your pet — bright woolen mice, sticks with ropes, and clinking balls."
     },
-    {
-       "id":3,
+    "3",{
        "inStock":"In Stock",
        "product_code":47,
        "category":"Trending Products",
@@ -29,8 +26,8 @@
        "price":"8,00",
        "description":"This plastic carrier is large enough even for adult cats. We cannot relieve pets of the stress of being carried outside, but we can make it more comfortable, right?"
     },
-    {
-       "id":4,
+    "4",{
+      "inStock":"Not In Stock",
        "product_code":46,
        "category":"Trending Products",
        "img":"img/aga-rope-toy.png",
@@ -38,8 +35,7 @@
        "price":"5,00",
        "description":"Play with your dog with this great and simple toy. It features a tennis ball in the middle with a knotted rope running through it. Great for tug-and-fetch games."
     },
-    {
-       "id":5,
+    "5",{
        "inStock":"Not In Stock",
        "product_code":45,
        "category":"Trending Products",
@@ -48,8 +44,7 @@
        "price":"23,00",
        "description":"Do you need to go somewhere with your pet? This carrier is perfect for this. It allows enough air to pass through thanks to the grate and allows the pet to see what is happening around."
     },
-    {
-        "id":6,
+    "6",{
         "inStock":"In Stock",
         "product_code":44,
         "category":"New Arrivals",
@@ -58,8 +53,7 @@
         "price":"1,50",
         "description":"Here's a universal toy for your pet. It can bite, throw, and scratch this woolen jingle toy, and still, it will serve you for a very long time."
      },
-     {
-        "id":7,
+     "7",{
         "inStock":"In Stock",
         "product_code":43,
         "category":"New Arrivals",
@@ -68,8 +62,7 @@
         "price":"8,00",
         "description":"This toy will entertain your cat for a long time. The butterfly is attached to the base with a spring and will swing in all directions, attracting the attention of your pet."
      },
-     {
-        "id":8,
+     "8",{
         "inStock":"In Stock",
         "product_code":42,
         "category":"New Arrivals",
@@ -78,8 +71,7 @@
         "price":"2,00",
         "description":""
      },
-     {
-        "id":9,
+     "9",{
         "inStock":"In Stock",
         "product_code":41,
         "category":"New Arrivals",
@@ -88,8 +80,7 @@
         "price":"2,00",
         "description":"Simple and lightweight leash for your pet. The red color will keep your companion in sight in the crowd."
      },
-     {
-        "id":10,
+     "10",{
         "inStock":"Not In Stock",
         "product_code":40,
         "category":"New Arrivals",
@@ -99,8 +90,7 @@
         "description":"Treat your hamster or rabbit to a crunchy baked treat stick. It is made with seeds, whole grains, vitamins, and extra calcium. Support your pet's healthy teeth!"
 
      },
-     {
-        "id":11,
+     "11",{
         "inStock":"In Stock",
         "product_code":39,
         "title":"AGA Mice Set",
@@ -109,8 +99,7 @@
         "price":"3,00",
         "description":"This set of 3 colorful mice will entertain your cat for a long time. They are made of durable wool and feel very similar to real mice. Inside each mouse, there is a bell that attracts your pet's attention."
      },
-     {
-        "id":12,
+     "12",{
         "inStock":"In Stock",
         "product_code":39,
         "title":"VITALIFE 2-Bowls Set",
@@ -119,8 +108,7 @@
         "price":"9,00",
         "description":"These two ceramic bowls on a metal stand will fit perfectly into your decor and are completely pet-safe. Your cat will look forward to be fed!"
      },
-     {
-        "id":13,
+     "13",{
         "inStock":"In Stock",
         "product_code":38,
         "title":"AGA Leash & Collar",
@@ -129,8 +117,7 @@
         "price":"13,00",
         "description":"Does your cat like to walk outside with you? Buy it a collar and leash so you don't lose sight of your pet! The set is made of high-quality, strong, but soft material that will not harm the animal."
      },
-     {
-        "id":14,
+     "14",{
         "inStock":"Not In Stock",
         "product_code":37,
         "title":"DUNA Gray Bed",
