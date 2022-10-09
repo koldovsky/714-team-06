@@ -9,9 +9,10 @@
     );
     productsContainer.innerHTML = " ";
     for (const product of products) {
+      // let productURL = new URL(`${product.url}`);
       productsContainer.innerHTML += `    
   <article class="arrivals_cards">
-      <a href=${product.url} ><img class="new_arrivals_photos" 
+      <a href=product.html><img class="new_arrivals_photos" 
               src=${product.img} alt="${product.title}" width="329"></a>
       <a href="product.html"  class="arrivals_cards_name">${product.title}</a>
       <p class="price">$${product.price}</p>
