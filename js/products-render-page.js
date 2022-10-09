@@ -1,4 +1,5 @@
 (async function () {
+    
     await fetch("../api/index-product.json")
     .then ( res => res.json())
     .then (data => renderProducts(data));
@@ -10,7 +11,7 @@
       );
       productsContainer.innerHTML = " ";
       for (const product of products) {
-        if(product.product_code === 45){
+        if(product.product_code === 47){
         
             productsContainer.innerHTML = `    
         <div class="img_product_container">
@@ -64,8 +65,7 @@
             <p class="description_product_text">${product.description}</p>
         </div>
     </div>`;
-}}}
-
+}}};
 
         const btnPlus = document.querySelector(".bt_plus");
         const btnMinus = document.querySelector(".bt_minus");
@@ -87,4 +87,13 @@
         btnMinus.addEventListener("click", funcExstr);     
 
 }
+// let statusStock = document.querySelector('.status');
+// function inStock(){
+    
+// const arr = statusStock.value.split(' ');
+// console.log(arr);
+// if (arr.includes('Not')=== true){
+//     statusStock.style.color = '#B22222';
+// }
+
     )();
