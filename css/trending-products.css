@@ -39,10 +39,6 @@
 
 .trending-products__items {
     display: flex;
-    /* min-width: 242px; */
-    /* position: static; */
-    /* margin: 0 auto; */
-    /* scroll-behavior: smooth; */
 }
 
 .trending-products__item {   
@@ -51,7 +47,7 @@
 }
 
 .trending-products_img-container {
-    /* min-width: 242px; */
+    min-width: 242px;
 }
 
 .trending-products__image {
