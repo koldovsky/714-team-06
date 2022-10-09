@@ -7,12 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Store Website Template Demo</title>
     <link rel="shortcut icon" href="img/img_header/shortcut_icon_petstore.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/index.css" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script src="https://kit.fontawesome.com/defaaea7b2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index.css" type="text/css">
 </head>
 
 <body>
@@ -205,6 +205,7 @@
                 <p class="happy_paw">Best picks for your beloved companions only in Happy Paw.</p>
             </div>
             <div class="carousel_cards">
+                <div class="slider-track">
                 <article class="hamster_card">
                     <img class="corousel_card__image" src="img/hamster.png" width="120" alt="Hamster">
                     <h3 class="for_pet">For Hamsters<span class="blue_arrow"> →</span></h3>
@@ -212,36 +213,41 @@
                         Litter • Furniture • Collars and<br>
                         Leashes • Bowls • Toys • Beds •</p>
                 </article>
-                <article class="kitty_card">
+                <article class="hamster_card">
                     <img class="corousel_card__image" src="img/kitty.png" width="120" alt="Kitty">
                     <h3 class="for_pet">For Cats<span class="blue_arrow"> →</span></h3>
                     <p class="bottom_text">Dry Food • Wet Food • Treats •<br> Catnip & Grass •
                         Litter Boxes •<br> Bowls & Feeders • Toys • Beds •</p>
                 </article>
-                <article class="puppy_card">
+                <article class="hamster_card">
                     <img class="corousel_card__image" src="img/puppy.png" width="120" alt="Dog">
                     <h3 class="for_pet">For Dogs<span class="blue_arrow"> →</span></h3>
                     <p class="bottom_text ">Dry & Canned Food • Jerky •<br> Chewy Treats •
                         Bowlsr • Toys •<br> Collars and Leashes • Clothes •</p>
                 </article>
-                <article class="parrot_card">
+                <article class="hamster_card">
                     <img class="corousel_card__image" src="img/parrot.png" width="120" alt="Parrot">
                     <h3 class="for_pet">For Parrots<span class="blue_arrow"> →</span></h3>
                     <p class="bottom_text">Food • Treats • Cages & Stands •<br> Vitamins •
                         Bowls & Feeders •<br> Litter & Nesting • Odor Control •</p>
                 </article>
-                <article class="rabbit_card">
+                <article class="hamster_card">
                     <img class="corousel_card__image" src="img/rabbit.png" width="120" alt="Rabbit">
                     <h3 class="for_pet">For Rabbits<span class="blue_arrow"> →</span></h3>
                     <p class="bottom_text">Food • Treats • Hay • Cages •<br> Litter & Bedding •
                         Harnesses •<br> Toys • Odor Removers •</p>
                 </article>
-                <article class="fish_card">
+                <article class="hamster_card">
                     <img class="corousel_card__image" src="img/fish.png" width="120" alt="Fish">
                     <h3 class="for_pet">For Fish<span class="blue_arrow"> →</span></h3>
                     <p class="bottom_text">Food • Feeders • Aquariums •<br> Filters & Pumps •
                         Cleaning •<br> Water Care • Decor •</p>
                 </article>
+            </div>
+            </div>
+            <div class="slider-buttons"> 
+                <button class="btn-prev">Prew</button>
+                <button class="btn-next">Next</button>
             </div>
         </section>
 
@@ -964,11 +970,11 @@
                                 <div class="footer__nav-title titles">Navigation</div>
                                 <div class="footer__nav-divider"></div>
                                 <ul class="footer__nav-list">
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Categories</a></li>
-                                    <li><a href="#">Best Sellers</a></li>
-                                    <li><a href="#">New Arrivals</a></li>
-                                    <li><a href="#">Our Shop</a></li>
+                                    <li><a href="#main__aboutusanchor">About Us</a></li>
+                                    <li><a href="#products__categoriesanchor">Categories</a></li>
+                                    <li><a href="#main__bestsellersanchor">Best Sellers</a></li>
+                                    <li><a href="#container__newarrivalsanchor">New Arrivals</a></li>
+                                    <li><a href="#top-recommendations">Our Shop</a></li>
                                 </ul>
                             </div>
                             <div class="footer__nav-item">
@@ -1007,9 +1013,7 @@
 
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="js/slick.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-        crossorigin="anonymous"></script>
+    <script src="js/any-products.js"></script>
     <script src="js/trending-products.js"></script>
     <script src="js/trending-slider.js"></script>
     <script type="module" src="js/new-arrivals__cards.js"></script>

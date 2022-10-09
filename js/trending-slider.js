@@ -5,7 +5,6 @@ function sliderTrending() {
         slidesToShow: 1,
         slidesToScroll: 1,
         mobileFirst: true,
-        variableWidth: false,
         responsive: [
               {
                 breakpoint: 768,
