@@ -79,6 +79,10 @@
     outline-color: var(--button-text-color);
 }
 
+.cta__subscribe-form__input:invalid {
+    outline-color: #ff0000;
+}
+
 .cta__subscribe-form__input::placeholder {
     font-family: 'PT Sans', sans-serif;
     font-size: 15px;
