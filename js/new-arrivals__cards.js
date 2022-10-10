@@ -9,17 +9,19 @@
     );
     productsContainer.innerHTML = " ";
     for (const product of products) {
-      // let productURL = new URL(`${product.url}`);
+      
       productsContainer.innerHTML += `    
   <article class="arrivals_cards">
-      <a href=product.html><img class="new_arrivals_photos" 
+      <a class ="link-products" href="product.html">  <img class="new_arrivals_photos" 
               src=${product.img} alt="${product.title}" width="329"></a>
-      <a href="product.html"  class="arrivals_cards_name">${product.title}</a>
+      <a class ="link-products" href="product.html"  class="arrivals_cards_name">${product.title}</a>
       <p class="price">$${product.price}</p>
+      <p class ="idForLink">${product.id}</p>
       <button class="button" type="submit">Add to Card</button>
   </article>`;
     }
   }
+  
 
   const slidesContainer = document.querySelector(".arrivals_cards_container");
   const btnPrev = document.querySelector(".btn-previous-caroussel");
@@ -37,4 +39,17 @@
   function nextMove() {
     slidesContainer.scrollLeft += itemWidth;
   }
+
+  // item.addEventListener('click', createURL);
+    
+  // function createURL(){
+  //   const productId= document.querySelector('.idForLink');
+  //   let URL = window.location.href;
+  //   let myURL = new URL(productId, URL);
+  //   console.log(myURL);
+  // }
+
+  
+
+  
 })();

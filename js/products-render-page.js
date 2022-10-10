@@ -1,10 +1,7 @@
 (async function () {
-    
     await fetch("../api/index-product.json")
     .then ( res => res.json())
     .then (data => renderProducts(data));
-    
-
 
     function renderProducts(products) {
       const productsContainer = document.querySelector(
@@ -12,10 +9,8 @@
       );
       productsContainer.innerHTML = " ";
       for (const product of products) {
-       
-        
 
-        if(product.product_code === 47){
+        if(product.product_code===44){
             productsContainer.innerHTML = `    
         <div class="img_product_container">
         <div class="product_main_photo_nav">
@@ -99,4 +94,5 @@
 //     statusStock.style.color = '#B22222';
 // }
 
+           
     )();
