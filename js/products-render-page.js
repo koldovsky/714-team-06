@@ -4,13 +4,21 @@
     .then (data => renderProducts(data));
 
     function renderProducts(products) {
+        const urlParams = new URLSearchParams(window.location.search);
+        const id = urlParams.get('id');
+        
+        const product = products[id];
+
+        if(!product){
+            alert('No data');
+            return;
+        } 
+
       const productsContainer = document.querySelector(
         ".main-info_product_container"
       );
+      
       productsContainer.innerHTML = " ";
-      for (const product of products) {
-
-        if(product.product_code===44){
             productsContainer.innerHTML = `    
         <div class="img_product_container">
         <div class="product_main_photo_nav">
@@ -63,7 +71,7 @@
             <p class="description_product_text">${product.description}</p>
         </div>
     </div>`;
-}}};
+};
 
         const btnPlus = document.querySelector(".bt_plus");
         const btnMinus = document.querySelector(".bt_minus");

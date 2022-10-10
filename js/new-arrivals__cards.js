@@ -12,7 +12,7 @@
       
       productsContainer.innerHTML += `    
   <article class="arrivals_cards">
-      <a class ="link-products" href="product.html">  <img class="new_arrivals_photos" 
+      <a class ="link-products" href="product.html?id=${product.id}">  <img class="new_arrivals_photos" 
               src=${product.img} alt="${product.title}" width="329"></a>
       <a class ="link-products" href="product.html"  class="arrivals_cards_name">${product.title}</a>
       <p class="price">$${product.price}</p>
@@ -22,7 +22,6 @@
     }
   }
   
-
   const slidesContainer = document.querySelector(".arrivals_cards_container");
   const btnPrev = document.querySelector(".btn-previous-caroussel");
   const btnNext = document.querySelector(".btn-next-caroussel");
