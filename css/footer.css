@@ -329,3 +329,110 @@
         font-weight: 600;
     }
 }
+
+
+.cta__overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.cta__modal-show {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.cta__modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    min-height: 305px;
+    padding: 43px 32px 65px;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+@media (min-width: 380px) {
+    .cta__modal {      
+        width: 344px;
+    }
+}
+
+.cta__modal__message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cta__modal__message-icon {
+    display: block;
+    width: 34px;
+    height: 34px;
+    fill: var(--nav-divider-color);
+    margin-bottom: 33px;
+}
+
+.cta__modal__message-title {
+    font-family: 'Baloo 2', sans-serif;
+    color: var(--subtitle-color);
+    font-size: 17px;
+}
+
+.cta__modal__message-text {
+    color: var(--subtitle-color);
+    margin-bottom: 42px;
+}
+
+.cta__modal__message-button {
+    width: 210px;
+    border: none;
+    line-height: 27px;
+    border-radius: 20px;
+    font-size: 17px;  
+    text-align: center;
+    color: #fff;
+    background-color: var(--nav-divider-color);
+}
+
+.cta__modal__message-button:hover {
+    background-color: var(--button-text-color);
+    transition: all 0.5s;
+}
+
+.cta__close-btn {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 20px;
+    right: 20px;
+}
+
+.cta__close-btn:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #3c3731;
+    transform: rotate(-45deg);
+}
+
+.cta__close-btn:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #3c3731;
+    transform: rotate(45deg);
+}
