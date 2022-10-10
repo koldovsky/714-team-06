@@ -3,9 +3,13 @@
     const submit = document.querySelector(".cta__subscribe-form__button");
     const okButton = document.querySelector(".cta__modal__message-button");
     const closeButton = document.querySelector(".cta__close-btn");
+    const pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
 
     function toggleModal() {
-        modal.classList.toggle("cta__modal-show");
+        const input = document.getElementById("cta__email").value;
+        if (input.match(pattern)) {
+            modal.classList.toggle("cta__modal-show");
+        }
     }
 
     function windowOnClick(event) {
