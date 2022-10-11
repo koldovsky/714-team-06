@@ -1,5 +1,5 @@
 (async function () {
-  await fetch("../api/new-arrivals-products.json")
+  await fetch("/api/new-arrivals-products.json")
     .then((res) => res.json())
     .then((data) => renderProducts(data));
 
