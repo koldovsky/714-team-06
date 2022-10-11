@@ -14,9 +14,8 @@
   <article class="arrivals_cards">
       <a class ="link-products" href="product.html?id=${product.id}">  <img class="new_arrivals_photos" 
               src=${product.img} alt="${product.title}" width="329"></a>
-      <a class ="link-products" href="product.html"  class="arrivals_cards_name">${product.title}</a>
+      <a class ="link-products" href="product.html?id=${product.id}"  class="arrivals_cards_name">${product.title}</a>
       <p class="price">$${product.price}</p>
-      <p class ="idForLink">${product.id}</p>
       <button class="button" type="submit">Add to Card</button>
   </article>`;
     }

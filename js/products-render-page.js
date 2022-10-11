@@ -6,7 +6,7 @@
     function renderProducts(products) {
         const urlParams = new URLSearchParams(window.location.search);
         const id = urlParams.get('id');
-        
+
         const product = products[id];
 
         if(!product){

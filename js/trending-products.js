@@ -9,7 +9,7 @@
             productsContainer.innerHTML += `
         <article class="trending-products__item">
             <div class="trending-products__img-container">
-                <a href="product.html" id ="${product.id}"><img class="trending-products__image" src="${product.img}"
+                <a href="product.html?id=${product.id}"> <img class="trending-products__image" src="${product.img}"
                     alt="${product.title}"></a>
                 <h3><a href="#">${product.title}</a></h3>
             </div>

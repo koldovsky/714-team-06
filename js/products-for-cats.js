@@ -8,7 +8,7 @@
     for (const product of productsForCats) {
       productsForCatsContainer.innerHTML += `
       <article class="product__item">
-        <a href="#"><img class="product__img" src="${product.img}" alt="${product.title}"></a>
+        <a href="product.html?id=${product.id}"><img class="product__img" src="${product.img}" alt="${product.title}"></a>
         <h3><a href="#">${product.title}</a></h3>
         <p class="price">$${product.price}</p>
         <button type="button" class="button">Add to Cart</button>
