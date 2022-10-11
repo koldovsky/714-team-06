@@ -1,8 +1,6 @@
 .any_products {
     font-family: 'PT Sans',sans-serif;
     display: block;
-    min-height: 300px;
-    padding-bottom: 100px;
 }
 
 .butchers {
@@ -15,7 +13,7 @@
 
 .baloo__font {
     font-family: 'Baloo 2', cursive;
-    font-size: 32px;
+    font-size: 50px;
     padding-left: 35px;
     text-align: left;
     color: #3c3731;
