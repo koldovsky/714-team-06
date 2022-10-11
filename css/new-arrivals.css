@@ -54,7 +54,7 @@
     width: 95vw;
     transition: .5s;
     align-items: center;
-    min-width:272px;
+    min-width: 272px;
 }
 
 .arrivals_cards {
@@ -65,7 +65,8 @@
     align-items: flex-start;
 }
 
-.btn-previous-caroussel, .btn-next-caroussel {
+.btn-previous-caroussel,
+.btn-next-caroussel {
     display: block;
     position: static;
     cursor: pointer;
@@ -76,19 +77,21 @@
     margin-bottom: auto;
 }
 
-.arrow-icon{
+.arrow-icon {
     z-index: 1;
     opacity: .85;
     height: 30px;
     width: 30px;
 }
-.arrow-icon-prev{
+
+.arrow-icon-prev {
     position: relative;
-   right: -30px;
+    right: -30px;
 }
-.arrow-icon-next{
-position: relative;
-left: -30px;
+
+.arrow-icon-next {
+    position: relative;
+    left: -30px;
 }
 
 

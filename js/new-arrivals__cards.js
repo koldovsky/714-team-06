@@ -9,7 +9,6 @@
     );
     productsContainer.innerHTML = " ";
     for (const product of products) {
-      
       productsContainer.innerHTML += `    
   <article class="arrivals_cards">
       <a href="product.html?id=${product.id}">  <img class="new_arrivals_photos" 
@@ -20,7 +19,7 @@
   </article>`;
     }
   }
-  
+
   const slidesContainer = document.querySelector(".arrivals_cards_container");
   const btnPrev = document.querySelector(".btn-previous-caroussel");
   const btnNext = document.querySelector(".btn-next-caroussel");
@@ -37,5 +36,5 @@
   function nextMove() {
     slidesContainer.scrollLeft += itemWidth;
   }
-
 })();
+

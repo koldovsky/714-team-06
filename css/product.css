@@ -1,5 +1,6 @@
-main{
-    padding: 100px;
+main {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .link_to_homepage {
@@ -70,7 +71,7 @@ main{
 }
 
 .status {
-    font:17px 'PT Sans', sans-serif;
+    font: 17px 'PT Sans', sans-serif;
     color: var(--status-product);
     font-style: normal;
 }
@@ -102,7 +103,7 @@ main{
     align-items: center;
 }
 
-.quantity_inner{
+.quantity_inner {
     display: inline-flex;
     position: relative;
 }
@@ -116,11 +117,11 @@ main{
 }
 
 .quantity_inner .bt_plus {
-    bottom:20px;
+    bottom: 20px;
 }
 
 .quantity_inner .bt_minus {
-    bottom:0px;
+    bottom: 0px;
 }
 
 .change_number {
