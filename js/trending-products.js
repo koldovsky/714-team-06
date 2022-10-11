@@ -22,5 +22,5 @@
     renderProducts();
 
     $(document).ready(
-        sliderTrending());    
+        sliderTrending());
 })();
