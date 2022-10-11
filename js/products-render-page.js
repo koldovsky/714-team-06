@@ -17,7 +17,10 @@
       const productsContainer = document.querySelector(
         ".main-info_product_container"
       );
-      
+      const title = document.querySelector(
+        'title'
+      );
+      title.innerHTML=`${product.title}`;
       productsContainer.innerHTML = " ";
             productsContainer.innerHTML = `    
         <div class="img_product_container">
@@ -93,14 +96,5 @@
         btnMinus.addEventListener("click", funcExstr);     
 
 }
-// let statusStock = document.querySelector('.status');
-// function inStock(){
-    
-// const arr = statusStock.value.split(' ');
-// console.log(arr);
-// if (arr.includes('Not')=== true){
-//     statusStock.style.color = '#B22222';
-// }
 
-           
     )();
