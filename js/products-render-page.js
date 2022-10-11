@@ -86,7 +86,7 @@
     function funcExstr() {
       const value = parseInt(inpt.value);
   
-      if (value > 0) {
+      if (value > 1) {
         inpt.value = +inpt.value - 1;
       }
     }
