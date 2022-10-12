@@ -52,9 +52,7 @@ $(document).ready(function() {
     $('.slider-track').slick({
       
       slidesToShow: 4,
-      centerMode: true,
       slidesToScroll: 1,
-      autoplay:true
       });
     checkButtons();
 });

@@ -119,11 +119,10 @@
 }
 
 .carousel_cards {
-    display: inline-flex;
+    display: flex;
     margin-top: 50px;
-    overflow: hidden;
     margin: 0 auto;
-    max-width: 980px;
+    width: 980px;
     
 }
 
@@ -133,9 +132,34 @@ display: flex;
  margin-left: auto;
  margin-right: auto;
  /*padding-left: 1350px;*/
- position: relative;
+ 
 }
+.slick-arrow{
+    font-size: 60; 
+    border: 0;
+  }
+  .slick-prev{
+    left: 0; 
+    background: url('../img/arrows/arrow-back.png') 0 0 / 100% no-repeat;
+    
+    width: 30px; 
+    height: 30px; 
+    
+}
+.slick-next{
+    right: 0; 
+    background: url('../img/arrows/arrow-next.png')0 0 / 100% no-repeat;
+    width: 30px; 
+    height: 30px; 
+}
+.slick-slider{
+    min-width: 0;
+}
+.slick-list {
 
+    overflow: hidden;
+
+}  
 .hamster_card {
     min-width: 259px;
     min-height: 345px;
