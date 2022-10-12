@@ -41,13 +41,20 @@ $(document).ready(function() {
             transform: `translateX(${position}px)`
         }); 
     };
-    const checkButtons = () => {
+   /*const checkButtons = () => {
         btnPrev.prop('disabled', position === 0);
         btnNext.prop(
            'disabled', 
             position <= -(itemsCount - slidesToShow) * itemWidth
         );
-    };
+    };*/
 
+    $('.slider-track').slick({
+      
+      slidesToShow: 4,
+      centerMode: true,
+      slidesToScroll: 1,
+      autoplay:true
+      });
     checkButtons();
 });

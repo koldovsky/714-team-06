@@ -122,14 +122,18 @@
     display: inline-flex;
     margin-top: 50px;
     overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    max-width: 980px;
+    
 }
 
 .slider-track {
+display: flex;
  transition: .2s;
  margin-left: auto;
  margin-right: auto;
+ /*padding-left: 1350px;*/
+ position: relative;
 }
 
 .hamster_card {
@@ -203,9 +207,9 @@
     color: #45c1c7;
 }
 
-.slider-buttons {
+/*.slider-buttons {
     text-align: center;
-}
+}*/
 .bottom_text {
     font-size: 15px;
     font-family: 'PT Sans',sans-serif;
