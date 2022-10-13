@@ -122,7 +122,7 @@
     display: flex;
     margin-top: 50px;
     width: 1300px;
-    
+    margin-bottom: 100px;
 }
 
 .sliders-track {
@@ -130,11 +130,11 @@ display: flex;
  transition: .2s;
  margin-left: 20px;
  margin-right: 20px;
- /*padding-left: 1350px;*/
- max-width: 1300px;
+ max-width: 1156px;
  align-items: center;
  justify-content: center;
- margin-left: -70px;
+ margin-left: -23px;
+ 
 }
 .slick-arrow{
     font-size: 0; 
@@ -156,13 +156,8 @@ display: flex;
     margin-left: 10px;
 }
 
-.slick-list {
-
-    overflow: hidden;
-
-}  
 .hamster_card {
-    min-width: 259px;
+    width: 259px;
     min-height: 345px;
     border: 2px solid #fbd6bf;
     padding-top: 40px;
