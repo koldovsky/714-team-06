@@ -121,40 +121,41 @@
 .carousel_cards {
     display: flex;
     margin-top: 50px;
-    margin: 0 auto;
-    width: 980px;
+    width: 1300px;
     
 }
 
-.slider-track {
+.sliders-track {
 display: flex;
  transition: .2s;
- margin-left: auto;
- margin-right: auto;
+ margin-left: 20px;
+ margin-right: 20px;
  /*padding-left: 1350px;*/
- 
+ max-width: 1300px;
+ align-items: center;
+ justify-content: center;
+ margin-left: -70px;
 }
 .slick-arrow{
-    font-size: 60; 
+    font-size: 0; 
     border: 0;
   }
   .slick-prev{
     left: 0; 
     background: url('../img/arrows/arrow-back.png') 0 0 / 100% no-repeat;
     
-    width: 30px; 
-    height: 30px; 
-    
+    width: 100px; 
+    height: 100px; 
+    margin-right: 10px;
 }
 .slick-next{
     right: 0; 
     background: url('../img/arrows/arrow-next.png')0 0 / 100% no-repeat;
-    width: 30px; 
-    height: 30px; 
+    width: 100px; 
+    height: 100px; 
+    margin-left: 10px;
 }
-.slick-slider{
-    min-width: 0;
-}
+
 .slick-list {
 
     overflow: hidden;
@@ -166,7 +167,7 @@ display: flex;
     border: 2px solid #fbd6bf;
     padding-top: 40px;
     text-align: center;
-    margin-right: 30px;
+    margin-left: 30px;
 }
 /*
 .kitty_card {
