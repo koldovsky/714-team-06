@@ -63,6 +63,17 @@
     transition: 0.7s;
     text-decoration: underline;
   }
+
+  .news__clock_container {
+    margin-top: 15px;
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    border: thick double var(--nav-list-color);
+    padding: 7px;
+    color: var(--subtitle-color);
+   }
  
  
  @media (max-width: 983px){
