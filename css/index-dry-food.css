@@ -1,0 +1,157 @@
+.food_treats{
+    background-color: var(--light-bg-color);
+ }
+ 
+ .food_treats__info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 24px;
+ }
+ 
+ .food_treats__title{
+    text-align: center;
+     font-size: 50px;
+ }
+ 
+ .bone-icon {
+    margin: auto;
+ }
+ 
+ .food_treats__info p {
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 10px;
+    color: var(--subtitle-color);
+    text-align: center;
+    font-size: 19px;
+ }
+ 
+ .food_treats__content p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: var(--subtitle-color);
+    padding-top: 18px;
+ }
+ 
+ .food_treats__content h4{
+    font-family: 'Baloo 2', sans-serif;
+    color: var(--title-color);
+    font-size: 20px;
+ }
+ 
+ .food_treats__content h3{
+    font-family: 'Baloo 2', sans-serif;
+    color: var(--title-color);
+    font-size: 30px;
+ }
+ 
+ .food_image{
+    width: 120px;
+    border-radius: 50%;
+ }
+ 
+ hr{
+    width: 40px;
+    height: 4px;
+    background: var(--button-text-color);
+    border: 0px;
+ }
+ 
+ .food_price{
+    color: var(--price-text-color);
+ }
+ 
+ .food_treats__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px auto;
+    grid-gap: 20px 10px;
+    grid-template-areas:
+      "title_dog title_cat title_other"
+      "content_dog1 content_cat1 content_other1"
+      "content_dog2 content_cat2 content_other2"
+      "content_dog3 content_cat3 content_other3";
+  }
+ 
+  .title_dogs {
+    grid-area: title_dog;
+  }
+ 
+  .title_cats{
+    grid-area: title_cat;
+  }
+ 
+  .other_title{
+    grid-area: title_other;
+  }
+ 
+  .dogs__natural_beef{
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    grid-area: content_dog1;
+ }
+ 
+ .dogs__natural_chicken{
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    grid-area: content_dog2;
+ }
+ 
+ .dogs__natural_pork{
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    grid-area: content_dog3;
+ }
+ 
+ .cats__turkey_pate{
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    grid-area: content_cat1;
+ }
+ 
+ .cats__tuna_salmon{
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    grid-area: content_cat2;
+ }
+ 
+ .cats__chicken_slice{
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    grid-area: content_cat3;
+ }
+ 
+ .other__grain_nuts{
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    grid-area: content_other1;
+ }
+ 
+ .other__fish_food{
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    grid-area: content_other2;
+ }
+ 
+ .other__parrots_food{
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    grid-area: content_other3;
+ }
+ 
+ .all_food__text {
+    display: grid;
+    grid-template-rows: 15px 50px;
+ }
+ 
+ @media (max-width: 984px){
+    .food_treats__title {
+       font-size: 30px; 
+   }
+ 
+   .food_treats__content{
+    display: block;
+ }
+ }
